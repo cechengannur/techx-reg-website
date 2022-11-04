@@ -14,9 +14,12 @@ function About(props) {
 
     const [dataBlock] = useState(
         {
-            subtitle : 'About us',
-            title: 'What is cybox?',
-            desc : 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis.'
+            subtitle : '',
+            title: 'Introduction',
+            desc : 'Institute of Human Resource Development (IHRD) is an autonomous educational institution established by the Government of Kerala in 1987. Today, it is one of the premium educational bodies with 87 academic institutions comprising Engineering Colleges, Polytechnic Colleges, College of Applied Sciences, Technical Schools, Model Finishing Schools and Regional Centers. With the aim of promoting technical excellence and complete professional growth of the students, IHRD has come up with an initiative to host a National Level Techno-Cultural-Entrepreneurial Fest - TechX’22 which will be held on the 9th, 10th, and 11th of December 2022. TechX’22 aims at providing a holistic experience to the students by equipping them with an opportunity to Learn, Express, and Impress.\
+            College of Engineering, Chengannur (CEC), an associate institution of IHRD is the host of TechX \'22. Since its inception in 1993, CEC has maintained its eminence as a leading engineering college in Kerala. The institution has contributed to a talented community of engineers and entrepreneurs.\
+            CEC has always organised events which has been instrumental in imparting growth and leadership skills to its organizing and participating student communities. \
+            '
         }
     )
 

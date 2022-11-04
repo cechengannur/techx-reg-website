@@ -14,9 +14,9 @@ function About(props) {
 
     const [dataBlock] = useState(
         {
-            subtitle : 'About us',
-            title: 'What is cybox?',
-            desc : 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis. Id ac non arcu facilisi proin ultrices sed. Id accumsan quam viverra ante in id integer ut. Volutpat lobortis dolor etiam dis interdum tincidunt senectus.'
+            subtitle : 'About the Event',
+            title: 'What is TECHX ?',
+            desc : 'TechX ’22 is includes job fair, hands-on workshops, techno competitions, talk sessions, conclaves, challenges, games, expos. The programme will be honored with the presence of various ministers of the state government also host various guests from Industries, Investors, Entrepreneurs, District & Local Administration and many more.  We aim to make this event a landscape of greener tomorrow which excites young minds with a paragon opportunity to showcase their talent and evince their ideas that may lay the groundwork for the next leading-edge technology.'
         }
     )
 
