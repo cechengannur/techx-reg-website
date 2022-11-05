@@ -4,7 +4,7 @@ import { Link , NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
 
 import './styles.scss';
-import logo from '../../assets/images/logo/logo.png'
+import logo from '../../assets/images/logo/techx.png'
 import Button from '../button';
 
 
@@ -38,7 +38,7 @@ const Header = () => {
             <div className="container">
                 <div id="site-header-inner">
                     <div className="header__logo">
-                        <NavLink to="/"><img src={logo} alt="Crybox" /></NavLink>
+                        <NavLink to="/"><img src={logo} alt="Crybox" width={240} height={40}/></NavLink>
                     </div>
                     <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
                         <ul id="menu-primary-menu" className="menu">
