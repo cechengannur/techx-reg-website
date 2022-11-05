@@ -1,74 +1,17 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 
 function ComingSoon(props) {
-
-    const getTimeDifference = (launchDate) => {
-        const difference = +new Date(launchDate) - +new Date();
-        let temp = Math.floor(difference / 1000);
-        const days = Math.floor(temp / 86400);
-        temp -= days * 86400;
-        const hours = Math.floor(temp / 3600) % 24;
-        temp -= hours * 3600;
-        const minutes = Math.floor(temp / 60) % 60;
-        temp -= minutes * 60;
-        const seconds = temp % 60;
-        return {
-            days,
-            hours,
-            minutes,
-            seconds
-        };
-    };
-    
-    const addLeadingZeros = (value) => {
-        value = String(value);
-        while (value.length < 2) {
-            value = '0' + value;
-        }
-        return value;
-    
-    };
-    
-    const updateCountdown = () => {
-        const launchDate = '2022-12-09';
-        const t = getTimeDifference(launchDate);
-        setDays(addLeadingZeros(t.days));
-        setHours(addLeadingZeros(t.hours));
-        setMinutes(addLeadingZeros(t.minutes));
-        setSeconds(addLeadingZeros(t.seconds));
-    };
-    
-    const startCountdown = () => {
-        updateCountdown();
-        setInterval(updateCountdown, 1000);
-    };
-    
-
-    const [days, setDays] = React.useState('00');
-    const [hours, setHours] = React.useState('00');
-    const [minutes, setMinutes] = React.useState('00');
-    const [seconds, setSeconds] = React.useState('00');
-
-    useEffect(() => {
-        startCountdown();
-    }, []);
-
     return (
-
-        
-
-
-
         <section className="page-title comimg-soon">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <div className="header__logo">
-                            <Link to="/"><img src={require('../assets/images/logo/techx.png')} alt="" width={480} height={40} /></Link>
+                            <Link to="/"><img src={require('../assets/images/logo/logo.png')} alt="" /></Link>
                         </div>
-                        <div className="sub-heading"><span>Site</span><span>Under</span><span>construction</span></div>
+                        <div className="sub-heading"><span>Site</span><span>UNnder</span><span>Reconstruction</span></div>
                         <h3 data-aos="zoom-in" data-aos-duration="800">
                             <span>Coming</span><span>Soon</span>
                         </h3>
@@ -78,20 +21,20 @@ function ComingSoon(props) {
                             <span className="slogan"></span>
                             <span className="js-countdown" data-timer="1865550"></span>
                             <ul className="desc">
-                                <li class="h1">{days} Days</li>
-                                <li class="h1">{hours} Hours</li>
-                                <li class="h1">{minutes} Minutes</li>
-                                <li class="h1">{seconds} Seconds</li>
+                                <li>Days</li>
+                                <li>Hours</li>
+                                <li>Minutes</li>
+                                <li>Seconds</li>
                             </ul>
                         </div>
-                        {/* <form action="#" className="newlletter-form" id="subscribe-form">
+                        <form action="#" className="newlletter-form" id="subscribe-form">
                             <span></span>
                             <input type="email" placeholder="Your Email Address" required="" id="subscribe-email" />
                             <div className="btn-pst">
                                 <button className="tf-button-st2 btn-effect" type="submit" id="subscribe-button"> <span className="effect">Sign Up</span></button>
                             </div>
-                        </form> */}
-                        {/* <ul className="widget-social">
+                        </form>
+                        <ul className="widget-social">
                             <li><Link to="#"><svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M14.3939 2.15771C15.0931 1.72611 15.6163 1.04651 15.8657 0.245795C15.2087 0.648314 14.4899 0.93186 13.7403 1.08417C12.701 -0.0509573 11.0544 -0.327196 9.72052 0.409811C8.38665 1.14682 7.69575 2.71461 8.03387 4.23714C5.34261 4.09764 2.83523 2.78502 1.13566 0.625923C0.248691 2.20557 0.701952 4.22489 2.17149 5.24062C1.64009 5.22298 1.12047 5.07443 0.65597 4.80734C0.65597 4.82183 0.65597 4.83633 0.65597 4.85083C0.656277 6.4963 1.77944 7.91367 3.34147 8.23977C2.84857 8.37823 2.33154 8.39862 1.82985 8.29937C2.26914 9.70654 3.52519 10.6706 4.95682 10.6993C3.77111 11.6602 2.30679 12.1813 0.799487 12.1788C0.532319 12.1792 0.26536 12.1633 0 12.1313C1.53064 13.1468 3.31212 13.6859 5.13154 13.684C7.66279 13.7019 10.0954 12.6716 11.8852 10.8234C13.6751 8.97517 14.6728 6.46335 14.6552 3.84977C14.6552 3.69997 14.6518 3.55098 14.6451 3.4028C15.3006 2.91362 15.8664 2.30763 16.3158 1.61329C15.7051 1.8928 15.0573 2.07631 14.3939 2.15771Z" fill="#B9B9BF"/>
                                 </svg>                                                 
@@ -117,7 +60,7 @@ function ComingSoon(props) {
                                 <path d="M17.8611 1.63424C16.1304 0.245933 13.3927 0.0105971 13.2755 0.00213148C13.0937 -0.013106 12.9205 0.0884779 12.8458 0.256091C12.839 0.266249 12.7796 0.403387 12.7133 0.616713C13.858 0.809722 15.2643 1.19743 16.5363 1.98471C16.7401 2.10999 16.803 2.3775 16.6773 2.58066C16.5941 2.71442 16.4531 2.78722 16.3071 2.78722C16.2289 2.78722 16.1491 2.76521 16.0778 2.72119C13.8903 1.36843 11.1593 1.30071 10.6328 1.30071C10.1063 1.30071 7.37364 1.36843 5.18784 2.72119C4.98404 2.84817 4.71569 2.78552 4.59001 2.58236C4.46264 2.3775 4.52548 2.11169 4.72928 1.98471C6.00136 1.19913 7.40761 0.809722 8.55231 0.618406C8.48607 0.403387 8.42663 0.267943 8.42154 0.256091C8.34511 0.0884779 8.17357 -0.0164919 7.99015 0.00213148C7.87296 0.0105971 5.13519 0.245932 3.38077 1.65287C2.46535 2.4977 0.632812 7.43467 0.632812 11.7029C0.632812 11.7791 0.653193 11.8519 0.690557 11.9179C1.95414 14.1324 5.40353 14.7114 6.18988 14.7368C6.19327 14.7368 6.19837 14.7368 6.20346 14.7368C6.34273 14.7368 6.47351 14.6708 6.55503 14.5591L7.34986 13.4687C5.20482 12.9168 4.10938 11.9788 4.04654 11.923C3.86651 11.7655 3.84952 11.4912 4.00917 11.3118C4.16712 11.1323 4.44226 11.1154 4.62228 11.2728C4.64776 11.2965 6.66542 13.0031 10.6328 13.0031C14.607 13.0031 16.6247 11.2898 16.645 11.2728C16.8251 11.1171 17.0985 11.1323 17.2582 11.3135C17.4161 11.4929 17.3991 11.7655 17.2191 11.923C17.1562 11.9788 16.0608 12.9168 13.9158 13.4687L14.7106 14.5591C14.7921 14.6708 14.9229 14.7368 15.0622 14.7368C15.0673 14.7368 15.0724 14.7368 15.0757 14.7368C15.8621 14.7114 19.3115 14.1324 20.5751 11.9179C20.6124 11.8519 20.6328 11.7791 20.6328 11.7029C20.6328 7.43467 18.8003 2.4977 17.8611 1.63424ZM7.80673 9.96918C6.96603 9.96918 6.28499 9.19376 6.28499 8.23549C6.28499 7.27722 6.96603 6.50179 7.80673 6.50179C8.64742 6.50179 9.32846 7.27722 9.32846 8.23549C9.32846 9.19376 8.64742 9.96918 7.80673 9.96918ZM13.4589 9.96918C12.6182 9.96918 11.9372 9.19376 11.9372 8.23549C11.9372 7.27722 12.6182 6.50179 13.4589 6.50179C14.2996 6.50179 14.9806 7.27722 14.9806 8.23549C14.9806 9.19376 14.2996 9.96918 13.4589 9.96918Z" fill="#B9B9BF"/>
                                 </svg>                                                       
                                 </Link></li>
-                        </ul> */}
+                        </ul>
                     </div>
                 </div>
             </div>
