@@ -2,62 +2,62 @@ const menus = [
     {
         id: 1,
         name: 'Home',
-        links: '#',
-        namesub: [
-            {
-                id: 1,
-                sub: 'Home 01',
-                links: '/'
-            },
-            {
-                id: 2,
-                sub: 'Home 02',
-                links: '/home-v2'
-            },
-            {
-                id: 3,
-                sub: 'Home 03',
-                links: '/home-v3'
-            },
-        ]
+        links: '/',
+        // namesub: [
+        //     {
+        //         id: 1,
+        //         sub: 'Home',
+        //         links: '/'
+        //     },
+        //     {
+        //         id: 2,
+        //         sub: 'Home 02',
+        //         links: '/home-v2'
+        //     },
+        //     {
+        //         id: 3,
+        //         sub: 'Home 03',
+        //         links: '/home-v3'
+        //     },
+        // ]
     },
     {
         id: 2,
         name: 'About',
         links: '#',
         namesub: [
+            // {
+            //     id: 1,
+            //     sub: 'About 01',
+            //     links: '/about-v1'
+            // },
             {
                 id: 1,
-                sub: 'About 01',
-                links: '/about-v1'
-            },
-            {
-                id: 2,
-                sub: 'About 02',
+                sub: 'About',
                 links: '/about-v2'
             },
             {
-                id: 3,
+                id: 2,
                 sub: 'Coming Soon',
                 links: '/coming-soon'
             },
             {
-                id: 4,
+                id: 3,
                 sub: 'Community',
                 links: '/community'
             },
             {
-                id: 5,
+                id: 4,
                 sub: 'Team Details',
                 links: '/team-details'
             },
             {
-                id: 6,
+                id: 5,
                 sub: 'FAQ',
                 links: '/faq'
             },
             {
-                id: 7,
+                id: 6,
                 sub: '404',
                 links: '/404'
             },
@@ -66,20 +66,20 @@ const menus = [
     },
     {
         id: 3,
-        name: 'Road Map',
-        links: '#',
-        namesub: [
-            {
-                id: 1,
-                sub: 'Road Map 01',
-                links: '/road-map-v1'
-            },
-            {
-                id: 2,
-                sub: 'Road Map 02',
-                links: '/road-map-v2'
-            },
-        ]
+        name: 'Timeline',
+        links: '/road-map-v2',
+        // namesub: [
+        //     // {
+        //     //     id: 1,
+        //     //     sub: 'Road Map 01',
+        //     //     links: '/road-map-v1'
+        //     // },
+        //     // {
+        //     //     id: 1,
+        //     //     sub: 'Timeline',
+        //     //     links: '/road-map-v2'
+        //     // },
+        // ]
     },
     {
         id: 4,
