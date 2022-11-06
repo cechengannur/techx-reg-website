@@ -24,43 +24,38 @@ const menus = [
     {
         id: 2,
         name: 'About',
-        links: '#',
+        links: '/about-v2',
         namesub: [
             // {
             //     id: 1,
             //     sub: 'About 01',
             //     links: '/about-v1'
             // },
+            // {
+            //     id: 1,
+            //     sub: 'Coming Soon',
+            //     links: '/coming-soon'
+            // },
             {
                 id: 1,
-                sub: 'About',
-                links: '/about-v2'
-            },
-            {
-                id: 2,
-                sub: 'Coming Soon',
-                links: '/coming-soon'
-            },
-            {
-                id: 3,
                 sub: 'Community',
                 links: '/community'
             },
             {
-                id: 4,
+                id: 2,
                 sub: 'Team Details',
                 links: '/team-details'
             },
             {
-                id: 5,
+                id: 3,
                 sub: 'FAQ',
                 links: '/faq'
             },
-            {
-                id: 6,
-                sub: '404',
-                links: '/404'
-            },
+            // {
+            //     id: 5,
+            //     sub: '404',
+            //     links: '/404'
+            // },
 
         ]
     },
@@ -83,17 +78,17 @@ const menus = [
     },
     {
         id: 4,
-        name: 'Nft',
-        links: '#',
+        name: 'Events',
+        links: '/nft-item',
         namesub: [
+            // {
+            //     id: 1,
+            //     sub: 'Nft Item',
+            //     links: '/nft-item'
+            // },
             {
                 id: 1,
-                sub: 'Nft Item',
-                links: '/nft-item'
-            },
-            {
-                id: 2,
-                sub: 'Nft Item Details',
+                sub: 'Event Details',
                 links: '/nft-item-details'
             },
         ],

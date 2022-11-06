@@ -18,7 +18,7 @@ import TeamDetail from "./TeamDetail";
 
 
 const routes = [
-  { path: '/', component: <HomeOne />},
+  { path: '/', component: <ComingSoon />},
   { path: '/home-v2', component: <HomeTwo />},
   { path: '/home-v3', component: <HomeThree />},
   { path: '/about-v1', component: <AboutOne />},
