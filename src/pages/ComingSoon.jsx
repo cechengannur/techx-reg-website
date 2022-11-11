@@ -1,97 +1,109 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function ComingSoon(props) {
-
-    const getTimeDifference = (launchDate) => {
-        const difference = +new Date(launchDate) - +new Date();
-        let temp = Math.floor(difference / 1000);
-        const days = Math.floor(temp / 86400);
-        temp -= days * 86400;
-        const hours = Math.floor(temp / 3600) % 24;
-        temp -= hours * 3600;
-        const minutes = Math.floor(temp / 60) % 60;
-        temp -= minutes * 60;
-        const seconds = temp % 60;
-        return {
-            days,
-            hours,
-            minutes,
-            seconds
-        };
+  const getTimeDifference = (launchDate) => {
+    const difference = +new Date(launchDate) - +new Date();
+    let temp = Math.floor(difference / 1000);
+    const days = Math.floor(temp / 86400);
+    temp -= days * 86400;
+    const hours = Math.floor(temp / 3600) % 24;
+    temp -= hours * 3600;
+    const minutes = Math.floor(temp / 60) % 60;
+    temp -= minutes * 60;
+    const seconds = temp % 60;
+    return {
+      days,
+      hours,
+      minutes,
+      seconds,
     };
-    
-    const addLeadingZeros = (value) => {
-        value = String(value);
-        while (value.length < 2) {
-            value = '0' + value;
-        }
-        return value;
-    
-    };
-    
-    const updateCountdown = () => {
-        const launchDate = '2022-12-09';
-        const t = getTimeDifference(launchDate);
-        setDays(addLeadingZeros(t.days));
-        setHours(addLeadingZeros(t.hours));
-        setMinutes(addLeadingZeros(t.minutes));
-        setSeconds(addLeadingZeros(t.seconds));
-    };
-    
-    const startCountdown = () => {
-        updateCountdown();
-        setInterval(updateCountdown, 1000);
-    };
-    
+  };
 
-    const [days, setDays] = React.useState('00');
-    const [hours, setHours] = React.useState('00');
-    const [minutes, setMinutes] = React.useState('00');
-    const [seconds, setSeconds] = React.useState('00');
+  const addLeadingZeros = (value) => {
+    value = String(value);
+    while (value.length < 2) {
+      value = "0" + value;
+    }
+    return value;
+  };
 
-    useEffect(() => {
-        startCountdown();
-    }, []);
+  const updateCountdown = () => {
+    const launchDate = "2022-12-09";
+    const t = getTimeDifference(launchDate);
+    setDays(addLeadingZeros(t.days));
+    setHours(addLeadingZeros(t.hours));
+    setMinutes(addLeadingZeros(t.minutes));
+    setSeconds(addLeadingZeros(t.seconds));
+  };
 
-    return (
+  const startCountdown = () => {
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  };
 
-        
+  const [days, setDays] = React.useState("00");
+  const [hours, setHours] = React.useState("00");
+  const [minutes, setMinutes] = React.useState("00");
+  const [seconds, setSeconds] = React.useState("00");
 
+  useEffect(() => {
+    startCountdown();
+  }, []);
 
-
-        <section className="page-title comimg-soon">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="header__logo">
-                            <Link to="/"><img src={require('../assets/images/logo/techx.png')} alt="" width={480} height={40} /></Link>
-                        </div>
-                        <div className="sub-heading"><span>Site</span><span>Under</span><span>construction</span></div>
-                        <h3 data-aos="zoom-in" data-aos-duration="800">
-                            <span>Coming</span><span>Soon</span>
-                        </h3>
-                    </div>
-                    <div className="col-md-12">
-                        <div className="featured-countdown">
-                            <span className="slogan"></span>
-                            <span className="js-countdown" data-timer="1865550"></span>
-                            <ul className="desc">
-                                <li class="h1">{days} Days</li>
-                                <li class="h1">{hours} Hours</li>
-                                <li class="h1">{minutes} Minutes</li>
-                                <li class="h1">{seconds} Seconds</li>
-                            </ul>
-                        </div>
-                        {/* <form action="#" className="newlletter-form" id="subscribe-form">
+  return (
+    <section className="page-title comimg-soon">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="header__logo">
+              <Link to="/">
+                <img
+                  src={require("../assets/images/logo/techx.png")}
+                  alt=""
+                  width={480}
+                  height={40}
+                />
+              </Link>
+            </div>
+            <div className="sub-heading">
+              <p>Site Under Construction</p>
+              {/* <span>Site</span>
+            <span>Under</span>
+            <span>construction</span> */}
+            </div>
+            <p data-aos="zoom-in" data-aos-duration="800" className="text-wrap">
+              {/* <h3>Comming</h3> */}
+              <h2 className="title text-uppercase">Coming Soon</h2>
+            </p>
+          </div>
+          <div className="col-md-12">
+            <div className="featured-countdown">
+              <span className="slogan"></span>
+              <span className="js-countdown" data-timer="1865550"></span>
+              <ul className="desc">
+                <li class="h4">
+                  <p>{days}</p> Days
+                </li>
+                <li class="h4">
+                  <p>{hours}</p> Hours
+                </li>
+                <li class="h4">
+                  <p>{minutes}</p> Minutes
+                </li>
+                <li class="h4" id="seconds">
+                  <p>{seconds}</p> Seconds
+                </li>
+              </ul>
+            </div>
+            {/* <form action="#" className="newlletter-form" id="subscribe-form">
                             <span></span>
                             <input type="email" placeholder="Your Email Address" required="" id="subscribe-email" />
                             <div className="btn-pst">
                                 <button className="tf-button-st2 btn-effect" type="submit" id="subscribe-button"> <span className="effect">Sign Up</span></button>
                             </div>
                         </form> */}
-                        {/* <ul className="widget-social">
+            {/* <ul className="widget-social">
                             <li><Link to="#"><svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M14.3939 2.15771C15.0931 1.72611 15.6163 1.04651 15.8657 0.245795C15.2087 0.648314 14.4899 0.93186 13.7403 1.08417C12.701 -0.0509573 11.0544 -0.327196 9.72052 0.409811C8.38665 1.14682 7.69575 2.71461 8.03387 4.23714C5.34261 4.09764 2.83523 2.78502 1.13566 0.625923C0.248691 2.20557 0.701952 4.22489 2.17149 5.24062C1.64009 5.22298 1.12047 5.07443 0.65597 4.80734C0.65597 4.82183 0.65597 4.83633 0.65597 4.85083C0.656277 6.4963 1.77944 7.91367 3.34147 8.23977C2.84857 8.37823 2.33154 8.39862 1.82985 8.29937C2.26914 9.70654 3.52519 10.6706 4.95682 10.6993C3.77111 11.6602 2.30679 12.1813 0.799487 12.1788C0.532319 12.1792 0.26536 12.1633 0 12.1313C1.53064 13.1468 3.31212 13.6859 5.13154 13.684C7.66279 13.7019 10.0954 12.6716 11.8852 10.8234C13.6751 8.97517 14.6728 6.46335 14.6552 3.84977C14.6552 3.69997 14.6518 3.55098 14.6451 3.4028C15.3006 2.91362 15.8664 2.30763 16.3158 1.61329C15.7051 1.8928 15.0573 2.07631 14.3939 2.15771Z" fill="#B9B9BF"/>
                                 </svg>                                                 
@@ -118,11 +130,11 @@ function ComingSoon(props) {
                                 </svg>                                                       
                                 </Link></li>
                         </ul> */}
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default ComingSoon;
