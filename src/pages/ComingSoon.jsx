@@ -29,8 +29,12 @@ function ComingSoon(props) {
   };
 
   const updateCountdown = () => {
-    const launchDate = "2022-12-09";
+    const launchDate = "19 Dec 2022, 10:00:00";
     const t = getTimeDifference(launchDate);
+    console.log(t);
+    if(t.days==0 && t.hours==7 && t.minutes==58 && t.seconds==0){
+      window.open('http://tharang.ihrd.ac.in/', '_blank');
+    }
     setDays(addLeadingZeros(t.days));
     setHours(addLeadingZeros(t.hours));
     setMinutes(addLeadingZeros(t.minutes));
@@ -59,7 +63,7 @@ function ComingSoon(props) {
             <div className="header__logo">
               <Link to="/">
                 <img
-                  src={require("../assets/images/logo/techx.png")}
+                  src={require("../assets/images/logo/tharang.png")}
                   alt=""
                   width={480}
                   height={40}

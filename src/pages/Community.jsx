@@ -14,7 +14,7 @@ function Community(props) {
     const [isOpen, setOpen] = useState(false)
     return (
         <div className='community'>
-            <PageTitle title='Community' />
+            <PageTitle title='About Us' />
 
             <section className="tf-section tf-video">
                 <div className="container">
@@ -22,18 +22,18 @@ function Community(props) {
                         <div className="col-md-12">
                             <div className="content-about mb-51 mobie-40">
                                 <div className="tf-title pd22" data-aos="fade-up" data-aos-duration="800">
-                                    <h3 className="title">CYbox nft collectionS  for everyone</h3>
+                                    <h3 className="title">Let's Know about IHRD Tharang'23</h3>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-md-12">
                             <div className="video" data-aos="fade-up" data-aos-duration="800">
-                                <img src={require('../assets/images/common/video.jpg')} alt="" />
+                                <img src={require('../assets/images/common/cover.png')} alt="" />
                                 <div className="wrap-video">
                                     <Link to="#" className="popup-youtube" onClick={()=> setOpen(true)}>
                                         <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M27 17.0001L0 0.500061V35.0001L27 17.0001Z" fill="#14C2A3"/>
+                                            <path d="M27 17.0001L0 0.500061V35.0001L27 17.0001Z" fill="#FB2576"/>
                                         </svg>
                                     </Link>
                                 </div>  
@@ -46,7 +46,7 @@ function Community(props) {
 
             <About data={dataAbout} />
 
-            <Project data={dataProject} />
+            {/* <Project data={dataProject} /> */}
             
         </div>
     );

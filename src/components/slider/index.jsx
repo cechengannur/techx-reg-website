@@ -16,11 +16,11 @@ function Slider(props) {
     return (
         <section className="slider">
             <Swiper
-                modules={[Navigation,  Scrollbar, A11y ]}
-                    spaceBetween={0}
-                    slidesPerView={1}
-                    navigation
-                    scrollbar={{ draggable: true }}
+                // modules={[Navigation,  Scrollbar, A11y ]}
+                //     spaceBetween={0}
+                //     slidesPerView={1}
+                //     navigation
+                //     scrollbar={{ draggable: true }}
                 >
                 {
                     data.slice(0,3).map(item => (

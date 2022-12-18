@@ -8,6 +8,7 @@ import './styles.scss';
 Button.propTypes = {
     title: PropTypes.string,
     path: PropTypes.string,
+    onClick: PropTypes.func,
 };
 
 function Button(props) {

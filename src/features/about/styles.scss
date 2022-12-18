@@ -20,10 +20,10 @@
                 width: 68px;
                 height: 68px;
                 &.corner-box {
-                    background: #0e2230;
+                    background: #141340;
                     &::after,
                     &::before {
-                        background: #0e2230;
+                        background: #141340;
                     }
                     &::before {
                         width: calc(130% - 3rem);
@@ -91,7 +91,7 @@
         margin-bottom: 50px;
     }
     .box-text {
-        background: #0e2230;
+        background: #141340
     }
 
     .tf-button {

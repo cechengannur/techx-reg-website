@@ -19,8 +19,8 @@ function Blog(props) {
     const {data} = props;
 
     const [dataBlock] = useState({
-        subtitle: 'BLOGS',
-        title: 'Lastest News'
+        subtitle: 'News',
+        title: 'Lastest Updates'
     })
 
     return (
@@ -60,11 +60,11 @@ function Blog(props) {
                         }
                     </Swiper>
                 </div>
-                <div className="col-md-12">
+                {/* <div className="col-md-12">
                     <div className="text-center mt-48">
                         <Button title='Explore more' path='#' />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>
