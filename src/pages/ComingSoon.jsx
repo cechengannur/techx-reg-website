@@ -29,7 +29,7 @@ function ComingSoon(props) {
   };
 
   const updateCountdown = () => {
-    const launchDate = "19 Dec 2022, 11:10:00";
+    const launchDate = "19 Dec 2022, 11:15:00";
     const t = getTimeDifference(launchDate);
     console.log(t);
     if(t.days==0 && t.hours==0 && t.minutes==0 && t.seconds==0){
