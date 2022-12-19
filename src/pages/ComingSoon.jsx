@@ -29,10 +29,10 @@ function ComingSoon(props) {
   };
 
   const updateCountdown = () => {
-    const launchDate = "19 Dec 2022, 10:00:00";
+    const launchDate = "19 Dec 2022, 11:10:00";
     const t = getTimeDifference(launchDate);
     console.log(t);
-    if(t.days==0 && t.hours==7 && t.minutes==58 && t.seconds==0){
+    if(t.days==0 && t.hours==0 && t.minutes==0 && t.seconds==0){
       window.open('http://tharang.ihrd.ac.in/', '_blank');
     }
     setDays(addLeadingZeros(t.days));
@@ -70,12 +70,12 @@ function ComingSoon(props) {
                 />
               </Link>
             </div>
-            <div className="sub-heading">
+            {/* <div className="sub-heading">
               <p>Site Under Construction</p>
-              {/* <span>Site</span>
+              <span>Site</span>
             <span>Under</span>
-            <span>construction</span> */}
-            </div>
+            <span>construction</span>
+            </div> */}
             <p data-aos="zoom-in" data-aos-duration="800" className="text-wrap">
               {/* <h3>Comming</h3> */}
               <h2 className="title text-uppercase">Coming Soon</h2>
