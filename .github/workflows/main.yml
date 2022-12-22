@@ -19,8 +19,8 @@ jobs:
         CI=false npm run build
     
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        FTP_SERVER: ${{ secrets.ftp_host }}
-        FTP_USERNAME: ${{ secrets.ftp_user }}
-        FTP_PASSWORD: ${{ secrets.ftp_password }
+        server: tharang.ihrd.ac.in
+        username: tharang_admin
+        password: ${{ secrets.ftp_password }}
