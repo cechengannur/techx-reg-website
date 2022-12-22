@@ -3,7 +3,7 @@ import HomeTwo from "./HomeTwo";
 import HomeThree from "./HomeThree";
 import AboutOne from "./AboutOne";
 import AboutTwo from "./AboutTwo";
-import ComingSoon from "./ComingSoon";
+// import ComingSoon from "./ComingSoon";
 import Community from "./Community";
 import FAQ from "./FAQ";
 import Page404 from "./404";
