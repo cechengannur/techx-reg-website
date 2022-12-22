@@ -195,11 +195,11 @@ function Sidebar(props) {
                                 <li>
                                     <img src={item.img} alt="crybox" />
                                     <ul className="content">
-                                        <li className="h8"><Link to="/blog-details">{item.title}</Link></li>
+                                        <li className="h8"><Link to="">{item.title}</Link></li>
                                         <li>
                                             <ul className="meta-post">
-                                                <li className="firt"><span>by</span><Link to="/blog-details">{item.author}</Link></li>
-                                                <li><Link to="/blog-details">{item.time}</Link></li>
+                                                <li className="firt"><span>by</span><Link to="">{item.author}</Link></li>
+                                                <li><Link to="">{item.time}</Link></li>
                                             </ul>
                                         </li>
                                     </ul>

@@ -65,7 +65,7 @@ const Header = () => {
                             }
                         </ul>
                     </nav>
-                    <Button title='Follow Us' path='' onClick={()=>{
+                    <Button className="follow-button" title='Follow Us' path='' onClick={()=>{
                                     window.open('https://www.instagram.com/tharang.ihrd/', '_blank');
                                 }}/>
 
