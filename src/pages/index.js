@@ -18,13 +18,13 @@ import TeamDetail from "./TeamDetail";
 
 
 const routes = [
-  // { path: '/', component: <HomeOne />},
-  { path: '/', component: <ComingSoon />},
+  { path: '/', component: <HomeOne />},
+  // { path: '/', component: <ComingSoon />},
   { path: '/home-v2', component: <HomeTwo />},
   { path: '/home-v3', component: <HomeThree />},
   { path: '/about-v1', component: <AboutOne />},
   { path: '/about-v2', component: <AboutTwo />},
-  { path: '/coming-soon', component: <ComingSoon />},
+  // { path: '/coming-soon', component: <ComingSoon />},
   { path: '/about', component: <Community />},
   { path: '/faq', component: <FAQ />},
   { path: '/404', component: <Page404 />},

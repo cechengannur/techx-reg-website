@@ -19,7 +19,7 @@ function App() {
     return (
         <>
 
-            {/* <Header /> */}
+            <Header />
 
             <Routes>
 
@@ -32,7 +32,7 @@ function App() {
                 <Route path='*' element={<Page404 />} />
             </Routes>
 
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 }
