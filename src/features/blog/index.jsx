@@ -8,7 +8,7 @@ import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import BlogItem from './blog-item';
-import Button from '../../components/button';
+// import Button from '../../components/button';
 
 Blog.propTypes = {
     data: PropTypes.array,

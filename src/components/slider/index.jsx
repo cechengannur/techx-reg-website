@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Navigation, Scrollbar, A11y   } from 'swiper';
+// import { Navigation, Scrollbar, A11y   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SliderItem from './slider-item';
 import 'swiper/scss';

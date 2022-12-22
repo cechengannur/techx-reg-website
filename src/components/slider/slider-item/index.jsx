@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/scss/modal-video.scss' ;
 // import { Modal } from "react-bootstrap";

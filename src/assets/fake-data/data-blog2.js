@@ -1,7 +1,7 @@
-import img1 from '../images/post/imgpost2.jpg'
-import img2 from '../images/post/imgpost3.jpg'
-import img3 from '../images/post/imgpost4.jpg'
-import img4 from '../images/post/imgpost5.jpg'
+// import img1 from '../images/post/imgpost2.jpg'
+// import img2 from '../images/post/imgpost3.jpg'
+// import img3 from '../images/post/imgpost4.jpg'
+// import img4 from '../images/post/imgpost5.jpg'
 
 const dataBlog = [
     // {

@@ -1,10 +1,10 @@
 import React , {useState} from 'react';
 import { Link } from 'react-router-dom';
 import dataAbout from '../assets/fake-data/data-about';
-import dataProject from '../assets/fake-data/dataProject';
+// import dataProject from '../assets/fake-data/dataProject';
 import PageTitle from '../components/pagetitle';
 import About from '../features/about';
-import Project from '../features/project/home-v3';
+// import Project from '../features/project/home-v3';
 
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/scss/modal-video.scss' ;

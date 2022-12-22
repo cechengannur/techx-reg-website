@@ -61,7 +61,7 @@ function Footer(props) {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/">
 
                                 {/* Telegram */}
                                 <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@ function Footer(props) {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/">
 
                                 {/* YouTube */}
                                 <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
