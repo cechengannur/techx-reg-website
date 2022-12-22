@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './styles.scss';
 
-import { Scrollbar, A11y   } from 'swiper';
+import { Scrollbar, A11y, Navigation   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
@@ -20,7 +20,7 @@ function Blog(props) {
 
     const [dataBlock] = useState({
         subtitle: 'News',
-        title: 'Lastest Updates'
+        title: 'Latest Updates'
     })
 
     return (
@@ -35,8 +35,9 @@ function Blog(props) {
                 </div>
                 <div className="col-md-12">
                     <Swiper
-                        modules={[  Scrollbar, A11y ]}
+                        modules={[ Navigation, Scrollbar, A11y ]}
                             spaceBetween={30}
+                            navigation
                             scrollbar={{ draggable: true }}
                             breakpoints={{
                                 0: {

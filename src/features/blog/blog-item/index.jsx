@@ -20,7 +20,7 @@ function BlogItem(props) {
                 <div className="content-item">
                     <div className="content">
                         <div className="meta-post">
-                            <a href="/blog">{item.time}</a>
+                            <a href="">{item.time}</a>
                         </div>
                         <div className="h7 title"><Link to="">{item.title}</Link></div>
                         <p>{item.text}</p>
