@@ -20,8 +20,7 @@
                 margin-right: 50px;
             }
             @include mobile {
-                padding: 10px;
-                font-size: 14px;
+                display: none;
             }
         }
     }
@@ -337,12 +336,12 @@
 #header_main
 
 #header_main.main.is-fixed {
-    background-color: #190d3e;
+    background-color: #000249;
 }
 
 .header.main.is-fixed .tf-button span.tl::before, 
 .header.main.is-fixed .tf-button span.tl::after {
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
-    border-bottom: 16px solid #190d40 !important;
+    border-bottom: 16px solid #000249 !important;
 }

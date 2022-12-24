@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './styles.scss';
 
-import { Scrollbar, A11y   } from 'swiper';
+import { Scrollbar, A11y, Navigation   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import BlogItem from './blog-item';
-import Button from '../../components/button';
+// import Button from '../../components/button';
 
 Blog.propTypes = {
     data: PropTypes.array,
@@ -19,8 +19,8 @@ function Blog(props) {
     const {data} = props;
 
     const [dataBlock] = useState({
-        subtitle: 'BLOGS',
-        title: 'Lastest News'
+        subtitle: 'News',
+        title: 'Latest Updates'
     })
 
     return (
@@ -35,8 +35,9 @@ function Blog(props) {
                 </div>
                 <div className="col-md-12">
                     <Swiper
-                        modules={[  Scrollbar, A11y ]}
+                        modules={[ Navigation, Scrollbar, A11y ]}
                             spaceBetween={30}
+                            navigation
                             scrollbar={{ draggable: true }}
                             breakpoints={{
                                 0: {
@@ -60,11 +61,11 @@ function Blog(props) {
                         }
                     </Swiper>
                 </div>
-                <div className="col-md-12">
+                {/* <div className="col-md-12">
                     <div className="text-center mt-48">
                         <Button title='Explore more' path='#' />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>

@@ -3,7 +3,7 @@ import HomeTwo from "./HomeTwo";
 import HomeThree from "./HomeThree";
 import AboutOne from "./AboutOne";
 import AboutTwo from "./AboutTwo";
-import ComingSoon from "./ComingSoon";
+// import ComingSoon from "./ComingSoon";
 import Community from "./Community";
 import FAQ from "./FAQ";
 import Page404 from "./404";
@@ -18,13 +18,14 @@ import TeamDetail from "./TeamDetail";
 
 
 const routes = [
-  { path: '/', component: <ComingSoon />},
+  { path: '/', component: <HomeOne />},
+  // { path: '/', component: <ComingSoon />},
   { path: '/home-v2', component: <HomeTwo />},
   { path: '/home-v3', component: <HomeThree />},
   { path: '/about-v1', component: <AboutOne />},
   { path: '/about-v2', component: <AboutTwo />},
-  { path: '/coming-soon', component: <ComingSoon />},
-  { path: '/community', component: <Community />},
+  // { path: '/coming-soon', component: <ComingSoon />},
+  { path: '/about', component: <Community />},
   { path: '/faq', component: <FAQ />},
   { path: '/404', component: <Page404 />},
   { path: '/road-map-v1', component: <RoadMapOne />},

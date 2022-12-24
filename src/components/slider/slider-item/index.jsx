@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/scss/modal-video.scss' ;
 // import { Modal } from "react-bootstrap";
@@ -28,7 +28,7 @@ function SliderItem(props) {
                                 <h1 className="title">{item.title}</h1>
                                 <p className="sub-title">{item.desc}</p>
                                 <div className="wrap-btn">
-                                    <Link to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link>
+                                    {/* <Link to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link> */}
                                     <button to="#" className="tf-button btn-effect popup-youtube" onClick={()=> setOpen(true)}>
                                     
                                         <span className="boder-fade"></span>                                     
@@ -47,7 +47,7 @@ function SliderItem(props) {
                 </div>
             </div>
 
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="i7EMACWuErA" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="0MsihWKqBmg" onClose={() => setOpen(false)} />
 
             {/* <Modal
                 show={modalShow}

@@ -14,9 +14,9 @@ function About(props) {
 
     const [dataBlock] = useState(
         {
-            subtitle : 'About the Event',
-            title: 'What is TechX?',
-            desc : 'TechX \'22 will feature job fairs, hands-on workshops, technological competitions, presentations, conclaves, challenges, games, and expos. Numerous state government ministers, as well as investors, businessmen, entrepreneurs, district and municipal officials, and others, will attend the event in honour of it. In order to encourage young minds and provide them a role-model opportunity to showcase their skills and articulate ideas that could influence the development of the next cutting-edge technologies, we want to transform this event into a landscape of a greener tomorrow.'
+            subtitle : 'About Us',
+            title: 'What is IHRD Tharang?',
+            desc : 'IHRD has come up with an initiative to host a Techno-Cultural-Entrepreneurial fest which aims at providing a holistic experience to the students by equipping them with an opportunity to Learn, Express and Impress. The pioneer IHRD Tech Fest Tharang, will be hosted by College of Engineering, Chengannur, a premier institute governed by IHRD.'
         }
     )
 
@@ -31,7 +31,9 @@ function About(props) {
                                 <h4 className="title">{dataBlock.title}</h4>
                             </div>
                             <p>{dataBlock.desc}</p>
-                                <Button title="get Nfts" path='/' />
+                                <Button title="Learn More" path='' onClick={()=>{
+                                    window.open('https://ceconline.edu/', '_blank');
+                                }}/>
                         </div>
                     </div>
                     <div className="col-xl-7 col-md-12">

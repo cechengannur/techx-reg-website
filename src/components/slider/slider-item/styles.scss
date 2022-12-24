@@ -29,6 +29,11 @@
             z-index: -1;
             width: 100%;
             height: 944px;
+            @include mobile {
+                    width: auto;
+                    height: auto;
+            }
+                
         }
         .box-slider__main {
             padding: 259px 0 0;

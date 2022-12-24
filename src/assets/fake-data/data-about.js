@@ -1,19 +1,19 @@
 const dataAbout = [
     {
         id: 1,
-        title: 'Unique, 1/1 generated',
-        desc: 'Gravida viverra dui aliquet eu tortor lorem et gravida. Sed amet phasellus tellus mauris auctor rhoncus. Malesuada nisl at mauris cursus lorem mattis arcu.',
+        title: 'When will it be?',
+        desc: ' IHRD Tech Fest will be a techno-cultural-entrepreneurial event that will be held in 3rd, 4th, 5th February 2023',
         class: 'active'
     },
     {
         id: 2,
-        title: '140+ traits in 16 categories',
-        desc: 'Ornare faucibus urna, netus ut. Ac vulputate ornare donec orci sed gravida senectus. Felis quis morbi vivamus est eget sapien magnis quis.',
+        title: 'Who is coming?',
+        desc: 'The event will host various guests from the Ministry of Higher Education, National Research Laboratories, Industries, Investors, Entrepreneurs, District & Local Administration, Agriculture and many other reputed organizations.',
     },
     {
         id: 3,
-        title: 'Usage rights included',
-        desc: 'Ac, bibendum duis gravida nullam. At amet nibh platea nibh interdum non, egestas bibendum iaculis. Etiam tristique ultricies tristique ullamcorper donec eget odio ut.',
+        title: 'Our Aim, You Ask?',
+        desc: 'We aim to make this event a landscape of greener tomorrow which exhilarates and excites young minds with a paragon opportunity to showcase their talent and evince their ideas that may lay the groundwork for the next leading-edge.',
     },
 ]
 

@@ -29,14 +29,19 @@ function ComingSoon(props) {
   };
 
   const updateCountdown = () => {
-    const launchDate = "2022-12-09";
+    const launchDate = "19 Dec 2022, 11:30:00";
     const t = getTimeDifference(launchDate);
+    console.log(t);
+    if(t.days===0 && t.hours===0 && t.minutes===0 && t.seconds===0){
+      window.open('http://tharang.ihrd.ac.in/', '_blank');
+    }
     setDays(addLeadingZeros(t.days));
     setHours(addLeadingZeros(t.hours));
     setMinutes(addLeadingZeros(t.minutes));
     setSeconds(addLeadingZeros(t.seconds));
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const startCountdown = () => {
     updateCountdown();
     setInterval(updateCountdown, 1000);
@@ -49,7 +54,7 @@ function ComingSoon(props) {
 
   useEffect(() => {
     startCountdown();
-  }, []);
+  }, [startCountdown]);
 
   return (
     <section className="page-title comimg-soon">
@@ -59,19 +64,19 @@ function ComingSoon(props) {
             <div className="header__logo">
               <Link to="/">
                 <img
-                  src={require("../assets/images/logo/techx.png")}
+                  src={require("../assets/images/logo/tharang.png")}
                   alt=""
                   width={480}
                   height={40}
                 />
               </Link>
             </div>
-            <div className="sub-heading">
+            {/* <div className="sub-heading">
               <p>Site Under Construction</p>
-              {/* <span>Site</span>
+              <span>Site</span>
             <span>Under</span>
-            <span>construction</span> */}
-            </div>
+            <span>construction</span>
+            </div> */}
             <p data-aos="zoom-in" data-aos-duration="800" className="text-wrap">
               {/* <h3>Comming</h3> */}
               <h2 className="title text-uppercase">Coming Soon</h2>

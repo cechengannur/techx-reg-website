@@ -4,7 +4,7 @@ import { Link , NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
 
 import './styles.scss';
-import logo from '../../assets/images/logo/techx.png'
+import logo from '../../assets/images/logo/tharang.png'
 import Button from '../button';
 
 
@@ -65,7 +65,9 @@ const Header = () => {
                             }
                         </ul>
                     </nav>
-                    <Button title='join discord' path='/contact' />
+                    <Button className="follow-button" title='Follow Us' path='' onClick={()=>{
+                                    window.open('https://www.instagram.com/tharang.ihrd/', '_blank');
+                                }}/>
 
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>
                 </div>
