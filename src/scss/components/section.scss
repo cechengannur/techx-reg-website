@@ -859,6 +859,10 @@
 
 .item-details {
     padding-left: 70px;
+    @include mobile {
+        padding-top: 70px;
+        padding-left: 0;
+    }
     h5 {
         color: $white;
         margin-bottom: 5px;
@@ -1427,7 +1431,7 @@
     padding-bottom: 0 !important;
 }
 .page-item-details .tf-item-details  {
-    padding-bottom: 0 ;
+    padding-bottom: 70px ;
 }
 
 .page-item-details .tf-project {

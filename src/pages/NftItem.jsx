@@ -7,7 +7,7 @@ import Project from '../features/project/nftitem';
 function NftItem(props) {
     return (
         <div className='page-nft'>
-            <PageTitle title='NFT ITEM’S' />
+            <PageTitle title='EVENTS' />
 
             <Project data={dataProject} />
         </div>

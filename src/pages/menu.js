@@ -79,7 +79,7 @@ const menus = [
     {
         id: 4,
         name: 'Events',
-        links: '',  ///'nft-item'
+        links: '/events',  ///'nft-item'
         // namesub: [
         //     {
         //         id: 1,
