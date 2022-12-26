@@ -14,8 +14,8 @@ function Project(props) {
     const {data} = props;
 
     const [dataBlock] = useState({
-        sutitle: 'NFT',
-        title: 'Arts & collectibles'
+        sutitle: 'Events',
+        title: 'Games & Competitions'
     })
     return (
         <section className="tf-section tf-project nft-details pb-mobie">

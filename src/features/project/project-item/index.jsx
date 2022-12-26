@@ -12,12 +12,12 @@ function ProjectItem(props) {
     const {item} = props;
 
     return (
-        <div className="img-box">
-            <img src={item.img} alt="crybox" />
+        <Link to={`/event-details/${item.id}`}><div className="img-box">
+            <img src={item.img} alt="crybox" target="_blank" rel="noreferrer"/>
             <div className="content">
-                <Link to="/nft-item">{item.title}</Link>
+                <Link to={`/event-details/${item.id}`}>{item.title}</Link>
             </div>
-        </div>
+        </div></Link>
     );
 }
 

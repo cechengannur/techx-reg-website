@@ -23,16 +23,16 @@ function Project(props) {
         <section className="tf-section tf-project home-2 nft-item">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    {/* <div className="col-md-4">
                         <div className="widget widget-search" data-aos="fade-in" data-aos-duration="800">
                             <form action="#">
                                 <input type="text" placeholder="Search" required="" />
                                 <button><i className="fal fa-search"></i></button>
                             </form>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="col-md-8 z-index">
+                    {/* <div className="col-md-8 z-index">
                         <div className="seclect-box" data-aos="fade-in" data-aos-duration="800">
                             <Dropdown>
                                 <Dropdown.Toggle id="dropdown-basic">
@@ -41,13 +41,19 @@ function Project(props) {
 
                                 <Dropdown.Menu>
                                 <Dropdown.Item href="#">
-                                    <li data-toggle="modal" data-target="#delete_client">Forgotten Samurai</li>
+                                    <li data-toggle="modal" data-target="#delete_client">Games</li>
                                 </Dropdown.Item>
                                 <Dropdown.Item href="#">
-                                    <li data-toggle="modal" data-target="#edit_client">Star Batter</li>
+                                    <li data-toggle="modal" data-target="#edit_client">Competitions</li>
                                 </Dropdown.Item>
                                 <Dropdown.Item href="#">
-                                    <li data-toggle="modal" data-target="#edit_client">Calvary Deneral</li>
+                                    <li data-toggle="modal" data-target="#edit_client">Workshops</li>
+                                </Dropdown.Item>
+                                <Dropdown.Item href="#">
+                                    <li data-toggle="modal" data-target="#edit_client">Conclaves</li>
+                                </Dropdown.Item>
+                                <Dropdown.Item href="#">
+                                    <li data-toggle="modal" data-target="#edit_client">Hackathons</li>
                                 </Dropdown.Item>
                                 
                                 </Dropdown.Menu>
@@ -60,19 +66,19 @@ function Project(props) {
 
                                 <Dropdown.Menu>
                                 <Dropdown.Item href="#">
-                                    <li data-toggle="modal" data-target="#delete_client">Sort by Popularity</li>
+                                    <li data-toggle="modal" data-target="#delete_client">Sort by Categories</li>
                                 </Dropdown.Item>
                                 <Dropdown.Item href="#">
                                     <li data-toggle="modal" data-target="#edit_client">Sort by Latest</li>
                                 </Dropdown.Item>
                                 <Dropdown.Item href="#">
-                                    <li data-toggle="modal" data-target="#edit_client">Sort by View</li>
+                                    <li data-toggle="modal" data-target="#edit_client">Sort by Date</li>
                                 </Dropdown.Item>
                                 
                                 </Dropdown.Menu>
                             </Dropdown>
                         </div>
-                    </div>
+                    </div> */}
 
                     {
                         data.slice(0,visible).map(item => (

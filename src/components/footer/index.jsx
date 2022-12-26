@@ -2,8 +2,8 @@ import React , { useState ,useEffect } from 'react';
 import './styles.scss';
 import { Link } from 'react-router-dom'
 
-import img1 from '../../assets/images/background/bg-ft-spiral.png'
-import img2 from '../../assets/images/background/bg-ft-spiral-2.png'
+// import img1 from '../../assets/images/background/bg-ft-spiral.png'
+// import img2 from '../../assets/images/background/bg-ft-spiral-2.png'
 
 
 function Footer(props) {
@@ -34,8 +34,8 @@ function Footer(props) {
     return (
         <footer id="footer">
             <div className="footer-main">
-                <img src={img1} alt="" className="bg1" />
-                <img src={img2} alt="" className="bg2" />
+                {/* <img src={img1} alt="" className="bg1" />
+                <img src={img2} alt="" className="bg2" /> */}
                 <div className="container">
                     <ul className="widget-social">
                         <li>

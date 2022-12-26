@@ -13,8 +13,8 @@ function Project(props) {
     const {data} = props;
 
     const [dataBlock] = useState({
-        sutitle: 'NFT featured',
-        title: 'Arts & collectibles'
+        sutitle: 'Events',
+        title: 'Games & Competitions'
     })
     return (
         <section className="tf-section tf-project pb-mobie">
@@ -51,7 +51,7 @@ function Project(props) {
                 {
                     data.map(item => (
                         <SwiperSlide key={item.id}>
-                            <Link to='#'>
+                            <Link to={`/event-details/${item.id}`}>
                                 <div className="img-box">
                                     <img src={item.img} alt="crybox" />
                                 </div>
@@ -89,7 +89,7 @@ function Project(props) {
                 {
                     data.map(item => (
                         <SwiperSlide key={item.id}>
-                            <Link to='#'>
+                            <Link to={`/event-details/${item.id}`}>
                                 <div className="img-box">
                                     <img src={item.img} alt="crybox" />
                                 </div>
