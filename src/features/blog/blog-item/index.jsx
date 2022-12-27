@@ -22,7 +22,8 @@ function BlogItem(props) {
                         <div className="meta-post">
                             <a href="/">{item.time}</a>
                         </div>
-                        <div className="h7 title"><Link to="">{item.title}</Link></div>
+                        <div className="h7 title"><Link to="" onClick={()=>{
+                                    window.open(`${item.link}`, '_blank');}}>{item.title}</Link></div>
                         <p>{item.text}</p>
                     </div>
                 </div>
