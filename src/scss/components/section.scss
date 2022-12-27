@@ -947,7 +947,7 @@
         flex-wrap: wrap;
         .box {
             margin-bottom: 16px;
-            width: calc(33.3333% - 16px);
+            // width: calc(33.3333% - 16px);
             margin-left: 16px;
             &.corner-box {
                 padding: 20px 22px 10px;
@@ -1084,7 +1084,7 @@
         min-width: 48px;
         min-height: 48px;
         background: transparent;
-        border: 1px solid #14C2A3;
+        border: 1px solid #FB2576;
         margin-right: 15px;
         padding: 0;
         
@@ -1419,7 +1419,7 @@
                     background: rgba(20, 194, 163, 0.4);
                     border-radius: 8px;
                     &:hover {
-                        background: #14c2a3;
+                        background: #FB2576;
                     }
                 }
             }

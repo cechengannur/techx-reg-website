@@ -3,7 +3,7 @@
     @include transition3;
     position: relative;
     padding: 20px 20px 68px;  
-    background: #0e2230;
+    background: #141340;
     &::after {
         @include transition3;
         position: absolute;
@@ -28,8 +28,8 @@
     &:hover {
         box-shadow: $box-shadow;
         &::before {
-            border-color: #14C2A3;
-            border: 2px solid #14C2A3;
+            border-color: #FB2576;
+            border: 2px solid #FB2576;
         }
     }
     .content {

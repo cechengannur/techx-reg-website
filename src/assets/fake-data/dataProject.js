@@ -16,16 +16,30 @@ import { Link } from 'react-router-dom';
 
 
 const dataProject = [
-    // {
-    //     id: 1,
-    //     title: 'RESURENZE',
-    //     img: img1,
-    //     category: '#game',
-    //     desc:"Excited about online tactical battle shooter games? Then brace for an exhilarating Valorant showdown - a team-based tactical PVP where your shooting skills, strategy, and team spirit are put to the test.\nSo, don your finest attire and arm yourself with cunning and wit, for the battle of wits is about to begin. Assemble your squad and get ready for a pulse-pounding showdown as IHRD Tharang presents the first edition of RESURENZE.\n🔴 Note : A team must have 5 members.",
-    //     link:"",
-    // },
     {
         id: 1,
+        title: 'COMPCOD',
+        img: img3,
+        category: '#game',
+        desc:"Attention all gaming maniacs! 🎮 Load, Aim, and Fire! It's COD season, and what better time to join the ranks of the elite and put your talents to the test in the adrenaline-fueled bouts of Call of Duty Mobile. IHRD Tharang presents to you COMPCOD. Get ready to battle along with your comrades in the world of Call Of Duty. Show off your skills and dominate the battleground.",
+        link:"https://konfhub.com/call-of-duty-tharang",
+        prize:"₹3000",
+        fee:"₹100 (Team)",
+        available:"Open"
+    },
+    {
+        id: 2,
+        title: 'RESURENZE',
+        img: img1,
+        category: '#game',
+        desc:"Excited about online tactical battle shooter games? Then brace for an exhilarating Valorant showdown - a team-based tactical PVP where your shooting skills, strategy, and team spirit are put to the test. So, don your finest attire and arm yourself with cunning and wit, for the battle of wits is about to begin. Assemble your squad and get ready for a pulse-pounding showdown as IHRD Tharang presents the first edition of RESURENZE. 🔴 Note : A team must have 5 members.",
+        link:"http://konfhub.com/resurenze-tharang",
+        prize:"₹8000",
+        fee:"₹250 (Team)",
+        available:"Open"
+    },
+    {
+        id: 3,
         title: 'Road to Glory',
         img: img2,
         category: '#game',
@@ -35,14 +49,7 @@ const dataProject = [
         fee:"₹25",
         available:"Open"
     },
-    // {
-    //     id: 3,
-    //     title: 'COMPCOD',
-    //     img: img3,
-    //     category: '#game',
-    //     desc:"",
-    //     link:"",
-    // },
+    
     // {
     //     id: 4,
     //     title: 'CYBOX #04',
