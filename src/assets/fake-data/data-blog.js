@@ -1,13 +1,22 @@
 import img1 from '../images/post/career-talk.webp'
 import img2 from '../images/post/vikasanam.webp'
 import img3 from '../images/post/name-to-tame.webp'
-import img4 from '../images/post/talk-series-1.webp'
+import img4 from '../images/post/campus.png'
 import img5 from '../images/post/volley-ball-inaugration.webp'
 import img6 from '../images/post/hack-league-inaugration.webp'
 
 const dataBlog = [
     {
         id: 1,
+        img : img4,
+        category: 'opportunity',
+        title: 'Call for CAMPUS AMBASSADORS',
+        time: '31 December 2022',
+        text: 'We are seeking individuals of unparalleled energy and enthusiasm to join our prolific team as campus ambassadors',
+        link:"https://forms.gle/dbhBotwbjrXfjNaX6"
+    },
+    {
+        id: 2,
         img : img1,
         category: 'talk',
         title: 'Career Guidance',
@@ -16,7 +25,7 @@ const dataBlog = [
         link:"http://bitly.ws/yePk"
     },
     {
-        id: 2,
+        id: 3,
         img : img2,
         category: 'talk',
         title: 'Higher Education and Development',
@@ -25,7 +34,7 @@ const dataBlog = [
         link:"https://www.instagram.com/p/Cmobr9LpxOo/",
     },
     {
-        id: 3,
+        id: 4,
         img : img3,
         category: 'talk',
         title: 'Name it to Tame it',
@@ -36,7 +45,7 @@ const dataBlog = [
 
 
     {
-        id: 4,
+        id: 5,
         img : img6,
         category: 'hackathon',
         title: 'Hack-League Inauguration',
@@ -45,7 +54,7 @@ const dataBlog = [
     },
 
     {
-        id: 5,
+        id: 6,
         img : img5,
         category: 'sports',
         title: 'Tournament Inauguration',
@@ -53,14 +62,14 @@ const dataBlog = [
         text: 'As part of IHRD Tharang, CEC warmly welcomes you to the All Kerala Volleyball Tournament',
     },
     
-    {
-        id: 6,
-        img : img4,
-        category: 'talk-series',
-        title: 'Entrepreneurship in Kerala',
-        time: '20 Dec 2022',
-        text: 'Aren\'t you ready to take the first step toward becoming a successful entrepreneur?',
-    },
+    // {
+    //     id: 6,
+    //     img : img4,
+    //     category: 'talk-series',
+    //     title: 'Entrepreneurship in Kerala',
+    //     time: '20 Dec 2022',
+    //     text: 'Aren\'t you ready to take the first step toward becoming a successful entrepreneur?',
+    // },
     
     // {
     //     id: 4,

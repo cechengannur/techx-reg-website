@@ -1,8 +1,15 @@
 @use '../' as *;
 
 .widget-search {
-    max-width: 330px;
+
+    max-width: 340px;
     margin-bottom: 40px;
+    @include mobile {
+        display: flex;
+        margin-bottom: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
     form {
         position: relative;
         button {
