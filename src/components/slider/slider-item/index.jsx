@@ -1,9 +1,9 @@
 import React , {useState} from 'react';
 import PropTypes from 'prop-types';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/scss/modal-video.scss' ;
-// import { Modal } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import './styles.scss'
 
 SliderItem.propTypes = {
@@ -15,7 +15,7 @@ function SliderItem(props) {
 
     const [isOpen, setOpen] = useState(false)
 
-    // const [modalShow, setModalShow] = useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     return (
         <div className={`box-slider ${item.classAction}`}>
@@ -27,33 +27,33 @@ function SliderItem(props) {
                             <div className="content-box">
                                 <h1 className="title">{item.title}</h1>
                                 <p className="sub-title">{item.desc}</p>
-                                <div className="wrap-btn">
-                                    {/* <Link to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link> */}
+                                {/* <div className="wrap-btn">
+                                    <Link to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link>
                                     <button to="#" className="tf-button btn-effect popup-youtube" onClick={()=> setOpen(true)}>
                                     
                                         <span className="boder-fade"></span>                                     
                                         <span className="effect">watch video</span>
                                     </button>
                                     
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
                             <div className="image">
-                                <img src={item.img} alt="cybox" />
+                                <img src={item.img} alt="HOVER IMAGE" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="0MsihWKqBmg" onClose={() => setOpen(false)} />
+            {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="0MsihWKqBmg" onClose={() => setOpen(false)} /> */}
 
             {/* <Modal
                 show={modalShow}
                 onHide={setModalShow}
-            >
-            <Modal.Header closeButton></Modal.Header>
+            > */}
+            {/* <Modal.Header closeButton></Modal.Header>
 
                 <div className="modal-body center">
                                 <div className="box-wallet-inner">

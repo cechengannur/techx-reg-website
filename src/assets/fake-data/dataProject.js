@@ -4,7 +4,7 @@ import img3 from '../images/common/game-compcod.jpeg'
 import img4 from '../images/common/comp-survival.jpeg'
 import { region } from 'caniuse-lite';
 // import img4 from '../images/common/img4.jpg'
-// import img5 from '../images/common/img5.jpg'
+import img5 from '../images/common/img5.jpg'
 // import img6 from '../images/common/img6.jpg'
 // import img7 from '../images/common/img7.jpg'
 // import img9 from '../images/common/img9.jpg'
