@@ -1,6 +1,7 @@
 import img1 from '../images/common/game-valorant.jpeg'
 import img2 from '../images/common/game-roadToGlory.jpeg'
 import img3 from '../images/common/game-compcod.jpeg'
+import img4 from '../images/common/comp-survival.jpeg'
 import { region } from 'caniuse-lite';
 // import img4 from '../images/common/img4.jpg'
 // import img5 from '../images/common/img5.jpg'
@@ -18,33 +19,44 @@ import { Link } from 'react-router-dom';
 const dataProject = [
     {
         id: 1,
+        title: 'SURVIVAL OF FITTEST',
+        img: img4,
+        category: '#competition',
+        desc:"Are you ready to put your engineering skills to the test and prove your mettle? Gather your toolkit & get your thinking cap on, coz a thrilling competition is coming your way! IHRD Tharang presents Survival Of The Fittest, an exciting event filled with challenges and tasks that will put your skills to the ultimate test. The event includes three rounds, and students can choose between two baskets",
+        link:"http://konfhub.com/survival-of-fittest-tharang?utm_source=tharangweb",
+        prize:"₹8600",
+        fee:"₹150 (Team)",
+        available:"Open"
+    },
+    {
+        id: 2,
         title: 'COMPCOD',
         img: img3,
         category: '#game',
         desc:"Attention all gaming maniacs! 🎮 Load, Aim, and Fire! It's COD season, and what better time to join the ranks of the elite and put your talents to the test in the adrenaline-fueled bouts of Call of Duty Mobile. IHRD Tharang presents to you COMPCOD. Get ready to battle along with your comrades in the world of Call Of Duty. Show off your skills and dominate the battleground.",
-        link:"https://konfhub.com/call-of-duty-tharang",
+        link:"https://konfhub.com/call-of-duty-tharang?utm_source=tharangweb",
         prize:"₹3000",
         fee:"₹100 (Team)",
         available:"Open"
     },
     {
-        id: 2,
+        id: 3,
         title: 'RESURENZE',
         img: img1,
         category: '#game',
         desc:"Excited about online tactical battle shooter games? Then brace for an exhilarating Valorant showdown - a team-based tactical PVP where your shooting skills, strategy, and team spirit are put to the test. So, don your finest attire and arm yourself with cunning and wit, for the battle of wits is about to begin. Assemble your squad and get ready for a pulse-pounding showdown as IHRD Tharang presents the first edition of RESURENZE. 🔴 Note : A team must have 5 members.",
-        link:"http://konfhub.com/resurenze-tharang",
+        link:"http://konfhub.com/resurenze-tharang?utm_source=tharangweb",
         prize:"₹8000",
         fee:"₹250 (Team)",
         available:"Open"
     },
     {
-        id: 3,
+        id: 4,
         title: 'Road to Glory',
         img: img2,
         category: '#game',
         desc:"Blades of grass flying with every kick, a quick and loud heartbeat, and an irresistible desire for triumph define both gamers and sportsmen. Rekindle your football passion and prepare your teams for the highly anticipated eFootball tournament. IHRD Tharang warmly invites each one of you to the first edition of eFootball - Road to Glory. So what are you waiting for? Coin your teams and get ready to compete and showcase your skills on the virtual pitch. ⚽",
-        link:"https://konfhub.com/road-to-glory",
+        link:"https://konfhub.com/road-to-glory?utm_source=tharangweb",
         prize:"₹5000",
         fee:"₹25",
         available:"Open"
