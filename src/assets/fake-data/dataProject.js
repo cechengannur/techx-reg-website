@@ -18,17 +18,6 @@ import { Link } from 'react-router-dom';
 
 const dataProject = [
     {
-        id: 5,
-        title: 'Random Event',
-        img: img5,
-        category: '#hackathon',
-        desc:" Rnadom Text",
-        link:"http://konfhub.com/survival-of-fittest-tharang?utm_source=tharangweb",
-        prize:"₹18600",
-        fee:"₹250 (Team)",
-        available:"Open"
-    },
-    {
         id: 1,
         title: 'SURVIVAL OF FITTEST',
         img: img4,

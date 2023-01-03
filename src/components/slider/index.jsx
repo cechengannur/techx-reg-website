@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { Navigation, Scrollbar, A11y   } from 'swiper';
+import { Navigation, Scrollbar, A11y   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SliderItem from './slider-item';
 import 'swiper/scss';
@@ -16,14 +16,14 @@ function Slider(props) {
     return (
         <section className="slider">
             <Swiper
-                // modules={[Navigation,  Scrollbar, A11y ]}
-                //     spaceBetween={0}
-                //     slidesPerView={1}
-                //     navigation
-                //     scrollbar={{ draggable: true }}
+                modules={[Navigation,  Scrollbar, A11y ]}
+                    spaceBetween={0}
+                    slidesPerView={1}
+                    navigation
+                    scrollbar={{ draggable: true }}
                 >
                 {
-                    data.slice(0,3).map(item => (
+                    data.slice(0,5).map(item => (
                         <SwiperSlide key={item.id}>
                             <SliderItem item={item} />
                         </SwiperSlide>
