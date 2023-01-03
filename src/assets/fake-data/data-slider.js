@@ -7,16 +7,17 @@ import img2 from '../images/common/job-fair.png';
 const dataSlider = [
     {
         id: 1,
+        bgImg: img2,
+        classAction: 'three'
+    },
+    {
+        id: 2,
         title: 'IHRD THARANG\'23',
         desc : `A National Techno-Cultural-Entrepreneurial Fest Organized by IHRD (Established by the Govt. of Kerala)`,
         bgImg: bgImg1,
         img : img1
     },
-    {
-        id: 2,
-        bgImg: img2,
-        classAction: 'three'
-    },
+    
     // {
     //     id: 3,
     //     title: 'CYbox nft collectionS for everyone',

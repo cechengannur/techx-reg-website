@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Navigation, Scrollbar, A11y   } from 'swiper';
+import { Navigation, Scrollbar, A11y, Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SliderItem from './slider-item';
 import 'swiper/scss';
@@ -16,9 +16,13 @@ function Slider(props) {
     return (
         <section className="slider">
             <Swiper
-                modules={[Navigation,  Scrollbar, A11y ]}
+                modules={[Navigation,  Scrollbar, A11y, Autoplay]}
                     spaceBetween={0}
                     slidesPerView={1}
+                    autoplay={{
+                        delay: 3500,
+                        disableOnInteraction: false,
+                    }}
                     navigation
                     scrollbar={{ draggable: true }}
                 >
