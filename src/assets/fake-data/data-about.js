@@ -8,7 +8,7 @@ const dataAbout = [
     {
         id: 2,
         title: 'Who is coming?',
-        desc: 'The event will host various guests from the Ministry of Higher Education, National Research Laboratories, Industries, Investors, Entrepreneurs, District & Local Administration, Agriculture and many other reputed organizations.',
+        desc: 'The event will host various guests from the Ministry of Higher Education, National Research Laboratories, Industries, Investors, Entrepreneurs, District & Local Administration, and Agriculture and many other reputed organizations.',
     },
     {
         id: 3,
