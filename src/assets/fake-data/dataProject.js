@@ -2,9 +2,10 @@ import img1 from '../images/common/game-valorant.jpeg'
 import img2 from '../images/common/game-roadToGlory.jpeg'
 import img3 from '../images/common/game-compcod.jpeg'
 import img4 from '../images/common/comp-survival.jpeg'
+import img5 from '../images/common/con-veznto.jpeg'
 import { region } from 'caniuse-lite';
 // import img4 from '../images/common/img4.jpg'
-import img5 from '../images/common/img5.jpg'
+// import img5 from '../images/common/img5.jpg'
 // import img6 from '../images/common/img6.jpg'
 // import img7 from '../images/common/img7.jpg'
 // import img9 from '../images/common/img9.jpg'
@@ -19,6 +20,17 @@ import { Link } from 'react-router-dom';
 const dataProject = [
     {
         id: 1,
+        title: 'Vezeto',
+        img: img5,
+        category: '#conclaves',
+        desc:"IHRD THARANG is ecstatic to present you VEZETO, an idea-pitching competition under the III Conclave. Throughout the event, Google experts will lead sessions on innovation and entrepreneurship, culminating in a task for qualified students to present their pitch decks. Vezeto aims to provide the necessary mentorship and resources to students to pull a perfect pitch deck. TEAM Eligibility: Students of classes 11 and 12, Polytechnical, ITI, and Engineering students are eligible for the event.",
+        link:"https://konfhub.com/vezeto-tharang?utm_source=tharangweb",
+        prize:"₹25,000",
+        fee:"₹400 (Team)",
+        available:"Open"
+    },
+    {
+        id: 2,
         title: 'SURVIVAL OF FITTEST',
         img: img4,
         category: '#competition',
@@ -29,7 +41,7 @@ const dataProject = [
         available:"Open"
     },
     {
-        id: 2,
+        id: 3,
         title: 'COMPCOD',
         img: img3,
         category: '#game',
@@ -40,7 +52,7 @@ const dataProject = [
         available:"Open"
     },
     {
-        id: 3,
+        id: 4,
         title: 'RESURENZE',
         img: img1,
         category: '#game',
@@ -51,7 +63,7 @@ const dataProject = [
         available:"Open"
     },
     {
-        id: 4,
+        id: 5,
         title: 'Road to Glory',
         img: img2,
         category: '#game',
@@ -61,6 +73,7 @@ const dataProject = [
         fee:"₹25",
         available:"Open"
     },
+    
     
     
     // {
