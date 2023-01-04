@@ -3,6 +3,8 @@ import img2 from '../images/common/game-roadToGlory.jpeg'
 import img3 from '../images/common/game-compcod.jpeg'
 import img4 from '../images/common/comp-survival.jpeg'
 import img5 from '../images/common/con-veznto.jpeg'
+import img6 from '../images/common/hack-conquerer.jpeg'
+import img7 from '../images/common/con-auxpo.jpeg'
 import { region } from 'caniuse-lite';
 // import img4 from '../images/common/img4.jpg'
 // import img5 from '../images/common/img5.jpg'
@@ -18,19 +20,41 @@ import { Link } from 'react-router-dom';
 
 
 const dataProject = [
+    // {
+    //     id: 7,
+    //     title: 'CONQUEROR',
+    //     img: img6,
+    //     category: '#hackathons',
+    //     desc:"🚀 Get ready for CONQUEROR, the ultimate 12 hour hackathon by IHRD Tharang focused on tackling the biggest health issues faced by the society today! Teams will have the opportunity to build a prototype app, website, or software to showcase their innovative solutions. The best and brightest minds will come together to conquer the challenges facing the health sector, and emerge victorious as true CONQUERORS.",
+    //     link:"https://konfhub.com/conqueror?utm_source=tharangweb",
+    //     prize:"₹20,000",
+    //     fee:"₹399 (Team)",
+    //     available:"Open"
+    // },
     {
         id: 1,
+        title: 'AUXPO',
+        img: img7,
+        category: '#conclaves',
+        desc:"IHRD Tharang is elated to host AUXPO, a mock IPL auction under the III Conclave. The event comprises a preliminary stage in which the participants must complete certain tasks to qualify for the mega mock auction. The top three teams will be awarded a cash prize of Rs. 15000/- and a Course package: Start-up Idea to Scaling (constituting of courses on Product, Marketing, Revenue & Funding totally worth Rs 5,400) from Markoknow for free.",
+        link:"https://konfhub.com/auxpo-tharang?utm_source=tharangweb",
+        prize:"₹15,000",
+        fee:"₹500 (Team)",
+        available:"Open"
+    },
+    {
+        id: 2,
         title: 'Vezeto',
         img: img5,
         category: '#conclaves',
-        desc:"IHRD THARANG is ecstatic to present you VEZETO, an idea-pitching competition under the III Conclave. Throughout the event, Google experts will lead sessions on innovation and entrepreneurship, culminating in a task for qualified students to present their pitch decks. Vezeto aims to provide the necessary mentorship and resources to students to pull a perfect pitch deck. TEAM Eligibility: Students of classes 11 and 12, Polytechnical, ITI, and Engineering students are eligible for the event.",
+        desc:"IHRD THARANG is ecstatic to present you VEZETO, an idea-pitching competition under the III Conclave. Throughout the event, Google experts will lead sessions on innovation and entrepreneurship, culminating in a task for qualified students to present their pitch decks. Vezeto aims to provide the necessary mentorship and resources to students to pull a perfect pitch deck. TEAM Eligibility: Students of classes 11 and 12, Polytechnical, ITI, Arts & Science, Applied Science and Engineering students are eligible for the event.",
         link:"https://konfhub.com/vezeto-tharang?utm_source=tharangweb",
         prize:"₹25,000",
         fee:"₹400 (Team)",
         available:"Open"
     },
     {
-        id: 2,
+        id: 3,
         title: 'SURVIVAL OF FITTEST',
         img: img4,
         category: '#competition',
@@ -41,7 +65,7 @@ const dataProject = [
         available:"Open"
     },
     {
-        id: 3,
+        id: 4,
         title: 'COMPCOD',
         img: img3,
         category: '#game',
@@ -52,7 +76,7 @@ const dataProject = [
         available:"Open"
     },
     {
-        id: 4,
+        id: 5,
         title: 'RESURENZE',
         img: img1,
         category: '#game',
@@ -63,7 +87,7 @@ const dataProject = [
         available:"Open"
     },
     {
-        id: 5,
+        id: 6,
         title: 'Road to Glory',
         img: img2,
         category: '#game',
@@ -73,6 +97,7 @@ const dataProject = [
         fee:"₹25",
         available:"Open"
     },
+    
     
     
     
