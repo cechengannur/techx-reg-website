@@ -20,17 +20,17 @@ import { Link } from 'react-router-dom';
 
 
 const dataProject = [
-    // {
-    //     id: 7,
-    //     title: 'CONQUEROR',
-    //     img: img6,
-    //     category: '#hackathons',
-    //     desc:"🚀 Get ready for CONQUEROR, the ultimate 12 hour hackathon by IHRD Tharang focused on tackling the biggest health issues faced by the society today! Teams will have the opportunity to build a prototype app, website, or software to showcase their innovative solutions. The best and brightest minds will come together to conquer the challenges facing the health sector, and emerge victorious as true CONQUERORS.",
-    //     link:"https://konfhub.com/conqueror?utm_source=tharangweb",
-    //     prize:"₹20,000",
-    //     fee:"₹399 (Team)",
-    //     available:"Open"
-    // },
+    {
+        id: 7,
+        title: 'CONQUEROR',
+        img: img6,
+        category: '#hackathons',
+        desc:"🚀 Get ready for CONQUEROR, the ultimate 12 hour hackathon by IHRD Tharang focused on tackling the biggest health issues faced by the society today! Teams will have the opportunity to build a prototype app, website, or software to showcase their innovative solutions. The best and brightest minds will come together to conquer the challenges facing the health sector, and emerge victorious as true CONQUERORS.",
+        link:"https://konfhub.com/conqueror?utm_source=tharangweb",
+        prize:"₹20,000",
+        fee:"₹399 (Team)",
+        available:"Open"
+    },
     {
         id: 1,
         title: 'AUXPO',
