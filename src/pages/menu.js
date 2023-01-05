@@ -93,6 +93,11 @@ const menus = [
         //     },
         // ],
     },
+    {
+        id: 5,
+        name: 'Arcade',
+        links: '/arcade',
+    },
     // {
     //     id: 5,
     //     name: 'Blog',
