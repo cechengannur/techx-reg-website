@@ -95,6 +95,12 @@ const menus = [
     },
     {
         id: 5,
+        name: 'Pre-Events',
+        links: '/pre-events',
+
+    },
+    {
+        id: 6,
         name: 'Arcade',
         links: '/arcade',
     },
@@ -116,7 +122,7 @@ const menus = [
     //     ],
     // },
     {
-        id: 6,
+        id: 7,
         name: 'Contact',
         links: '/contact'
     },
