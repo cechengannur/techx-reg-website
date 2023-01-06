@@ -61,6 +61,7 @@ export default class Preitems extends Component {
            <Table className="pre-event" bordered>
             <thead>
               <tr>
+               <th>SN</th>
               {this.renderTableHeader()}
               </tr>
             </thead>
