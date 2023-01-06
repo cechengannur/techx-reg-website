@@ -33,7 +33,7 @@ function Contact(props) {
                                 <button className="tf-button btn-effect" type="submit"><span className="boder-fade"></span><span className="effect">Send Message</span></button>
                             </form>
                         </div> */}
-                        <div className="col-xl-7  col-md-12">
+                        <div className="col-xl-8  col-md-12">
                             <div className="contact-details" data-aos="fade-left" data-aos-duration="800">
                                 <div className="adress wrap-fx">
                                     <div className="location">
@@ -46,7 +46,7 @@ function Contact(props) {
                                         <h6>Contact Us</h6>
                                         <ul>
                                             <li>+91 9207-601-202</li>
-                                            <li>tharang@ihrd.ac.in</li>
+                                            <li>ihrdtechfest@ceconline.edu</li>
                                         </ul>
                                     </div>
                                 </div>
