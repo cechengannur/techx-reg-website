@@ -1,9 +1,17 @@
-import img1 from '../images/post/career-talk.webp'
-import img2 from '../images/post/vikasanam.webp'
-import img3 from '../images/post/name-to-tame.webp'
-import img4 from '../images/post/campus.png'
-import img5 from '../images/post/netizens.jpeg'
-import img6 from '../images/post/hack-league-inaugration.webp'
+// import img1 from '../images/post/career-talk.webp'
+// import img2 from '../images/post/vikasanam.webp'
+// import img3 from '../images/post/name-to-tame.webp'
+// import img4 from '../images/post/campus.png'
+// import img5 from '../images/post/netizens.jpeg'
+// import img6 from '../images/post/hack-league-inaugration.webp'
+
+
+const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/career-talk.webp";
+const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/vikasanam.webp";
+const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/name-to-tame.webp";
+const img4 = "https://d245tsppfkavw4.cloudfront.net/assets/campus.png";
+const img5 = "https://d245tsppfkavw4.cloudfront.net/assets/netizens.jpeg";
+const img6 = "https://d245tsppfkavw4.cloudfront.net/assets/hack-league-inaugration.webp";
 
 const dataBlog = [
     {
