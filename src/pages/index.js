@@ -16,14 +16,14 @@ import Blog from "./Blog";
 import BlogDetails from "./BlogDetails";
 import Contact from "./Contact";
 import TeamDetail from "./TeamDetail";
-
+import PreEvents from "./PreEvents";
 
 const routes = [
   { path: '/', component: <HomeOne />},
   { path: '/events', component: <NftItem />},
   { path: '/event-details/:id', component: <NftItemDetails />},
   { path: '/contact', component: <Contact />},
-
+  { path: '/pre-events', component: <PreEvents/>},
   //external redirect to other website with new tab
   { path: '/arcade', component: <RedirectPage url="https://s3.us-west-2.amazonaws.com/arcadev1.0.0/Arcade_v1.0.5/index.html" />},
 
