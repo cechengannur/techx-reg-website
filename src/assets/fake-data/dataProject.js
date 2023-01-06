@@ -1,11 +1,11 @@
-import img1 from '../images/common/game-valorant.jpeg'
-import img2 from '../images/common/game-roadToGlory.jpeg'
-import img3 from '../images/common/game-compcod.jpeg'
-import img4 from '../images/common/comp-survival.jpeg'
-import img5 from '../images/common/con-veznto.jpeg'
-import img6 from '../images/common/hack-conquerer.jpeg'
-import img7 from '../images/common/con-auxpo.jpeg'
-import img8 from '../images/common/comp-shot.jpeg'
+// import img1 from '../images/common/game-valorant.jpeg'
+// import img2 from '../images/common/game-roadToGlory.jpeg'
+// import img3 from '../images/common/game-compcod.jpeg'
+// import img4 from '../images/common/comp-survival.jpeg'
+// import img5 from '../images/common/con-veznto.jpeg'
+// import img6 from '../images/common/hack-conquerer.jpeg'
+// import img7 from '../images/common/con-auxpo.jpeg'
+// import img8 from '../images/common/comp-shot.jpeg'
 import { region } from 'caniuse-lite';
 // import img4 from '../images/common/img4.jpg'
 // import img5 from '../images/common/img5.jpg'
@@ -18,6 +18,18 @@ import { region } from 'caniuse-lite';
 // import img13 from '../images/common/img13.jpg'
 // import img14 from '../images/common/img14.jpg'
 import { Link } from 'react-router-dom';
+
+
+
+
+const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
+const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
+const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/game-compcod.jpeg";
+const img4 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-survival.jpeg";
+const img5 = "https://d245tsppfkavw4.cloudfront.net/assets/con-veznto.jpeg";
+const img6 = "https://d245tsppfkavw4.cloudfront.net/assets/hack-conquerer.jpeg";
+const img7 = "https://d245tsppfkavw4.cloudfront.net/assets/con-auxpo.jpeg";
+const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [

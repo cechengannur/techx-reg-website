@@ -2,10 +2,12 @@
 // import bgImg1 from '../images/background/bg-hero.png';
 import bgImg2 from '../images/background/tech-bg.jpg';
 import bgImg3 from '../images/background/bg-4.jpg';
-import img1 from '../images/common/main-char.png';
-import img2 from '../images/common/job-fair.png';
+// import img1 from '../images/common/main-char.png';
+// import img2 from '../images/common/job-fair.png';
 
 const bgImg1 = "https://d245tsppfkavw4.cloudfront.net/assets/bg-hero.jpg";
+const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/main-char.png";
+const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/job-fair.png";
 
 const dataSlider = [
     {
