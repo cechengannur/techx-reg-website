@@ -5,6 +5,7 @@ import img4 from '../images/common/comp-survival.jpeg'
 import img5 from '../images/common/con-veznto.jpeg'
 import img6 from '../images/common/hack-conquerer.jpeg'
 import img7 from '../images/common/con-auxpo.jpeg'
+import img8 from '../images/common/comp-shot.jpeg'
 import { region } from 'caniuse-lite';
 // import img4 from '../images/common/img4.jpg'
 // import img5 from '../images/common/img5.jpg'
@@ -20,6 +21,17 @@ import { Link } from 'react-router-dom';
 
 
 const dataProject = [
+    {
+        id: 8,
+        title: 'SHOTS TO SHORT',
+        img: img8,
+        category: '#competition',
+        desc:"IHRD Tharang  is here with a Short Film Competition on the topic \"Sustainable Tourism\".This competition is your chance to share your vision for a better future & inspire change through the power of film! Grab your camera, let your creativity run wild & your artistic talent gleam!",
+        link:"https://konfhub.com/Sfc-tharang?utm_source=tharangweb",
+        prize:"₹10,000",
+        fee:"₹250",
+        available:"Open"
+    },
     {
         id: 7,
         title: 'CONQUEROR',
