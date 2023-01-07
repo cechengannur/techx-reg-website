@@ -99,13 +99,25 @@
         }
 
         &.two {
+
+            .content-box{
+                font-size: 1em;
+            }
             .bg-slider {
                 opacity: 0.4;
             }
             .image {
                 display: flex;
-                width: 100%;
-                align-items: center;
+                
+                
+
+                @include tablet {
+                    display: none;
+                }
+
+                @include mobile {
+                    display: none;
+                }
             }
         }
 
