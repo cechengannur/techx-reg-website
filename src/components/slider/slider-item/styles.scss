@@ -84,8 +84,8 @@
                   transform: translate(0);
               }
               50% {
-                -webkit-transform: translate(-30px);
-                transform: translate(-30px);
+                -webkit-transform: translate(-50px);
+                transform: translate(-50px);
               }
               100% {
                 -webkit-transform: translate(0);
@@ -100,10 +100,12 @@
 
         &.two {
             .bg-slider {
-                opacity: 0.5;
+                opacity: 0.4;
             }
             .image {
-                display: none;
+                display: flex;
+                width: 100%;
+                align-items: center;
             }
         }
 

@@ -65,9 +65,9 @@ const Header = () => {
                             }
                         </ul>
                     </nav>
-                    <Button className="follow-button" title='Follow Us' path='' onClick={()=>{
+                    {/* <Button className="follow-button" title='Follow Us' path='' onClick={()=>{
                                     window.open('https://www.instagram.com/tharang.ihrd/', '_blank');
-                                }}/>
+                                }}/> */}
 
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>
                 </div>
