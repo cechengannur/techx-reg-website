@@ -4,7 +4,7 @@
 // import img4 from '../images/post/campus.png'
 // import img5 from '../images/post/netizens.jpeg'
 // import img6 from '../images/post/hack-league-inaugration.webp'
-
+import img7 from '../images/post/beyond-mba.jpeg'
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/career-talk.webp";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/vikasanam.webp";
@@ -14,6 +14,15 @@ const img5 = "https://d245tsppfkavw4.cloudfront.net/assets/netizens.jpeg";
 const img6 = "https://d245tsppfkavw4.cloudfront.net/assets/hack-league-inaugration.webp";
 
 const dataBlog = [
+    {
+        id: 7,
+        img : img7,
+        category: 'talk',
+        title: 'Beyond B.Tech - MBA',
+        time: '16 Jan 2023 ',
+        text: 'The session will be handled by Mr. Sahil Sameer, Assistant Manager, Samsung - IIM Indore who will enlighten your curiosity in the field of business administration.',
+        link:"http://min.lc/TharangTalkSeries"
+    },
     {
         id: 1,
         img : img5,
