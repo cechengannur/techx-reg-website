@@ -40,9 +40,9 @@ const dataProject = [
         img: img9,
         category: '#competition',
         desc:"Creativity awaits!! Looking for a chance to stand out and show off your unique design style? Then this is the chance to let your artistic side shine!.Introducing Radiant by IHRD Tharang- the ultimate online UI/UX designathon. ",
-        link:"https://konfhub.com/Sfc-tharang?utm_source=tharangweb",
+        link:"https://konfhub.com/radiant-thrng",
         prize:"₹10,000",
-        fee:"₹299 (Team)",
+        fee:"₹399 (Team)",
         available:"Open"
     },
     {
