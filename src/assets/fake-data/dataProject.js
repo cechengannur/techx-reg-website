@@ -18,6 +18,7 @@ import { region } from 'caniuse-lite';
 // import img13 from '../images/common/img13.jpg'
 // import img14 from '../images/common/img14.jpg'
 import { Link } from 'react-router-dom';
+import img9 from '../images/common/comp-radiant.jpeg'
 
 
 
@@ -33,6 +34,17 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+    {
+        id: 9,
+        title: 'Radiant',
+        img: img9,
+        category: '#competition',
+        desc:"Creativity awaits!! Looking for a chance to stand out and show off your unique design style? Then this is the chance to let your artistic side shine!.Introducing Radiant by IHRD Tharang- the ultimate online UI/UX designathon. ",
+        link:"https://konfhub.com/radiant-thrng?utm_source=tharangweb",
+        prize:"₹10,000",
+        fee:"₹399 (Team)",
+        available:"Open"
+    },
     {
         id: 8,
         title: 'SHOTS TO SHORT',

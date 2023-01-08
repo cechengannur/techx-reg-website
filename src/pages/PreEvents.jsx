@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import {React , Component, useEffect} from 'react';
 import PageTitle from '../components/pagetitle';
 import Table from 'react-bootstrap/Table';
-import axios from 'axios';
+// import axios from 'axios';
 
 export default class Preitems extends Component {
 
