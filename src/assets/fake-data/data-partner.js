@@ -19,59 +19,69 @@ import img17 from '../images/logo/logo17.png'
 import img18 from '../images/logo/logo18.png'
 const dataPartner = [
     {
-        img: img1,
+        src: img1,
+        width: 4,
+        height: 3
     },
     {
-        img: img2,
+        src: img2,
+        width: 1,
+        height: 1,
     },
     {
-        img: img3,
+        src: img3,
+        width: 4,
+        height: 3
     },
     {
-        img: img4,
+        src: img4,
+        width: 4,
+        height:5
     },
     {
-        img: img5,
+        src: img5,
+        width: 10,
+        height: 3
     },
-    {
-        img: img6,
-    },
-    {
-        img: img7,
-    },
-    {
-        img: img8,
-    },
-    {
-        img: img9,
-    },
-    {
-        img: img10,
-    },
-    {
-        img: img11,
-    },
-    {
-        img: img12,
-    },
-    {
-        img: img13,
-    },
-    {
-        img: img14,
-    },
-    {
-        img: img15,
-    },
-    {
-        img: img16,
-    },
-    {
-        img: img17,
-    },
-    {
-        img: img18,
-    },
+    // {
+    //     img: img6,
+    // },
+    // {
+    //     img: img7,
+    // },
+    // {
+    //     img: img8,
+    // },
+    // {
+    //     img: img9,
+    // },
+    // {
+    //     img: img10,
+    // },
+    // {
+    //     img: img11,
+    // },
+    // {
+    //     img: img12,
+    // },
+    // {
+    //     img: img13,
+    // },
+    // {
+    //     img: img14,
+    // },
+    // {
+    //     img: img15,
+    // },
+    // {
+    //     img: img16,
+    // },
+    // {
+    //     img: img17,
+    // },
+    // {
+    //     img: img18,
+    // },
 ]
 
 export default dataPartner;

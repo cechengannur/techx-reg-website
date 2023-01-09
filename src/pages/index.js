@@ -17,6 +17,8 @@ import BlogDetails from "./BlogDetails";
 import Contact from "./Contact";
 import TeamDetail from "./TeamDetail";
 import PreEvents from "./PreEvents";
+import GalleryPage from "./GalleryPage";
+
 
 const routes = [
   { path: '/', component: <HomeOne />},
@@ -26,7 +28,7 @@ const routes = [
   { path: '/pre-events', component: <PreEvents/>},
   //external redirect to other website with new tab
   { path: '/arcade', component: <RedirectPage url="https://s3.us-west-2.amazonaws.com/arcadev1.0.0/Arcade_v1.0.5/index.html" />},
-
+  {path: '/gallery', component:<GalleryPage/>},
   // { path: '/', component: <ComingSoon />},
   // { path: '/home-v2', component: <HomeTwo />},
   // { path: '/home-v3', component: <HomeThree />},
