@@ -1,22 +1,5 @@
-// import img1 from '../images/common/game-valorant.jpeg'
-// import img2 from '../images/common/game-roadToGlory.jpeg'
-// import img3 from '../images/common/game-compcod.jpeg'
-// import img4 from '../images/common/comp-survival.jpeg'
-// import img5 from '../images/common/con-veznto.jpeg'
-// import img6 from '../images/common/hack-conquerer.jpeg'
-// import img7 from '../images/common/con-auxpo.jpeg'
-// import img8 from '../images/common/comp-shot.jpeg'
+
 import { region } from 'caniuse-lite';
-// import img4 from '../images/common/img4.jpg'
-// import img5 from '../images/common/img5.jpg'
-// import img6 from '../images/common/img6.jpg'
-// import img7 from '../images/common/img7.jpg'
-// import img9 from '../images/common/img9.jpg'
-// import img10 from '../images/common/img10.jpg'
-// import img11 from '../images/common/img11.jpg'
-// import img12 from '../images/common/img12.jpg'
-// import img13 from '../images/common/img13.jpg'
-// import img14 from '../images/common/img14.jpg'
 import { Link } from 'react-router-dom';
 import img9 from '../images/common/comp-radiant.jpeg'
 import img10 from '../images/common/work-vr.jpeg'
@@ -30,8 +13,6 @@ import img17 from '../images/common/work-cloud.jpeg'
 import img18 from '../images/common/work-ds.jpeg'
 import img19 from '../images/common/work-ar.jpeg'
 
-
-
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
 const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/game-compcod.jpeg";
@@ -43,6 +24,7 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+
     {
         id: 19,
         title: 'AR & Game Development',
@@ -161,7 +143,7 @@ const dataProject = [
         desc:"Creativity awaits!! Looking for a chance to stand out and show off your unique design style? Then this is the chance to let your artistic side shine!.Introducing Radiant by IHRD Tharang- the ultimate online UI/UX designathon. ",
         link:"https://konfhub.com/radiant-thrng?utm_source=tharangweb",
         prize:"₹10,000",
-        fee:"₹399 (Team)",
+        fee:"₹299 (Team)",
         available:"Open"
     },
     {
