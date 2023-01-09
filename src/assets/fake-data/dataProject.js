@@ -124,17 +124,17 @@ const dataProject = [
         fee:"₹600",
         available:"Open"
     },
-    {
-        id: 10,
-        title: 'Virtual Reality ',
-        img: img10,
-        category: '#workshop',
-        desc:"IHRD Tharang, in collaboration with Pacelab, cordially invites you to our Virtual Reality workshop. This is a special chance to learn about the most recent advancements in VR and to experiment with various VR devices and applications. ",
-        link:"https://konfhub.com/vr-tharang?utm_source=tharangweb",
-        prize:"NA",
-        fee:"₹650",
-        available:"Open"
-    },
+//     {
+//         id: 10,
+//         title: 'Virtual Reality ',
+//         img: img10,
+//         category: '#workshop',
+//         desc:"IHRD Tharang, in collaboration with Pacelab, cordially invites you to our Virtual Reality workshop. This is a special chance to learn about the most recent advancements in VR and to experiment with various VR devices and applications. ",
+//         link:"https://konfhub.com/vr-tharang?utm_source=tharangweb",
+//         prize:"NA",
+//         fee:"₹650",
+//         available:"Open"
+//     },
     {
         id: 9,
         title: 'Radiant',
