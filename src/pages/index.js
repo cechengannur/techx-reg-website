@@ -18,7 +18,8 @@ import Contact from "./Contact";
 import TeamDetail from "./TeamDetail";
 import PreEvents from "./PreEvents";
 import GalleryPage from "./GalleryPage";
-
+import DownloadsPage from "./DownloadsPage";
+import Guidelines from "./Guidelines";
 
 const routes = [
   { path: '/', component: <HomeOne />},
@@ -28,7 +29,10 @@ const routes = [
   { path: '/pre-events', component: <PreEvents/>},
   //external redirect to other website with new tab
   { path: '/arcade', component: <RedirectPage url="https://s3.us-west-2.amazonaws.com/arcadev1.0.0/Arcade_v1.0.5/index.html" />},
+  { path: '/register', component: <RedirectPage url="http://min.lc/NOsvJ" />},
   {path: '/gallery', component:<GalleryPage/>},
+  {path: '/download', component:<DownloadsPage/>},
+  {path: '/guidelines', component:<Guidelines/>},
   // { path: '/', component: <ComingSoon />},
   // { path: '/home-v2', component: <HomeTwo />},
   // { path: '/home-v3', component: <HomeThree />},
@@ -42,7 +46,7 @@ const routes = [
   { path: '/road-map-v2', component: <RoadMapTwo />},
   { path: '/blog', component: <Blog />},
   { path: '/blog-details', component: <BlogDetails />},
-  { path: '/team-details', component: <TeamDetail />},
+  { path: '/team-details/:id', component: <TeamDetail />},
 
 ]
 
