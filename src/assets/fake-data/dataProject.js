@@ -12,6 +12,8 @@ import img16 from '../images/common/work-flutter.jpeg'
 import img17 from '../images/common/work-cloud.jpeg'
 import img18 from '../images/common/work-ds.jpeg'
 import img19 from '../images/common/work-ar.jpeg'
+import img20 from '../images/common/work-harley.jpg'
+import img21 from '../images/common/work-factory.jpg'
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
@@ -25,6 +27,28 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 const dataProject = [
 
+    {
+        id: 21,
+        title:'Factory Automation with Siemens TIA',
+        img: img21,
+        category: '#workshop',
+        desc:"IHRD Tharang cordially welcomes you to join an informative workshop on Factory Automation with Siemens TIA to learn and expand your knowledge. This workshop will be conducted by Industrus Tech.",
+        link:"https://konfhub.com/Siemenssoftware-tharang?utm_source=tharangweb",
+        prize:"NA",
+        fee:"₹1000",
+        available:"Open"
+    },
+    {
+        id: 20,
+        title: 'Harley Davidson Design Analysis & Tuning.',
+        img: img20,
+        category: '#workshop',
+        desc:"Tech offers you the chance to get a hands-on approach to Learning the legacy of Harley Davidson Design Analysis & Tuning. ",
+        link:"https://konfhub.com/harley-tharang?utm_source=tharangweb",
+        prize:"NA",
+        fee:"₹1000",
+        available:"Open"
+    },
     {
         id: 19,
         title: 'AR & Game Development',
