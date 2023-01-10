@@ -1,6 +1,6 @@
 import React from 'react';
 import PageTitle from '../components/pagetitle';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Team from '../features/team/home-v2';
 import dataTeam from '../assets/fake-data/data-team';
 import Partner from '../features/partner';
@@ -8,6 +8,9 @@ import dataPartner from '../assets/fake-data/data-partner';
 
 
 function TeamDetail(props) {
+    const {id} = useParams();
+    const team= dataTeam.find((team) => team.id === parseInt(id));
+
     return (
         <div>
             <PageTitle title='Our Team' />
@@ -17,26 +20,22 @@ function TeamDetail(props) {
                     <div className="row">
                         <div className="col-xl-5 col-lg-5 col-md-5">
                             <div className="image-details" data-aos="fade-right" data-aos-duration="800">
-                                <img src={require('../assets/images/common/team12.png')} alt="" />
+                                <img src={team.img} alt="" />
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-7">
                             <div className="info-detail" data-aos="fade-left" data-aos-duration="800">
-                                <p className="sub">DEV DEVELOPEMENT</p>
-                                <h4 className="name">John Smith</h4>
+                                <p className="sub">{team.position}</p>
+                                <h4 className="name">{team.name}</h4>
                                 <div className="box">
                                     <div className="h7">Some Thing About him</div>
-                                    <p>Purus, laoreet dui augue ut euismod. Elementum ante sociis volutpat tellus enim, 
-                                        nisl consectetur mauris. Venenatis congue id quis eget viverra. Vestibulum, 
-                                        justo, euismod congue feugiat eget fames gravida posuere. </p>
-                                    <p>Purus, laoreet dui augue ut euismod. Elementum ante sociis volutpat tellus enim, nisl consectetur mauris. 
-                                        Venenatis congue id quis eget viverra. Vestibulum, justo.</p>
+                                    <p>{team.bio} </p>
+                                    <p>{team.bio_2}</p>
                                 </div> 
                                 <div className="box contact">
                                     <div className="h7">Contact</div>
-                                    <p>Cecilia Chapman 711-2880 Nulla St.Mankato United States
-                                        (257) 563-7401</p>
-                                    <p>Info.avitex@gmail.com</p>
+                                    <p>{team.mob}</p>
+                                    <p>{team.email}</p>
                                 </div> 
                                 <ul className="social">
                                     <li><Link to="#">

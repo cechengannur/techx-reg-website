@@ -61,23 +61,21 @@ function NftItemDetails(props) {
                                     <span className="effect">Register</span>
                                 </Link>  
                                 <div className="list-product">
-                                    <div className="box corner-box">
-                                        <p>Prize</p>
-                                        <h6 className="h7">{project.prize}</h6>
-                                    </div>
-                                    <div className="box corner-box">
-                                        <p>Fee</p>
-                                        <h6 className="h7">{project.fee}</h6>
-                                    </div>
-                                    <div className="box corner-box">
-                                        <p>Available</p>
-                                        <h6 className="h7">{project.available}</h6>
-                                    </div>
+                                
+                                    {/* //map project.general which is an matrix  */}
+                                    {project.general.map((item, index) => {
+                                        return (
+                                            <div className="box corner-box">
+                                                <p>{item[0].charAt([0]).toUpperCase() + item[0].slice(1)}</p>
+                                                <h6 className="h7">{item[1]}</h6>
+                                            </div>
+                                        )
+                                    })}
+                                            
+
+                                
+                                    
                                     {/* <div className="box corner-box">
-                                        <p>Face</p>
-                                        <h6 className="h7">One Eye</h6>
-                                    </div>
-                                    <div className="box corner-box">
                                         <p>Food</p>
                                         <h6 className="h7">Potato Chip</h6>
                                     </div>

@@ -1,34 +1,39 @@
 const dataFaq = [
     {
         id: 1,
-        title: 'What are the NFTs?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
-        show: 'show'
+        title: 'When and where will be the IHRD Tharang\'23 Tech Fest?',
+        content: 'The tech festival will take place on from 3rd to 6th of February at College of Engineering Chengannur.',
+        
     },
     {
         id: 2,
-        title: 'How do i get NFTs?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
+        title: 'Who can take part?',
+        content: 'This fest is open to the public. Anyone can participate, from high school to college students to people from non-STEM backgrounds.',
+        
     },
     {
         id: 3,
-        title: 'How can we buy your NFTs?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
+        title: 'How many companies will be at the Job fair?',
+        content: 'We are expecting more than 100+ companies to be at the job fair.',
+        
     },
     {
         id: 4,
-        title: 'Who are the team behind the project?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
+        title: 'Will I get a participation certificate?',
+        content: 'Yes, every participant will get a certificate of participation.',
+        
     },
     {
         id: 5,
-        title: 'How can we buy your NFTs?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
+        title: 'Is there food and accommodation available?',
+        content: 'Yes, food and accommodation are available. You will have to select the options while you register for an event.',
+
     },
     {
         id: 6,
-        title: 'Who are the team behind the project?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
+        title: 'Can we attend more than one workshops?',
+        content: 'Yes, you can attend as many workshops as you want.',
+        
     },
 ]
 

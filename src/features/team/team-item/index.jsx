@@ -16,7 +16,7 @@ function TeamItem(props) {
                 <img src={item.img} alt="Crybox" />
             </div>
             <div className="content">
-                <div className="h8"><a href="/team-details">{item.name}</a></div>
+                <div className="h8"><a href={`/team-details/${item.id}`}>{item.name}</a></div>
                 <p>{item.position}</p>
                 <ul className="social">
                     {
