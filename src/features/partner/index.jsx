@@ -23,7 +23,7 @@ function Partner(props) {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="tf-title" data-aos="fade-up" data-aos-duration="800">
-                            <p className="h8 sub-title">partnerS</p>
+                            <p className="h8 sub-title">Sponsors</p>
                             <h4 className="title">CYBOX INVESTORS</h4>
                         </div>
                     </div>
