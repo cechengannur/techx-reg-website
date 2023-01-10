@@ -32,7 +32,7 @@ const Guidelines = (props) => {
                                     <br/>
                                     <h4 className="title">Read Carefully.</h4>
                                 </div>
-                                <p className="mr-40">1. The Job fiesta will be conducted on 6th February 2022 @ College of Engineering Chengannur.</p>
+                                <p className="mr-40">1. The Job fiesta will be conducted on 6th February 2023 @ College of Engineering Chengannur.</p>
                                 <p className="mr-40">2. Only registered participants will be permitted to attend the job fair</p>
                                 <p className="mr-40">3. Candidates are asked to correctly fill out the form on the website; any inaccuracies in the information entered cannot be corrected later</p>
                                 <p className="mr-40">4. Research the companies that will be attending the job fair ahead of time. This will help you tailor your resume and cover letter to each company and prepare for any potential interviews</p>
@@ -67,6 +67,13 @@ disqualification from the job fair.</p>
                                                 <span className="effect">Accept</span>
                                             </button>
                                 </Link>
+
+                                <h6 className="mt-30">Contact Us : Job Fair</h6>
+                                <ol mt-20 pl-0>
+                                    <li>Jobin Abraham Chacko: +91 9745617721</li>
+                                    <li>Chandan Kurup: +91 8714527562</li>
+                                    <li>Arpan Susheel Cherian: +91 8590767752</li>
+                                </ol>
                             
                         </div>
                         
