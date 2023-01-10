@@ -36,7 +36,7 @@ const Guidelines = (props) => {
                                 <p className="mr-40">2. Only registered participants will be permitted to attend the job fair</p>
                                 <p className="mr-40">3. Candidates are asked to correctly fill out the form on the website; any inaccuracies in the information entered cannot be corrected later</p>
                                 <p className="mr-40">4. Research the companies that will be attending the job fair ahead of time. This will help you tailor your resume and cover letter to each company and prepare for any potential interviews</p>
-                                <p className="mr-40">5. Students are requested to dress professionally.</p>
+                                <p className="mr-40">5. Candidates are requested to dress professionally.</p>
                                 <p className="mr-40">6. Be prepared to talk about your skills and experience. Employers may ask you to describe your relevant coursework or previous jobs.</p>
                                 <p className="mr-40">7. Candidates can only sit for companies for which they meet the company's eligibility criteria</p>
                                 <p className="mr-40">8. During verification, candidates should ensure that they have all of the essential documents (10,12, graduation marksheets/certificates, etc.)..</p>
@@ -44,7 +44,7 @@ const Guidelines = (props) => {
                                 <p className="mr-40">10. Candidates should carry 8-10 resumes, and sufficient passport size photographs.</p>
                                 <p className="mr-40">11. Candidates should be prepared to answer questions about their skills and experience.</p>
                                 <p className="mr-40">12. Spot registration will be permitted only for non-technical roles; registration for technical roles must be completed prior to the deadline.</p>
-                                <p className="mr-40">13. Students should bring a valid identification card of the respective college to the job fair</p>
+                                <p className="mr-40">13. Candidates should bring a valid identification card of the respective college/ a valid govt ID such as Aadhar card, Driving licence to the job fair</p>
                                 <p className="mr-40">14. The organizers will not be held liable if the candidate fails to arrive on time or fails to bring any of the above-mentioned documents.</p>
                                 <p className="mr-40">15. Any malpractices or inappropriate behavior may result in a candidate's complete
 disqualification from the job fair.</p>
