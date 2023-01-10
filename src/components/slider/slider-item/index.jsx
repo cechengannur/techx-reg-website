@@ -17,6 +17,7 @@ function SliderItem(props) {
 
     const [modalShow, setModalShow] = useState(false);
 
+    
     return (
         <div className={`box-slider ${item.classAction}`}>
             <img className='bg-slider' src={item.bgImg} alt="cybox" />
@@ -27,15 +28,27 @@ function SliderItem(props) {
                             <div className="content-box">
                                 <h1 className="title">{item.title}</h1>
                                 <p className="sub-title">{item.desc}</p>
-                                {/* <div className="wrap-btn">
-                                    <Link to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">connect wallet</span></Link>
-                                    <button to="#" className="tf-button btn-effect popup-youtube" onClick={()=> setOpen(true)}>
-                                    
-                                        <span className="boder-fade"></span>                                     
-                                        <span className="effect">watch video</span>
-                                    </button>
-                                    
-                                </div> */}
+                                <div className="wrap-btn">
+                                {item.general.map((item, index) => {
+                                        return (
+                                            // <div className="box corner-box">
+                                            //     <p>{item[0].charAt([0]).toUpperCase() + item[0].slice(1)}</p>
+                                            //     <h6 className="h7">{item[1]}</h6>
+                                            // </div>
+                                        
+                                            
+                                            <>
+                                            <Link to={item[1]} className="tf-button btn-effect popup-youtube" onClick={()=> setOpen(true)}>
+                                            
+                                                <span className="boder-fade"></span>                                     
+                                                <span className="effect">{item[0].charAt([0]).toUpperCase() + item[0].slice(1)}</span>
+                                            </Link>
+        
+                                            
+                                        </>
+                                        )
+                                    })}
+                                </div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">

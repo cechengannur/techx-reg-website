@@ -128,17 +128,22 @@
 
                     .content-box {
                         padding-left: 0;
-                        text-align: center;
+                        
 
                         p {
                             padding-right: 0;
                         }
 
                         .wrap-btn {
-                            justify-content: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            padding:8em;
                         }
                     }
+                    
                 }
+            
                 &:nth-child(2) {
                     display: none;
                 }
