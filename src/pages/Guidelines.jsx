@@ -69,7 +69,7 @@ disqualification from the job fair.</p>
                                 </Link>
 
                                 <h6 className="mt-30">Contact Us : Job Fair</h6>
-                                <ol mt-20 pl-0>
+                                <ol mt-20>
                                     <li>Jobin Abraham Chacko: +91 9745617721</li>
                                     <li>Chandan Kurup: +91 8714527562</li>
                                     <li>Arpan Susheel Cherian: +91 8590767752</li>

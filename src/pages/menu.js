@@ -61,11 +61,17 @@ const menus = [
     },
     {
         id: 3,
+        name: 'Job Fair',
+        links: '/guidelines',
+    },
+
+    {
+        id: 4,
         name: 'Gallery',
         links: '/gallery',
     },
     {
-        id: 4,
+        id: 5,
         name: 'Events',
         links: '/events',  ///'nft-item'
         // namesub: [
@@ -82,13 +88,13 @@ const menus = [
         // ],
     },
     {
-        id: 5,
+        id: 6,
         name: 'Pre-Events',
         links: '/pre-events',
 
     },
     {
-        id: 6,
+        id: 7,
         name: 'Arcade',
         links: '/arcade',
     },
@@ -110,7 +116,7 @@ const menus = [
     //     ],
     // },
     {
-        id: 7,
+        id: 8,
         name: 'Contact',
         links: '/contact'
     },
