@@ -10,16 +10,16 @@ import dataProject from '../assets/fake-data/dataProject';
 import dataAbout from '../assets/fake-data/data-about';
 // import RoadMap from '../features/roadmap';
 // import dataRoadmap from '../assets/fake-data/data-roadmap';
-// import Work from '../features/work';
-// import dataWork from '../assets/fake-data/data-work';
-// import Team from '../features/team';
-// import dataTeam from '../assets/fake-data/data-team';
+import Work from '../features/work';
+import dataWork from '../assets/fake-data/data-work';
+import Team from '../features/team';
+import dataTeam from '../assets/fake-data/data-team';
 import Blog from '../features/blog';
 import dataBlog from '../assets/fake-data/data-blog';
-// import Partner from '../features/partner';
-// import dataPartner from '../assets/fake-data/data-partner';
-// import FAQ from '../features/faq';
-// import dataFaq from '../assets/fake-data/data-faq';
+import Partner from '../features/partner';
+import dataPartner from '../assets/fake-data/data-partner';
+import FAQ from '../features/faq';
+import dataFaq from '../assets/fake-data/data-faq';
 
 
 function HomeOne(props) {
@@ -34,15 +34,15 @@ function HomeOne(props) {
 
         {/* <RoadMap data={dataRoadmap} /> */}
 
-        {/* <Work data={dataWork} /> */}
+        {/* <Work data={dataWork} />
 
-        {/* <Team data={dataTeam} /> */}
+        <Team data={dataTeam} /> */}
 
         <Blog data={dataBlog} />
 
         {/* <Partner data={dataPartner} /> */}
 
-        {/* <FAQ data={dataFaq} /> */}
+        <FAQ data={dataFaq} />
         
         </div>
     );

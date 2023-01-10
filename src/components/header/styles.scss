@@ -12,7 +12,7 @@
     background-color: transparent;
     @include flex(center,space-between);   
     #site-header-inner {
-        @include flex(center,flex-start);
+        @include flex(center,center);
         width: $w100;
         .tf-button {
             margin-left: auto;
@@ -26,8 +26,11 @@
     }
     .main-nav {
         position: absolute;
-        left: 38%;
-        top: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        top: 120%;
+        
+        
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
