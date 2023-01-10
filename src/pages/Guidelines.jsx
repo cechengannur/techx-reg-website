@@ -60,7 +60,7 @@ disqualification from the job fair.</p>
                             
                             
                                 <Link to="/"><button className="tf-button btn-effect popup-youtube mt-20" disabled={!checked} onClick={()=>{
-                                    window.open('https://www.yepdesk.com/ihrd-tharang-23', '_blank');
+                                    window.open('http://min.lc/oirgn', '_blank');
                                 }} >
                                             
                                                 <span className="boder-fade"></span>                                     
