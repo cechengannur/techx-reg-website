@@ -319,7 +319,7 @@ const dataProject = [
         category: '#game',
         desc:"Blades of grass flying with every kick, a quick and loud heartbeat, and an irresistible desire for triumph define both gamers and sportsmen. Rekindle your football passion and prepare your teams for the highly anticipated eFootball tournament. IHRD Tharang warmly invites each one of you to the first edition of eFootball - Road to Glory. So what are you waiting for? Coin your teams and get ready to compete and showcase your skills on the virtual pitch. ⚽",
         link:"https://konfhub.com/road-to-glory?utm_source=tharangweb",
-        general: [['prize', '5,000'], ['fee', '₹25'], ['available', 'Open']],
+        general: [['prize', '5,000'], ['fee', '₹25'], ['available', 'Closed']],
     },
     {
         id: 5,
@@ -328,7 +328,7 @@ const dataProject = [
         category: '#game',
         desc:"Excited about online tactical battle shooter games? Then brace for an exhilarating Valorant showdown - a team-based tactical PVP where your shooting skills, strategy, and team spirit are put to the test. So, don your finest attire and arm yourself with cunning and wit, for the battle of wits is about to begin. Assemble your squad and get ready for a pulse-pounding showdown as IHRD Tharang presents the first edition of RESURENZE. 🔴 Note : A team must have 5 members.",
         link:"http://konfhub.com/resurenze-tharang?utm_source=tharangweb",
-        general: [['prize', '8,000'], ['fee', '₹250 (Team)'], ['available', 'Open']],
+        general: [['prize', '8,000'], ['fee', '₹250 (Team)'], ['available', 'Closed']],
     },
     {
         id: 4,
