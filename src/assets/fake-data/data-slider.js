@@ -24,35 +24,11 @@ const dataSlider = [
         id: 2,
         title: 'Job Fiesta! Feb 6TH',
         desc : 'With over 150 top companies and 1000+ job opportunities, this job fair is the perfect place to take the first step toward your dream job. ',
-        general: [['Candidates', '/guidelines'], ['Companies', '/register']],
+        general: [['Candidates', '/guidelines'], ['Companies', '/register'], ['Company-list', '/company-list']],
         img: img2,
         classAction: 'two',
         bgImg: bgImg2,
     },
-    
-    
-    // {
-    //     id: 3,
-    //     title: 'CYbox nft collectionS for everyone',
-    //     desc : 'Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.',
-    //     bgImg: img2,
-    //     classAction: 'two'
-    // },
-    // {
-    //     id: 4,
-    //     title: 'CYbox nft collectionS for everyone',
-    //     desc : 'Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.',
-    //     bgImg: bgImg1,
-    //     img : img1
-    // },
-    // {
-    //     id: 5,
-    //     title: 'CYbox nft collectionS for everyone',
-    //     desc : 'Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.',
-    //     bgImg: bgImg2,
-    //     img : img2,
-    // },
-
 ]
 
 export default dataSlider;
