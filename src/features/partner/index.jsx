@@ -23,12 +23,13 @@ function Partner(props) {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="tf-title" data-aos="fade-up" data-aos-duration="800">
-                            <p className="h8 sub-title">Sponsors</p>
-                            <h4 className="title">CYBOX INVESTORS</h4>
+                            <h4 className="title">Sponsors</h4>
                         </div>
                     </div>
-                    <div className="col-md-12">
-                        <div className="item-parner" data-aos="fade-up" data-aos-duration="800">
+                    <div className="col-md-18">
+                        <div className=" item-parner" data-aos="fade-up" data-aos-duration="800">
+
+                        <p className="h7 sub-title">Silver</p>
                             <Swiper
                                 modules={[  Scrollbar, A11y ]}
                                     spaceBetween={60}
@@ -46,10 +47,39 @@ function Partner(props) {
                                     }}
                                 >
                                 {
-                                    data.slice(0,9).map((item,idx) => (
+                                    data.slice(0,2).map((item,idx) => (
                                         <SwiperSlide key={idx}>
                                             <div className="image">
-                                                <img src={item.img} alt="Crybox" />
+                                                <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
+                                            </div>
+                                        </SwiperSlide>
+                                        
+                                    ))
+                                }
+                            </Swiper>
+
+                            
+                            <Swiper
+                                modules={[  Scrollbar, A11y ]}
+                                    spaceBetween={60}
+                                    scrollbar={{ draggable: true }}
+                                    breakpoints={{
+                                        0: {
+                                            slidesPerView: 2,
+                                            },
+                                        767: {
+                                            slidesPerView: 4,
+                                        },
+                                        991: {
+                                            slidesPerView: 6,
+                                        },
+                                    }}
+                                >
+                                {
+                                    data.slice(2,5).map((item,idx) => (
+                                        <SwiperSlide key={idx}>
+                                            <div className="image">
+                                            <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
                                             </div>
                                         </SwiperSlide>
                                         
@@ -73,37 +103,10 @@ function Partner(props) {
                                     }}
                                 >
                                 {
-                                    data.slice(9,17).map((item,idx) => (
+                                    data.slice(5,8).map((item,idx) => (
                                         <SwiperSlide key={idx}>
                                             <div className="image">
-                                                <img src={item.img} alt="Crybox" />
-                                            </div>
-                                        </SwiperSlide>
-                                        
-                                    ))
-                                }
-                            </Swiper>
-                            <Swiper
-                                modules={[  Scrollbar, A11y ]}
-                                    spaceBetween={60}
-                                    scrollbar={{ draggable: true }}
-                                    breakpoints={{
-                                        0: {
-                                            slidesPerView: 2,
-                                            },
-                                        767: {
-                                            slidesPerView: 4,
-                                        },
-                                        991: {
-                                            slidesPerView: 6,
-                                        },
-                                    }}
-                                >
-                                {
-                                    data.slice(10,18).map((item,idx) => (
-                                        <SwiperSlide key={idx}>
-                                            <div className="image">
-                                                <img src={item.img} alt="Crybox" />
+                                            <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
                                             </div>
                                         </SwiperSlide>
                                         

@@ -1,28 +1,28 @@
 const menus = [
+    // {
+    //     id: 1,
+    //     name: 'Home',
+    //     links: '/',
+    //     // namesub: [
+    //     //     {
+    //     //         id: 1,
+    //     //         sub: 'Home',
+    //     //         links: '/'
+    //     //     },
+    //     //     {
+    //     //         id: 2,
+    //     //         sub: 'Home 02',
+    //     //         links: '/home-v2'
+    //     //     },
+    //     //     {
+    //     //         id: 3,
+    //     //         sub: 'Home 03',
+    //     //         links: '/home-v3'
+    //     //     },
+    //     // ]
+    // },
     {
         id: 1,
-        name: 'Home',
-        links: '/',
-        // namesub: [
-        //     {
-        //         id: 1,
-        //         sub: 'Home',
-        //         links: '/'
-        //     },
-        //     {
-        //         id: 2,
-        //         sub: 'Home 02',
-        //         links: '/home-v2'
-        //     },
-        //     {
-        //         id: 3,
-        //         sub: 'Home 03',
-        //         links: '/home-v3'
-        //     },
-        // ]
-    },
-    {
-        id: 2,
         name: 'About',
         links: '/about',
         // namesub: [
@@ -60,6 +60,23 @@ const menus = [
         // ]
     },
     {
+        id: 2,
+        name: 'Events',
+        links: '/events',  ///'nft-item'
+        // namesub: [
+        //     {
+        //         id: 1,
+        //         sub: 'Nft Item',
+        //         links: '/nft-item'
+        //     },
+        //     {
+        //         id: 1,
+        //         sub: 'Event Details',
+        //         links: '/nft-item-details'
+        //     },
+        // ],
+    },
+    {
         id: 3,
         name: 'Job Fair',
         links: '/',
@@ -81,29 +98,17 @@ const menus = [
                 }
         ],
     },
-
     {
         id: 4,
-        name: 'Gallery',
-        links: '/gallery',
+        name: 'Downloads',
+        links: '/download',
     },
     {
         id: 5,
-        name: 'Events',
-        links: '/events',  ///'nft-item'
-        // namesub: [
-        //     {
-        //         id: 1,
-        //         sub: 'Nft Item',
-        //         links: '/nft-item'
-        //     },
-        //     {
-        //         id: 1,
-        //         sub: 'Event Details',
-        //         links: '/nft-item-details'
-        //     },
-        // ],
+        name: 'Gallery',
+        links: '/gallery',
     },
+    
     {
         id: 6,
         name: 'Pre-Events',

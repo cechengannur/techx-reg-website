@@ -1,5 +1,5 @@
 import React from 'react';
-
+import TshirtImg from "../assets/images/extra/tharang-t-shirt.png";
 import '../scss/components/section.scss';
 import '../scss/components/box.scss';
 import Slider from '../components/slider';
@@ -20,6 +20,7 @@ import Partner from '../features/partner';
 import dataPartner from '../assets/fake-data/data-partner';
 import FAQ from '../features/faq';
 import dataFaq from '../assets/fake-data/data-faq';
+import { NikeCard } from '../components/nikeCard';
 
 
 function HomeOne(props) {
@@ -29,6 +30,8 @@ function HomeOne(props) {
         <Slider data={dataSlider} />
 
         <About data={dataAbout} />
+
+        {/* <NikeCard data={TshirtImg} link="http://min.lc/oirgn"/> */}
 
         <Project data={dataProject} />
 
@@ -40,7 +43,7 @@ function HomeOne(props) {
 
         <Blog data={dataBlog} />
 
-        {/* <Partner data={dataPartner} /> */}
+        <Partner data={dataPartner} />
 
         <FAQ data={dataFaq} />
         

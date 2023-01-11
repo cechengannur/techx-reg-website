@@ -1,6 +1,6 @@
 
-import img1 from '../images/logo/logo1.png'
-import img2 from '../images/logo/logo2.png'
+import img1 from '../images/logo/silver-spektra.png'
+import img2 from '../images/logo/silver-edurupt.png'
 import img3 from '../images/logo/logo3.png'
 import img4 from '../images/logo/logo4.png'
 import img5 from '../images/logo/logo5.png'
@@ -19,30 +19,26 @@ import img17 from '../images/logo/logo17.png'
 import img18 from '../images/logo/logo18.png'
 const dataPartner = [
     {
-        src: img1,
-        width: 4,
-        height: 3
+        img: img1,
+        link:'https://spektrasystems.com/'
     },
     {
-        src: img2,
-        width: 1,
-        height: 1,
+        img: img2,
+        link:'https://edurupt.com/'
+
     },
-    {
-        src: img3,
-        width: 4,
-        height: 3
-    },
-    {
-        src: img4,
-        width: 4,
-        height:5
-    },
-    {
-        src: img5,
-        width: 10,
-        height: 3
-    },
+    // {
+    //     img: img3,
+
+    // },
+    // {
+    //     img: img4,
+
+    // },
+    // {
+    //     img: img5,
+
+    // },
     // {
     //     img: img6,
     // },

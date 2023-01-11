@@ -15,7 +15,10 @@ function Project(props) {
     return (
         <section className="tf-section tf-project">
             <div className="container-fluid">
-
+            <div className="tf-title mb-60">
+                        
+                        <h4 className="title">Events Happening Right Now!</h4>
+                    </div>
             <Swiper
                 className='swiper-portfolio s1'
                 modules={[ Autoplay ]}

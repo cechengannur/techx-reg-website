@@ -60,6 +60,9 @@ function Project(props) {
                                     <li data-toggle="modal" data-target="#delete_client" onClick={() => setDatas(data)}>All</li>
                                 </Dropdown.Item>
                                 <Dropdown.Item href="#">
+                                    <li data-toggle="modal" data-target="#edit_client" onClick={() => categoryFilter('#application')}>Applications</li>
+                                </Dropdown.Item>
+                                <Dropdown.Item href="#">
                                     <li data-toggle="modal" data-target="#delete_client" onClick={() => categoryFilter('#game')}>Games</li>
                                 </Dropdown.Item>
                                 <Dropdown.Item href="#">
