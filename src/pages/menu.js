@@ -74,6 +74,11 @@ const menus = [
                     sub: 'Companies',
                     links: '/register'
                 },
+                {
+                    id: 3,
+                    sub: 'Company-list',
+                    links: '/company-list'
+                }
         ],
     },
 

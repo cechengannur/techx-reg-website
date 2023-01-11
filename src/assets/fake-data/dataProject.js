@@ -1,4 +1,3 @@
-
 import { region } from 'caniuse-lite';
 import { Link } from 'react-router-dom';
 import img9 from '../images/common/comp-radiant.jpeg'
@@ -26,7 +25,9 @@ import img30 from '../images/common/work-matlab.jpeg'
 import img31 from '../images/common/work-structure.jpeg'
 import img32 from '../images/common/work-web.jpeg'
 import img33 from '../images/common/work-hacking.jpeg'
-// import img34 from '../images/common/work-sample.jpeg'
+import img34 from '../images/common/comp-key.jpeg'
+import img35 from '../images/common/comp-center.jpeg'
+import img36 from '../images/common/comp-chess.jpeg'
 
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
@@ -40,15 +41,33 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
-    // {
-    //     id: 34,
-    //     title: 'Sample',
-    //     img: img34,
-    //     category: '#workshop',
-    //     desc:"IHRD THARANG is here with a Workshop on Ethical Hacking, where you'll learn the basics of ethical hacking, including the different security tools used, and how to stay safe online.",
-    //     link:"https://konfhub.com/Ethicalhacking?utm_source=tharangweb",
-    //     general: [['points', '40'], ['fee', '₹650'], ['available', 'Open']]
-    // },
+    {
+        id: 36,
+        title: "QUEEN'S GAMBIT",
+        img: img36,
+        category: '#competition',
+        desc:"IHRD Tharang is enlivened to bring up your brilliance to the table. The potent weapon that develops curiosity & confidence! Checkmate the opponent's king by placing it under an inescapable threat of capture.",
+        link:"https://konfhub.com/queens-gambit?utm_source=tharangweb",
+        general: [['prize', '10000'], ['fee', '₹80'], ['available', 'Open']]
+    },
+    {
+        id: 35,
+        title: 'CENTER-A-DIV',
+        img: img35,
+        category: '#competition',
+        desc:"Show off your CSS skills and win big prizes! coz IHRD Tharang brings you Centre-A-Div competition.Put your ability to read and interpret code, recognize specific elements, and center divs to the test!  PASS the expectations, SET the standards and KILL the competition.",
+        link:"https://konfhub.com/center-a-div?utm_source=tharangweb",
+        general: [['prize', '5000'], ['fee', 'Free'], ['available', 'Open']]
+    },
+    {
+        id: 34,
+        title: 'KEY MISMASH',
+        img: img34,
+        category: '#competition',
+        desc:"Step into the realm of Key Mismash, a game that tests your keyboard mastery!.With a QWERTY design that's been cleverly rearranged,this challenge is no walk in the park. Prove your proficiency and join us for a thrilling round of Key Mismash, where the competition never ceases!",
+        link:"https://konfhub.com/key-mismash?utm_source=tharangweb",
+        general: [['prize', '8000'], ['fee', '₹80'], ['available', 'Open']]
+    },
     {
         id: 33,
         title: 'Ethical Hacking',

@@ -30,6 +30,7 @@ const routes = [
   //external redirect to other website with new tab
   { path: '/arcade', component: <RedirectPage url="https://s3.us-west-2.amazonaws.com/arcadev1.0.0/Arcade_v1.0.5/index.html" />},
   { path: '/register', component: <RedirectPage url="http://min.lc/NOsvJ" />},
+  { path: '/company-list', component: <RedirectPage url="http://min.lc/job-fair-company-list" />},
   {path: '/gallery', component:<GalleryPage/>},
   {path: '/download', component:<DownloadsPage/>},
   {path: '/guidelines', component:<Guidelines/>},
