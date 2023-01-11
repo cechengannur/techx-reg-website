@@ -26,6 +26,7 @@ import img30 from '../images/common/work-matlab.jpeg'
 import img31 from '../images/common/work-structure.jpeg'
 import img32 from '../images/common/work-web.jpeg'
 import img33 from '../images/common/work-hacking.jpeg'
+// import img34 from '../images/common/work-sample.jpeg'
 
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
@@ -39,6 +40,15 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+    // {
+    //     id: 34,
+    //     title: 'Sample',
+    //     img: img34,
+    //     category: '#workshop',
+    //     desc:"IHRD THARANG is here with a Workshop on Ethical Hacking, where you'll learn the basics of ethical hacking, including the different security tools used, and how to stay safe online.",
+    //     link:"https://konfhub.com/Ethicalhacking?utm_source=tharangweb",
+    //     general: [['points', '40'], ['fee', '₹650'], ['available', 'Open']]
+    // },
     {
         id: 33,
         title: 'Ethical Hacking',
