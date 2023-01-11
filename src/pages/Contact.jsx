@@ -33,17 +33,24 @@ function Contact(props) {
                                 <button className="tf-button btn-effect" type="submit"><span className="boder-fade"></span><span className="effect">Send Message</span></button>
                             </form>
                         </div> */}
-                        <div className="col-xl-8  col-md-12">
+                        <div className="col-xl-12  col-md-2">
                             <div className="contact-details" data-aos="fade-left" data-aos-duration="800">
-                                <div className="adress wrap-fx">
-                                    <div className="location">
+                                <div className="adress fx ">
+                                    <div className="location ">
                                         <h6>Location</h6>
                                         <ul>
                                             <li>College of Engineering Chengannur Chengannur P.O. Alapuzha District Kerala PIN 689121</li>
                                         </ul>
                                     </div>
+                                    <br/>
                                     <div className="mail">
-                                        <h6>Contact Us</h6>
+                                        <h6>Developer Contact</h6>
+                                        <ul>
+                                            <li>+91 9995-703-457</li>
+                                            <li>alwinjohn231@gmail.com</li>
+                                        </ul>
+                                        <br/>
+                                        <h6>Other</h6>
                                         <ul>
                                             <li>+91 9207-601-202</li>
                                             <li>ihrdtechfest@ceconline.edu</li>
