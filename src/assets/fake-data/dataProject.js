@@ -7,13 +7,26 @@ import img11 from '../images/common/work-ai.png'
 import img12 from '../images/common/work-plc.png'
 import img13 from '../images/common/work-git.png'
 import img14 from '../images/common/work-pcb.png'
-import img15 from '../images/common/work-deep.png'
+import img15 from '../images/common/work-deep.jpeg'
 import img16 from '../images/common/work-flutter.png'
-import img17 from '../images/common/work-cloud.png'
+import img17 from '../images/common/work-cloud.jpeg'
 import img18 from '../images/common/work-ds.png'
 import img19 from '../images/common/work-ar.png'
 import img20 from '../images/common/work-harley.png'
 import img21 from '../images/common/work-factory.png'
+import img22 from '../images/common/work-quantum.jpeg'
+import img23 from '../images/common/work-origami.jpeg'
+import img24 from '../images/common/work-python.jpeg'
+import img25 from '../images/common/work-ros.jpeg'
+import img26 from '../images/common/work-autocad.jpeg'
+import img27 from '../images/common/work-bmw.jpeg'
+import img28 from '../images/common/work-data.jpeg'
+import img29 from '../images/common/work-robot.jpeg'
+import img30 from '../images/common/work-matlab.jpeg'
+import img31 from '../images/common/work-structure.jpeg'
+import img32 from '../images/common/work-web.jpeg'
+import img33 from '../images/common/work-hacking.jpeg'
+
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
@@ -26,7 +39,114 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
-
+    {
+        id: 33,
+        title: 'Ethical Hacking',
+        img: img33,
+        category: '#workshop',
+        desc:"Ready to explore the fascinating world of ethical hacking, and what it can do for you?.IHRD THARANG is here with a Workshop on \"Ethical Hacking\", where you'll learn the basics of ethical hacking, including the different security tools used, and how to stay safe online.",
+        link:"https://konfhub.com/Ethicalhacking?utm_source=tharangweb",
+        general: [['points', '40'], ['fee', '₹650'], ['available', 'Open']]
+    },
+    {
+        id: 32,
+        title: 'Web Development',
+        img: img32,
+        category: '#workshop',
+        desc:"The popularity of web development has peaked since the pandemic. But even before all of that, we dreamed of building our websites. Well, here is your long-awaited chance to make that dream come true!.IHRD Tharang cordially invites all the dreamers to the informative Web Development workshop held by Revertech. Do bring your laptop.",
+        link:"https://konfhub.com/Webdevelopment?utm_source=tharangweb",
+        general: [['points', '40'], ['fee', '₹450'], ['available', 'Open']]
+    },
+    {
+        id: 31,
+        title: 'Structural Engineering and Structural Analysis',
+        img: img31,
+        category: '#workshop',
+        desc:"Ready to explore the basics of Structural Engineering and Structural Analysis? Then this is your chance to discover new methods and technologies!.IHRD THARANG is here with a workshop on \"Structural Engineering and Structural Analysis\" where you'll learn new techniques, broaden your knowledge and get valuable insight from experienced professionals.",
+        link:"https://konfhub.com/StructrualEngineering?utm_source=tharangweb",
+        general: [['points', '60'], ['fee', '₹1000'], ['available', 'Open']]
+    },
+    {
+        id: 30,
+        title: 'MATLAB',
+        img: img30,
+        category: '#workshop',
+        desc:"Are you thrilled about delving into the realm of technical computing and problem-solving?.Then, IHRD THARANG, in collaboration with Revertech, presents you with a workshop on \"MATLAB\",a programming platform used by engineers and scientists worldwide. At this workshop, you will learn about MATLAB, which has endless applications in the fields of data analysis, machine learning, and many more.",
+        link:"https://konfhub.com/MATLAB?utm_source=tharangweb",
+        general: [['points', '40'], ['fee', '₹300'], ['available', 'Open']]
+    },
+    {
+        id: 29,
+        title: 'Legged Robotics',
+        img: img29,
+        category: '#workshop',
+        desc:"IHRD Tharang is ecstatic to conduct its workshop on Legged Robotics, an exciting field of robotics that can unlock a world of possibilities. Come discover the possibilities of this fascinating field, unleash your creativity and ingenuity to build your unique robots, and explore the wonders that legged robotics has to offer.",
+        link:"https://konfhub.com/LeggedRobotics?utm_source=tharangweb",
+        general: [['points', '40'], ['fee', '₹450'], ['available', 'Open']]
+    },
+    {
+        id: 28,
+        title: 'Data Mining',
+        img: img28,
+        category: '#workshop',
+        desc:"Data Mining is an interactive Python programming workshop for absolute beginners that don't anticipate you to memorize coding the \"conventional\" way or have any earlier information.The workshop covers the core python language and the standard library in detail along with an introduction to Scrapy. Learners will gain the working knowledge needed to start programming, debugging and using Python in everyday tasks.",
+        link:"https://konfhub.com/DataMining?utm_source=tharangweb",
+        general: [['points', '40'], ['fee', '₹450'], ['available', 'Open']]
+    },
+    {
+        id: 27,
+        title: 'BMW',
+        img: img27,
+        category: '#workshop',
+        desc:"Rev your engines, fuel your passion and get ready to race toward the cutting edge of automotive design with BMW.IHRD Tharang is thrilled to organize its workshop on BMW. This is your chance to learn, explore and experience the power and passion of BMW design.",
+        link:"https://konfhub.com/BMWDesign?utm_source=tharangweb",
+        general: [['points', '60'], ['fee', '₹1000'], ['available', 'Open']]
+    },
+    {
+        id: 26,
+        title: 'AUTOCAD',
+        img: img26,
+        category: '#workshop',
+        desc:"Intending to provide young technical minds a deep insight into the world of AUTOCAD, IHRD THARANG'23 in association with the College of Engineering Chengannur is hosting a workshop on \"AUTOCAD\".",
+        link:"https://konfhub.com/AutoCAD?utm_source=tharangweb",
+        general: [['points', '40'], ['fee', '₹350'], ['available', 'Open']]
+    },
+    {
+        id: 25,
+        title: 'Robotic Operating System',
+        img: img25,
+        category: '#workshop',
+        desc:"Are you interested in exploring the world of robotics and pushing the boundaries of innovation? If so, then this is the perfect workshop for you! IHRD THARANG is here with a workshop on Robotic Operating System, which is designed to give you in-depth knowledge and understanding of ROS, a powerful set of tools for robot development.",
+        link:"https://konfhub.com/ros-tharang?utm_source=tharangweb",
+        general: [['fee', '₹500'], ['available', 'Open']]
+    },
+    {
+        id: 24,
+        title: 'PYTHON',
+        img: img24,
+        category: '#workshop',
+        desc:"Coding is the present and the future. Here is an opportunity for you to learn PYTHON, one of the most widely used programming languages in the current tech industriesIHRD Tharang hosted by the College Of Engineering Chengannur, is ecstatic to present you to the Python workshop conducted by Revertech.",
+        link:"https://konfhub.com/Pythonschool?utm_source=tharangweb",
+        general: [['fee', '₹250'], ['available', 'Open']]
+    },
+    {
+        id: 23,
+        title: 'Origami',
+        img: img23,
+        category: '#workshop',
+        desc:"Are you looking for a creative outlet to express your artistic side & dazzle us with your skillful folding and intricate designs? Come join us for the IHRD THARANG Origami Workshop & learn how to create impressive origami designs from simple sheets of paper",
+        link:"https://konfhub.com/origami-tharang?utm_source=tharangweb",
+        general: [['fee', '₹150'], ['available', 'Open']]
+    },
+    {
+        id: 22,
+        title: 'Quantum Computing',
+        img: img22,
+        category: '#workshop',
+        desc:"IHRD Tharang is excited to provide a workshop on Quantum Computing that covers the architecture, hardware, software, design, and types to comprehend the full potential of quantum computing. ",
+        link:"https://konfhub.com/QuantumComputing?utm_source=tharangweb",
+        general: [['points', '60'], ['fee', '₹1000'], ['available', 'Open']]
+    },
     {
         id: 21,
         title:'Factory Automation with Siemens TIA',
