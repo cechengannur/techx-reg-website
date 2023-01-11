@@ -28,7 +28,9 @@ import img33 from '../images/common/work-hacking.jpeg'
 import img34 from '../images/common/comp-key.jpeg'
 import img35 from '../images/common/comp-center.jpeg'
 import img36 from '../images/common/comp-chess.jpeg'
-
+import img37 from '../images/common/extra-call-school.webp'
+import img38 from '../images/common/extra-call-college.webp'
+import img39 from '../images/common/extra-gallery.webp'
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
@@ -41,6 +43,34 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+
+    {
+        id: 39,
+        title: "IHRD Historical Gallery",
+        img: img39,
+        category: '#application',
+        desc:"There will be a special expo area for IHRD Historical Gallery on 3, 4, and 5 Feb for IHRD THARANG - 2023 where attendees can explore more about IHRD and its institutions",
+        link:"http://bit.ly/tharang_gallery",
+        general: [['fee', 'Free'], ['available', 'Open']]
+    },
+    {
+        id: 38,
+        title: "Project Expo - College",
+        img: img38,
+        category: '#application',
+        desc:"The contest is open to undergraduate/post-graduate students of all colleges (including engineering, arts, and science, polytechnic colleges etc) in Kerala. With the theme:'Technology, Sustainability, Future'",
+        link:"http://bit.ly/tharang_projectexpo",
+        general: [['fee', 'Free'], ['available', 'Open']]
+    },
+    {
+        id: 37,
+        title: "School Exhibition",
+        img: img37,
+        category: '#application',
+        desc:"The contest is open to all schools students up to high school and higher secondary students in Kerala. With the theme:'Science, Youth, Leadership",
+        link:"http://bit.ly/tharang_exhibition",
+        general: [['fee', 'Free'], ['available', 'Open']]
+    },
     {
         id: 36,
         title: "QUEEN'S GAMBIT",
@@ -366,7 +396,7 @@ const dataProject = [
         category: '#game',
         desc:"Attention all gaming maniacs! 🎮 Load, Aim, and Fire! It's COD season, and what better time to join the ranks of the elite and put your talents to the test in the adrenaline-fueled bouts of Call of Duty Mobile. IHRD Tharang presents to you COMPCOD. Get ready to battle along with your comrades in the world of Call Of Duty. Show off your skills and dominate the battleground.",
         link:"https://konfhub.com/call-of-duty-tharang?utm_source=tharangweb",
-        general: [['prize', '3,000'], ['fee', '₹100 (Team)'], ['available', 'Open']],
+        general: [['prize', '3,000'], ['fee', '₹100 (Team)'], ['available', 'Closed']],
     },
     
 ]

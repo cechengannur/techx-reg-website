@@ -6,10 +6,18 @@
     &:nth-last-child(1) {
         margin-bottom: 31px;
     }
+    
+    img{
+    &:hover {
+        transform: scale(1.2);
+    }
+}
 }
 
 .home-1 .partner{
     background: $bg-3;
+    
+
 }
 .home-2 .partner{
     background: $bg-main;
