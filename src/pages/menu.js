@@ -62,7 +62,19 @@ const menus = [
     {
         id: 3,
         name: 'Job Fair',
-        links: '/guidelines',
+        links: '/',
+        namesub: [
+                {
+                    id: 1,
+                    sub: 'Candidates',
+                    links: '/guidelines',
+                },
+                {
+                    id: 2,
+                    sub: 'Companies',
+                    links: '/register'
+                },
+        ],
     },
 
     {
