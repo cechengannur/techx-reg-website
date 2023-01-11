@@ -48,7 +48,7 @@ const dataProject = [
         category: '#competition',
         desc:"IHRD Tharang is enlivened to bring up your brilliance to the table. The potent weapon that develops curiosity & confidence! Checkmate the opponent's king by placing it under an inescapable threat of capture.",
         link:"https://konfhub.com/queens-gambit?utm_source=tharangweb",
-        general: [['prize', '10000'], ['fee', '₹80'], ['available', 'Open']]
+        general: [['prize', '₹10000'], ['fee', '₹80'], ['available', 'Open']]
     },
     {
         id: 35,
@@ -57,7 +57,7 @@ const dataProject = [
         category: '#competition',
         desc:"Show off your CSS skills and win big prizes! coz IHRD Tharang brings you Centre-A-Div competition.Put your ability to read and interpret code, recognize specific elements, and center divs to the test!  PASS the expectations, SET the standards and KILL the competition.",
         link:"https://konfhub.com/center-a-div?utm_source=tharangweb",
-        general: [['prize', '5000'], ['fee', 'Free'], ['available', 'Open']]
+        general: [['prize', '₹5000'], ['fee', 'Free'], ['available', 'Open']]
     },
     {
         id: 34,
@@ -66,7 +66,7 @@ const dataProject = [
         category: '#competition',
         desc:"Step into the realm of Key Mismash, a game that tests your keyboard mastery!.With a QWERTY design that's been cleverly rearranged,this challenge is no walk in the park. Prove your proficiency and join us for a thrilling round of Key Mismash, where the competition never ceases!",
         link:"https://konfhub.com/key-mismash?utm_source=tharangweb",
-        general: [['prize', '8000'], ['fee', '₹80'], ['available', 'Open']]
+        general: [['prize', '₹8000'], ['fee', '₹80'], ['available', 'Open']]
     },
     {
         id: 33,
