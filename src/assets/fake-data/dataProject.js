@@ -56,15 +56,15 @@ const dataProject = [
         category: '#application',
         desc:"As part of upcoming IHRD THARANG 2023 national level tech fest we invite startups from across the country to showcase their latest technologies and innovations at our event. The theme for this year's tech fest is \"Science, Youth and Leadership \" Selected startups will have the opportunity to showcase their products and services to a wide audience of attendees, including industry leaders, investors, and potential customers. For more details contact Akshay : +91 90747 56152",
         link:"http://bit.ly/call_for_Startups",
-        general: [['fee', 'Free'], ['available', 'Open']]
+        general: [['fee', 'Rent applicable'], ['available', 'Open']]
     },
     {
         id: 42,
-        title: "Food Stall",
+        title: "Food Stalls",
         img: img43,
         category: '#application',
         desc:"We are excited to announce the upcoming IHRD THARANG 2023 national level tech fest and inviting application to setup food stall. For more details and registration contact Arun : +91 75610 70508, Nimna : +91 80787 65107",
-        //link:" ",
+        link:" http://tharang.ihrd.ac.in/",
         general: [['fee', 'Rent applicable'], ['available', 'Open']]
     },
     {
@@ -74,7 +74,7 @@ const dataProject = [
         category: '#application',
         desc:"Inviting micro,small & medium enterprises to showcase and sell your products, services. Last date for registration : 20th January 2023 .",
         link:" http://bit.ly/call-fleamarket",
-        general: [['fee', 'Free'], ['available', 'Open']]
+        general: [['fee', 'Rent applicable'], ['available', 'Open']]
     },
 
 
