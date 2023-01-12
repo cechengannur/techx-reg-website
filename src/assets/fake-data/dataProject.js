@@ -56,7 +56,7 @@ const dataProject = [
         category: '#application',
         desc:"Get ready to capture life's moments, big and small, show us your creativity, and stand tall! Enter our videography contest, and let your talent shine, we can't wait to see what's on the horizon of your mind!",
         link:"https://konfhub.com/vc-tharang",
-        general: [['Prize', '1K'], ['available', 'Open']]
+        general: [['prize', '₹1000'], ['fee', 'Free'], ['available', 'Open']]
     },
     {
         id: 43,
