@@ -31,6 +31,9 @@ import img36 from '../images/common/comp-chess.jpeg'
 import img37 from '../images/common/extra-call-school.webp'
 import img38 from '../images/common/extra-call-college.webp'
 import img39 from '../images/common/extra-gallery.webp'
+import img40 from '../images/common/AR_VRzone.jpeg'
+import img41 from '../images/common/CallforSME.jpeg'
+
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
@@ -43,6 +46,26 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+    {
+        id: 41,
+        title: "Call for MSME",
+        img: img41,
+        category: '#application',
+        desc:"Inviting micro,small & medium enterprises to showcase and sell your products, services.Last date for registration : 20th January 2023 .",
+        link:" http://bit.ly/call-fleamarket",
+        general: [['fee', 'Free'], ['available', 'Open']]
+    },
+
+
+    {
+        id: 40,
+        title: "AR/VR Zone",
+        img: img40,
+        category: '#application',
+        desc:"Inviting companies to engage the audience with your technologies for more details contact Nithin : 8547062991",
+        link:"http://bit.ly/call_AR-VR_tharang",
+        general: [['fee', 'Free'], ['available', 'Open']]
+    },
 
     {
         id: 39,
