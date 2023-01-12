@@ -33,6 +33,9 @@ import img38 from '../images/common/extra-call-college.webp'
 import img39 from '../images/common/extra-gallery.webp'
 import img40 from '../images/common/AR_VRzone.jpeg'
 import img41 from '../images/common/CallforSME.jpeg'
+import img42 from '../images/common/CallforStartup.jpeg'
+import img43 from '../images/common/FoodStall.jpeg'
+
 
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
@@ -47,13 +50,31 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 const dataProject = [
     {
+        id: 43,
+        title: "Call for Startups",
+        img: img42,
+        category: '#application',
+        desc:"As part of upcoming IHRD THARANG 2023 national level tech fest we invite startups from across the country to showcase their latest technologies and innovations at our event. The theme for this year's tech fest is \"Science, Youth and Leadership \" Selected startups will have the opportunity to showcase their products and services to a wide audience of attendees, including industry leaders, investors, and potential customers. For more details contact Akshay : +91 90747 56152",
+        link:"http://bit.ly/call_for_Startups",
+        general: [['fee', 'Rent applicable'], ['available', 'Open']]
+    },
+    {
+        id: 42,
+        title: "Food Stalls",
+        img: img43,
+        category: '#application',
+        desc:"We are excited to announce the upcoming IHRD THARANG 2023 national level tech fest and inviting application to setup food stall. For more details and registration contact Arun : +91 75610 70508, Nimna : +91 80787 65107",
+        link:" http://tharang.ihrd.ac.in/",
+        general: [['fee', 'Rent applicable'], ['available', 'Open']]
+    },
+    {
         id: 41,
         title: "Call for MSME",
         img: img41,
         category: '#application',
-        desc:"Inviting micro,small & medium enterprises to showcase and sell your products, services.Last date for registration : 20th January 2023 .",
+        desc:"Inviting micro,small & medium enterprises to showcase and sell your products, services. Last date for registration : 20th January 2023 .",
         link:" http://bit.ly/call-fleamarket",
-        general: [['fee', 'Free'], ['available', 'Open']]
+        general: [['fee', 'Rent applicable'], ['available', 'Open']]
     },
 
 
@@ -62,7 +83,7 @@ const dataProject = [
         title: "AR/VR Zone",
         img: img40,
         category: '#application',
-        desc:"Inviting companies to engage the audience with your technologies for more details contact Nithin : 8547062991",
+        desc:"Inviting companies to engage the audience with your technologies. For more details contact Nithin : 8547062991",
         link:"http://bit.ly/call_AR-VR_tharang",
         general: [['fee', 'Free'], ['available', 'Open']]
     },

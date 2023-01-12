@@ -92,14 +92,18 @@ function GDImageViewer(data) {
       <div>
         <div id="modal-container" className="modal">
           <span className="close">&times;</span>
+          <div className="imageSlider-container">
+          <button className="navButton prvBtn">&#8249;</button>
           <img className="modal-content" id="curr-modal" alt="" />
+          <button className="navButton nxtBtn">&#8250;</button>
+          </div>
           <div id="caption" />
         </div>
       </div>
     );
   }
 
-  function showModal(imgId) {
+  function showModal(imgId,currKey) {
     const modal = document.getElementById("modal-container");
     const modalImg = document.getElementById("curr-modal");
     modalImg.src = imgId;
@@ -107,6 +111,21 @@ function GDImageViewer(data) {
     const span = document.getElementsByClassName("close")[0];
     span.onclick = function () {
       modal.style.display = "none";
+    };
+    const prevBtn = document.getElementsByClassName("navButton prvBtn")[0];
+    prevBtn.onclick = function () {
+      if(currKey>0)
+      {
+        modalImg.src = GOOGLE_DRIVE_IMG_URL + imgIds[--currKey]["id"];
+      }
+    };
+    const nextBtn = document.getElementsByClassName("navButton nxtBtn")[0];
+    nextBtn.onclick = function () {
+      if(currKey<imgIds.length-1)
+      {
+        modalImg.src = GOOGLE_DRIVE_IMG_URL + imgIds[++currKey]["id"];
+      }
+      
     };
   }
 
@@ -124,7 +143,7 @@ function GDImageViewer(data) {
               (hover ? " gd-pointer gd-hover " : "") + className
             }
             onClick={() => {
-              modal && showModal(GOOGLE_DRIVE_IMG_URL + item.id);
+              modal && showModal(GOOGLE_DRIVE_IMG_URL + item.id,i);
             }}
             src={GOOGLE_DRIVE_IMG_URL + item.id}
             id={id ? id : null}
