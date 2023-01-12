@@ -35,7 +35,7 @@ import img40 from '../images/common/AR_VRzone.jpeg'
 import img41 from '../images/common/CallforSME.jpeg'
 import img42 from '../images/common/CallforStartup.jpeg'
 import img43 from '../images/common/FoodStall.jpeg'
-
+import img44 from '../images/common/videography.jpeg'
 
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
@@ -49,6 +49,15 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+    {
+        id: 44,
+        title: "Videography Competition",
+        img: img44,
+        category: '#application',
+        desc:"Get ready to capture life's moments, big and small, show us your creativity, and stand tall! Enter our videography contest, and let your talent shine, we can't wait to see what's on the horizon of your mind!",
+        link:"https://konfhub.com/vc-tharang",
+        general: [['Prize', '1K'], ['available', 'Open']]
+    },
     {
         id: 43,
         title: "Call for Startups",
