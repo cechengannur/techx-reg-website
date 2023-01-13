@@ -36,6 +36,8 @@ import img41 from '../images/common/CallforSME.jpeg'
 import img42 from '../images/common/CallforStartup.jpeg'
 import img43 from '../images/common/FoodStall.jpeg'
 import img44 from '../images/common/videography.jpeg'
+import img45 from '../images/common/comp-vines.jpg'
+import img46 from '../images/common/work-smart.jpg'
 
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
@@ -49,6 +51,25 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+   
+    {
+        id: 46,
+        title: "Smartphone Controlled Robot",
+        img: img46,
+        category: '#workshop',
+        desc:"Join us for our upcoming workshop on Smartphone Controlled Robot accomplished as a part of IHRD THARANG. In this workshop, you will learn how to build and control your robot using a smartphone.        ",
+        link:"https://konfhub.com/SmartPhoneControlledrobot?utm_source=tharangweb",
+        general: [['fee', '₹250'], ['available', 'Open']]
+    },
+    {
+        id: 45,
+        title: "Vine competition",
+        img: img45,
+        category: '#competition',
+        desc:"Join the vine-making contest and let your talent come alive. Show us your skills and let your creativity thrive. Make a vine that's unique and full of flair, and you just might win the grand prize beyond compare!",
+        link:"https://konfhub.com/vic-tharang?utm_source=tharangweb",
+        general: [['prize', '₹1000'], ['fee', 'Free'], ['available', 'Open']]
+    },
     {
         id: 44,
         title: "Videography Competition",
