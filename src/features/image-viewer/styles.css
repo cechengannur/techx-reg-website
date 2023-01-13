@@ -1,4 +1,33 @@
 
+.imageSlider-container{
+		display: flex;
+		text-align:center;
+		justify-content: space-evenly;
+		margin-left: 20%;
+		margin-right: 20%;
+}
+.navButton{
+	margin: auto;
+	text-align: center;
+	background-color: rgb(43, 43, 43);
+	color: rgba(255, 255, 255, 0.767);
+	padding: 20px;
+	border-radius: 20%;
+	font-weight: bold;
+	font-size: 30px;
+}
+.navButton:hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(31, 31, 31);
+}
+.nxtBtn{
+	margin-left: 10%;
+	float: right;
+}
+.prvBtn{
+	float: left;
+	margin-right: 10%;
+}
   
   .gd-pointer{
 	image-orientation: from-image;
@@ -122,4 +151,14 @@
 		font-weight: bold;
 		transition: 0.3s;
 	  }
+	  .navButton{
+		margin: auto;
+		text-align: center;
+		background-color: rgb(43, 43, 43);
+		color: rgba(255, 255, 255, 0.767);
+		padding: 10px;
+		border-radius: 20%;
+		font-weight: bold;
+		font-size: 50%;
+	}
   } 
