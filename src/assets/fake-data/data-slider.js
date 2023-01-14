@@ -13,22 +13,22 @@ const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/main-char.png";
 const dataSlider = [
     {
         id: 1,
-        title: 'IHRD THARANG\'23 Feb 3rd-6th',
+        title: 'IHRD THARANG\'23 Feb 2nd-6th',
         desc : `A National Techno-Cultural-Entrepreneurial Fest Organized by IHRD (Established by the Govt. of Kerala)`,
         general: [['About', '/about']],
         bgImg: bgImg1,
         img : img1,
         classAction: 'two',
     },
-    {
-        id: 2,
-        title: 'Job Fiesta! Feb 6TH',
-        desc : 'With over 150 top companies and 1000+ job opportunities, this job fair is the perfect place to take the first step toward your dream job. ',
-        general: [['Candidates', '/guidelines'], ['Companies', '/register'], ['Company-list', '/company-list']],
-        img: img2,
-        classAction: 'two',
-        bgImg: bgImg2,
-    },
+    // {
+    //     id: 2,
+    //     title: 'Job Fiesta! Feb 6TH',
+    //     desc : 'With over 150 top companies and 1000+ job opportunities, this job fair is the perfect place to take the first step toward your dream job. ',
+    //     general: [['Candidates', '/guidelines'], ['Companies', '/register'], ['Company-list', '/company-list']],
+    //     img: img2,
+    //     classAction: 'two',
+    //     bgImg: bgImg2,
+    // },
 ]
 
 export default dataSlider;

@@ -25,39 +25,39 @@ const menus = [
         id: 1,
         name: 'About',
         links: '/about',
-        // namesub: [
-        //     {
-        //         id: 1,
-        //         sub: 'Gallery',
-        //         links: '/gallery'
-        //     },
-        //     // {
-        //     //     id: 1,
-        //     //     sub: 'Coming Soon',
-        //     //     links: '/coming-soon'
-        //     // },
-        //     // {
-        //     //     id: 1,
-        //     //     sub: 'Community',
-        //     //     links: '/community'
-        //     // },
-        //     // {
-        //     //     id: 2,
-        //     //     sub: 'Team Details',
-        //     //     links: '/team-details'
-        //     // },
-        //     // {
-        //     //     id: 3,
-        //     //     sub: 'FAQ',
-        //     //     links: '/faq'
-        //     // },
-        //     // {
-        //     //     id: 5,
-        //     //     sub: '404',
-        //     //     links: '/404'
-        //     // },
+        namesub: [
+            {
+                id: 1,
+                sub: 'FAQ',
+                links: '/faq'
+            },
+            // {
+            //     id: 1,
+            //     sub: 'Coming Soon',
+            //     links: '/coming-soon'
+            // },
+            // {
+            //     id: 1,
+            //     sub: 'Community',
+            //     links: '/community'
+            // },
+            // {
+            //     id: 2,
+            //     sub: 'Team Details',
+            //     links: '/team-details'
+            // },
+            // {
+            //     id: 3,
+            //     sub: 'FAQ',
+            //     links: '/faq'
+            // },
+            // {
+            //     id: 5,
+            //     sub: '404',
+            //     links: '/404'
+            // },
 
-        // ]
+        ]
     },
     {
         id: 2,

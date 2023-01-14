@@ -31,7 +31,7 @@ function HomeOne(props) {
 
         <About data={dataAbout} />
 
-        {/* <NikeCard data={TshirtImg} link="http://min.lc/oirgn"/> */}
+        {/* <NikeCard data={TshirtImg} link="https://forms.gle/JiidnBNX7cmuJXjy7"/> */}
 
         <Project data={dataProject} />
 
