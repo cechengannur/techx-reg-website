@@ -36,6 +36,20 @@ import img41 from '../images/common/CallforSME.jpeg'
 import img42 from '../images/common/CallforStartup.jpeg'
 import img43 from '../images/common/FoodStall.jpeg'
 import img44 from '../images/common/videography.jpeg'
+import img45 from '../images/common/FlashStep.jpeg'
+import img46 from '../images/common/StepIntoRhythm.jpeg'
+import img47 from '../images/common/VocalRange.jpeg'
+import img48 from '../images/common/JustAMinute.jpeg'
+import img49 from '../images/common/Beatboxing.jpeg'
+import img50 from '../images/common/Collage.jpeg'
+import img51 from '../images/common/RadiantStroke.jpeg'
+import img52 from '../images/common/QuizADry.jpeg'
+import img53 from '../images/common/Fabricate.jpeg'
+import img54 from '../images/common/RubiksCube.jpeg'
+import img55 from '../images/common/Sudoku.jpeg'
+import img56 from '../images/common/SpotLight.jpeg'
+import img57 from '../images/common/Metronome.jpeg'
+import img58 from '../images/common/FreezeFrame.jpeg'
 
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
@@ -49,6 +63,132 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+    {
+        id: 58,
+        title: "Freeze Frame",
+        img: img58,
+        category: '#competition',
+        desc:"Get ready to make time stand still with every click! Join IHRD Tharang's exciting photography competition, Freeze Frame and capture the world in stunning detail!. For more details contact Jithin: 73568 80904, Rohan: 62357 07226 .",
+        link:"https://konfhub.com/freeze-frame-tharang",
+        general: [['prize', '₹3000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 57,
+        title: "Metronome-Battle of Bands",
+        img: img57,
+        category: '#competition',
+        desc:"Are you ready to rock out like never before at the Battle of Bands? coz IHRD Tharang is here with Metronome - the most exhilarating band performance competition of the year!. For more details contact Ambutha: 80787 74191, Esther: 91884 58806",
+        link:"https://konfhub.com/mn-tharang",
+        general: [['prize', '₹9000'], ['fee', '₹800'], ['available', 'Open']]
+    },
+    {
+        id: 56,
+        title: "Spot Light",
+        img: img56,
+        category: '#competition',
+        desc:"Get ready to shine bright like a diamond at IHRD Tharang Spotlight, the theme based Ramp Walk competition!. For more details contact Sreepriya: 79074 29985, Shion: 88081 48610. ",
+        link:"https://konfhub.com/sl-tharang",
+        general: [['prize', '₹9000'], ['fee', '₹800'], ['available', 'Open']]
+    },
+    {
+        id: 55,
+        title: "Sudoku",
+        img: img55,
+        category: '#competition',
+        desc:"Are you ready to flex your mental muscles and put your puzzle-solving skills to the test? We've got a lineup of challenging sudoku puzzles, ranging from easy to expert level, to keep you on your toes! Join us for a day of brain-teasing fun and see if you have what it takes to come out on top. For more details contact Diana: 94467 10040 Albin: 95449 06771.",
+        link:"https://konfhub.com/sudoko-tharang",
+        general: [['prize', '₹1000'], ['fee', '₹50'], ['available', 'Open']]
+    },
+    {
+        id: 54,
+        title: "Rubiks Cube",
+        img: img54,
+        category: '#competition',
+        desc:"Do you have what it takes to solve the colorful puzzle in record time? Bring your lightning-fast fingers and sharp mind as you compete against other puzzle enthusiasts! Watch in awe as the cubes twist and turn, solving themselves in the hands of true masters. Exclusively for School students. For more details contact Hena: 70123 02544, Mridul: 99958 18064.",
+        link:"https://konfhub.com/rubikscube-tharang",
+        general: [['prize', '₹1000'], ['fee', '₹50'], ['available', 'Open']]
+    },
+    {
+        id: 53,
+        title: "Fabricate",
+        img: img53,
+        category: '#competition',
+        desc:"Assemble construct create! Are you a budding inventor or creator? Will you construct a towering skyscraper, a sleek race car, or something entirely new and unique? Join us for a day of fun and creativity, and let your imagination run wild as you build something truly amazing!. For more details contact Sujith : 95628 98254, Akash: 75599 06733",
+        link:"https://konfhub.com/fabricate-tharang",
+        general: [['prize', '₹2000'], ['fee', '₹150'], ['available', 'Open']]
+    },
+    {
+        id: 52,
+        title: "Quizardry",
+        img: img52,
+        category: '#competition',
+        desc:"Are you a trivia master, a history buff, or a pop culture fanatic? Then come test your knowledge at the Quizardy Quiz Competition!. For more details contact Devakrishna: 8075702504, Akash: 7559906733 ",
+        link:"https://konfhub.com/quizardry-tharang",
+        general: [['prize', '₹2000'], ['fee', '₹200'], ['available', 'Open']]
+    },
+    {
+        id: 51,
+        title: "Radient Stroke",
+        img: img51,
+        category: '#competition',
+        desc:"The world is a canvas waiting to be filled with colors and brushstrokes that spill and thrill. Come join us at the Radiant Stroke Painting Competition where art comes alive and creativity flows. Unleash your inner artist and let your talent shine bright. For more details contact Dakshina: 79028 02856, Akshara: 83019 87995 ",
+        link:"https://konfhub.com/radiant-stroke-tharang",
+        general: [['prize', '₹2000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 50,
+        title: "Collage Making",
+        img: img50,
+        category: '#competition',
+        desc:"Assemble a tapestry of memories, a mosaic of moments in time! Gather your inspiration and let your artistic vision come to life. Exclusively for School students. For more details contact Adithya: 85898 82149, Dakshina: 79028 02856",
+        link:"https://konfhub.com/collagemaking-tharang",
+        general: [['prize', '₹2000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 49,
+        title: "Beatboxing",
+        img: img49,
+        category: '#competition',
+        desc:"Welcoming beatboxers of all skill levels to this beatboxing odyssey of rhythm and sound. Grab your microphone and let your beats intertwine in this extravaganza. Form more details contact Lekshmi : 81299 44693, Jithin: 73568 80904",
+        link:"https://konfhub.com/bb-tharang",
+        general: [['prize', '₹2000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 48,
+        title: "Just A Minute",
+        img: img48,
+        category: '#competition',
+        desc:"Are you ready to rise to the challenge and take your verbal prowess to the next level? Gather your mental muscles and prepare to flex your linguistic skills! Join us now and conquer the stage like never before!. For more details contact Lekshmi : 81299 44693, Esther: 91884 58806",
+        link:"https://konfhub.com/jam-tharang",
+        general: [['prize', '₹4500'], ['fee', '₹200'], ['available', 'Open']]
+    },
+    {
+        id: 47,
+        title: "Vocal Range",
+        img: img47,
+        category: '#competition',
+        desc:"Music never ceases to enlighten the soul and mind. IHRD Tharang has come to light with its solo song competition where you shimmer your magical voice soothing the heart and spirit of the audience summoned. For more details Point of contact:Nicole: 8137056367 Adithya: 8589882149",
+        link:"https://konfhub.com/vrg-tharang",
+        general: [['prize', '₹5000'], ['fee', '₹200'], ['available', 'Open']]
+    },
+    {
+        id: 46,
+        title: "Step Into Rhythm",
+        img: img46,
+        category: '#competition',
+        desc:"Dancers don't need wings to fly! IHRD Tharang wholeheartedly welcomes the dance squads from all over the country to get on the floor and step into the rhythm with their energetic performances. Be a facet of this vivacious group dance competition and get ready to bag the trophy, for more details contact Aparna: 94467 58808, Nandana: 85476 47211.",
+        link:"https://konfhub.com/sir-tharang",
+        general: [['prize', '₹9000'], ['fee', '₹800'], ['available', 'Open']]
+    },
+    {
+        id: 45,
+        title: "Flsh Step",
+        img: img45,
+        category: '#competition',
+        desc:"Are you enticed to prance your body to the rhythm of IHRD Tharang? Then pull up your socks and show off your frenetic dance moves on the rigorous beats at the flash step, a solo dance competition of the national level extravaganza. For more details contact Sneha : 8590439377, Jithin : 7356880904",
+        link:"https://konfhub.com/fs-tharang",
+        general: [['prize', '₹5000'], ['fee', '₹200'], ['available', 'Open']]
+    },
     {
         id: 44,
         title: "Videography Competition",
