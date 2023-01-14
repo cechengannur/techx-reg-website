@@ -50,6 +50,7 @@ import img55 from '../images/common/Sudoku.jpeg'
 import img56 from '../images/common/SpotLight.jpeg'
 import img57 from '../images/common/Metronome.jpeg'
 import img58 from '../images/common/FreezeFrame.jpeg'
+import img59 from '../images/common/FlashStep.jpeg'
 
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
@@ -180,15 +181,15 @@ const dataProject = [
         link:"https://konfhub.com/sir-tharang",
         general: [['prize', '₹9000'], ['fee', '₹800'], ['available', 'Open']]
     },
-    // {
-    //     id: 45,
-    //     title: "Flsh Step",
-    //     img: img45,
-    //     category: '#competition',
-    //     desc:"Are you enticed to prance your body to the rhythm of IHRD Tharang? Then pull up your socks and show off your frenetic dance moves on the rigorous beats at the flash step, a solo dance competition of the national level extravaganza. For more details contact Sneha : 8590439377, Jithin : 7356880904",
-    //     link:"https://konfhub.com/fs-tharang",
-    //     general: [['prize', '₹5000'], ['fee', '₹200'], ['available', 'Open']]
-    // },
+    {
+        id: 59,
+        title: "Flash Step",
+        img: img59,
+        category: '#competition',
+        desc:"Are you enticed to prance your body to the rhythm of IHRD Tharang? Then pull up your socks and show off your frenetic dance moves on the rigorous beats at the flash step, a solo dance competition of the national level extravaganza. For more details contact Sneha : 8590439377, Jithin : 7356880904",
+        link:"https://konfhub.com/fs-tharang",
+        general: [['prize', '₹5000'], ['fee', '₹200'], ['available', 'Open']]
+    },
     {
         id: 44,
         title: "Videography Competition",
