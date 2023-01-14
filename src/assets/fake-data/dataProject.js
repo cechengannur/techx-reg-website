@@ -36,6 +36,7 @@ import img41 from '../images/common/CallforSME.jpeg'
 import img42 from '../images/common/CallforStartup.jpeg'
 import img43 from '../images/common/FoodStall.jpeg'
 import img44 from '../images/common/videography.jpeg'
+import img45 from '../images/common/comp-vines.jpg'
 
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
@@ -49,6 +50,13 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+    {
+
+        id: 45,
+        title: "Vine competition",
+        img: img45,
+        category: '#competition',
+
     {
         id: 44,
         title: "Videography Competition",
