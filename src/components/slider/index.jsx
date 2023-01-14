@@ -21,7 +21,7 @@ function Slider(props) {
                     slidesPerView={1}
                     autoplay={{
                         delay: 3500,
-                        disableOnInteraction: false,
+                        disableOnInteraction: true,
                     }}
                     navigation
                     scrollbar={{ draggable: true }}
