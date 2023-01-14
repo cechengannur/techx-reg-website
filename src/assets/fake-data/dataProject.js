@@ -184,7 +184,7 @@ const dataProject = [
     },
     {
         id: 47,
-        title: "Flsh Step",
+        title: "Flash Step",
         img: img47,
         category: '#competition',
         desc:"Are you enticed to prance your body to the rhythm of IHRD Tharang? Then pull up your socks and show off your frenetic dance moves on the rigorous beats at the flash step, a solo dance competition of the national level extravaganza. For more details contact Sneha : 8590439377, Jithin : 7356880904",
