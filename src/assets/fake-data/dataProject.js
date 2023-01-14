@@ -51,14 +51,12 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 const dataProject = [
     {
+
         id: 45,
         title: "Vine competition",
         img: img45,
         category: '#competition',
-        desc:"Join the vine-making contest and let your talent come alive. Show us your skills and let your creativity thrive. Make a vine that's unique and full of flair, and you just might win the grand prize beyond compare!",
-        link:"https://konfhub.com/vic-tharang?utm_source=tharangweb",
-        general: [['prize', '₹1000'], ['fee', 'Free'], ['available', 'Open']]
-    },
+
     {
         id: 44,
         title: "Videography Competition",
