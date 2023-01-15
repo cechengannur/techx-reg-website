@@ -4,6 +4,7 @@ import img from '../assets/images/common/img15.jpg';
 import { Link, useParams } from 'react-router-dom';
 import Project from '../features/project/home-v3';
 import dataProject from '../assets/fake-data/dataProject';
+import Guidelines from './Guidelines';
 
 function NftItemDetails(props) {
     const {id} = useParams();
@@ -59,6 +60,11 @@ function NftItemDetails(props) {
                                     window.open(`${project.link}`, '_blank');}}>
                                     <span className="boder-fade"></span>         
                                     <span className="effect">Register</span>
+                                </Link>  
+                                <Link to="" className="tf-button btn-effect" onClick={()=>{
+                                    window.open(`${project.guidelines}`, '_blank');}}>
+                                    <span className="boder-fade"></span>         
+                                    <span className="effect">Guidelines</span>
                                 </Link>  
                                 <div className="list-product">
                                 
