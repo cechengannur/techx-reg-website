@@ -27,7 +27,7 @@ import img32 from '../images/common/work-web.jpeg'
 import img33 from '../images/common/work-hacking.jpeg'
 import img34 from '../images/common/comp-key.jpeg'
 import img35 from '../images/common/comp-center.jpeg'
-import img36 from '../images/common/comp-chess.jpeg'
+import img36 from '../images/common/tech-comp/comp-queen-gambit.jpeg'
 import img37 from '../images/common/extra-call-school.webp'
 import img38 from '../images/common/extra-call-college.webp'
 import img39 from '../images/common/extra-gallery.webp'
@@ -54,6 +54,25 @@ import img58 from '../images/common/SpotLight.jpeg'
 import img59 from '../images/common/Metronome.jpeg'
 import img60 from '../images/common/FreezeFrame.jpeg'
 
+
+import img61 from '../images/common/tech-comp/comp-gravitex.jpeg'
+import img62 from '../images/common/tech-comp/comp-line-chaser.jpeg'
+import img63 from '../images/common/tech-comp/comp-idea-mania.jpeg'
+import img64 from '../images/common/tech-comp/comp-circuitathon.jpeg'
+import img65 from '../images/common/tech-comp/comp-amazing-race.jpeg'
+import img66 from '../images/common/tech-comp/comp-tech-quiz.jpeg'
+import img67 from '../images/common/tech-comp/comp-area-51.jpeg'
+import img68 from '../images/common/tech-comp/comp-fantasm-idea.jpeg'
+import img69 from '../images/common/tech-comp/comp-formula-gsm.jpeg'
+import img70 from '../images/common/tech-comp/comp-contraption.jpeg'
+import img71 from '../images/common/tech-comp/comp-bridge-athon.jpeg'
+import img72 from '../images/common/tech-comp/comp-glow-it.jpeg'
+import img73 from '../images/common/tech-comp/comp-tik-boom.jpeg'
+import img74 from '../images/common/tech-comp/comp-robo-cross.jpeg'
+import img75 from '../images/common/tech-comp/comp-circuit-showdown.jpeg'
+import img76 from '../images/common/tech-comp/comp-circuit-tron.jpeg'
+
+
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
 const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/game-compcod.jpeg";
@@ -65,6 +84,150 @@ const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
 
 const dataProject = [
+    {
+        id: 76,
+        title: "Circuitron",
+        img: img76,
+        category: '#competition',
+        desc:"It's time to test your skills and push the boundaries of technology as IHRD Tharang brings you Circuitron - where design, simulation, and hardware implementation meet to solve real-world problems!.",
+        link:"https://konfhub.com/CIRCUITRON-THARANG?utm_source=tharangweb",
+        general: [['prize', '₹6000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 75,
+        title: "Circuit Showdown",
+        img: img75,
+        category: '#competition',
+        desc:"Come test your mettle in IHRD Tharang Circuit Showdown, a high-stakes competition where participants showcase their mastery of electronics by tackling complex circuit issues. From debugging design defects to troubleshooting performance problems, this event is a chance to demonstrate your exceptional problem-solving skills and technical prowess. Join us and let your talents shine in this electrifying competition!",
+        link:"https://konfhub.com/CircuitShowdown?utm_source=tharangweb",
+        general: [['prize', '₹8000'], ['fee', '₹150'], ['available', 'Open']]
+    },
+    {
+        id: 74,
+        title: "Robocross",
+        img: img74,
+        category: '#competition',
+        desc:"Come test your mettle in IHRD Tharang Circuit Showdown, a high-stakes competition where participants showcase their mastery of electronics by tackling complex circuit issues. From debugging design defects to troubleshooting performance problems, this event is a chance to demonstrate your exceptional problem-solving skills and technical prowess. Join us and let your talents shine in this electrifying competition!",
+        link:"https://konfhub.com/r-tharang?utm_source=tharangweb",
+        general: [['prize', '₹20000'], ['fee', '₹300'], ['available', 'Open']]
+    },
+    {
+        id: 73,
+        title: "Tick Tick Boom",
+        img: img73,
+        category: '#competition',
+        desc:"Get ready to ignite your tech-savvy side and explore the world of capacitors with IHRD Tharang's 'Tik Tik Boom' competition. Show off your team spirit and expertise as you compete against other skilled participants in this explosive showdown. Are you ready to create some capacitor chaos?",
+        link:"https://konfhub.com/ttb-tharang?utm_source=tharangweb",
+        general: [['prize', '₹5000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 72,
+        title: "Glow It Or Blow It",
+        img: img72,
+        category: '#competition',
+        desc:"Let's explore the realm of electronic gadget adaptation to tackle some of the most frantic circuits.IHRD Tharang presents Blow it or Glow it, where you can learn and collaborate on some of the most intriguing circuit designs. Blend your ideas with the right mix of flair and show off your team spirit.",
+        link:"https://konfhub.com/giobi-tharang?utm_source=tharangweb",
+        general: [['prize', '₹5000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 71,
+        title: "Bridge-A-Ton",
+        img: img71,
+        category: '#competition',
+        desc:"Welcome to IHRD Tharang's Bridge-Building Bonanza! It's time to put on your engineering hat and let your creativity shine. Using the materials provided, improvise and build a bridge that defies the limits of stability, aesthetics, and strength.",
+        link:"https://konfhub.com/bat-tharang?utm_source=tharangweb",
+        general: [['prize', '₹5500'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 70,
+        title: "Contraption",
+        img: img70,
+        category: '#competition',
+        desc:"🚀 Engrossed in energy sources and their transformations, avant-garde in  implementing them in sustainable projects for the melioration of the world! IHRD Tharang presents Contraption, a competition in which the team can design a project involving energy conversion. Seize the oppurtunity and see what's in store for you.",
+        link:"https://konfhub.com/contraption?utm_source=tharangweb",
+        general: [['prize', '₹8000'], ['fee', '₹110'], ['available', 'Open']]
+    },
+    {
+        id: 69,
+        title: "Formula GSM",
+        img: img69,
+        category: '#competition',
+        desc:"Enter the arena and prepare for the ultimate test of robotic prowess as IHRD Tharang brings you Formula GSM. Using GSM technology, build and program your own bot to take on a treacherous track filled with sand and gravel. Show off your creation's dexterity, toughness, and agility as you compete in a series of rounds against other skilled bot builders.",
+        link:"https://konfhub.com/fg-tharang?utm_source=tharangweb",
+        general: [['prize', '₹10000'], ['fee', '₹250'], ['available', 'Open']]
+    },
+    {
+        id: 68,
+        title: "FANTASM [ideathon]",
+        img: img68,
+        category: '#competition',
+        desc:"Welcome to IHRD Tharang FANTASM, a revolutionary gathering of forward-thinking high school students from all corners of the region to hatch and pitch innovative ideas for projects that make a positive impact on society. This jam-packed day is designed to inspire young minds to delve deep into the issues facing their communities and come up with original solutions.",
+        link:"https://konfhub.com/Fantasm?utm_source=tharangweb",
+        general: [['prize', '₹4000'], ['fee', '₹75'], ['available', 'Open']]
+    },
+    {
+        id: 67,
+        title: "Area 51",
+        img: img67,
+        category: '#competition',
+        desc:"Step into IHRD Tharang's AREA 51, a place of mystery and intrigue where puzzles abound, and solutions wait to be discovered! Unlock the secrets within with your analytical mind and emerge triumphant in this online challenge of wit and time!",
+        link:"https://konfhub.com/Area51?utm_source=tharangweb",
+        general: [['prize', '₹4000'], ['fee', '₹25'], ['available', 'Open']]
+    },
+    {
+        id: 66,
+        title: "TECH QUIZ (Junior and Senior)",
+        img: img66,
+        category: '#competition',
+        desc:"IHRD Tharang presents Tech Quiz, a quiz competition to put your technical knowledge to the test. All technologies change rapidly so it is essential to keep up with them and this is the perfect opportunity to display the depth of your knowledge.",
+        link:"https://konfhub.com/Techquiz?utm_source=tharangweb",
+        general: [['prize', '₹8500'], ['fee', '₹75'], ['available', 'Open']]
+    },
+    {
+        id: 65,
+        title: "Amazing Race",
+        img: img65,
+        category: '#competition',
+        desc:"Join IHRD Tharang for the thrilling test of speed and strategy; the Amazing Race!This task-based competition pits teams against each other in a race to complete all challenges and emerge as the ultimate victors, where victory is within reach.",
+        link:"https://konfhub.com/AMAZINGRACE-THARANG?utm_source=tharangweb",
+        general: [['prize', '₹5000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 64,
+        title: "Circuitathon (CIRCUIT BUILDING)",
+        img: img64,
+        category: '#competition',
+        desc:"Come test your circuit-building prowess at IHRD Tharang Circuitathon, a thrilling competition brought to you by ExESS. Ranging from quizzes on electronics to designing and simulating circuits, only the most skilled will advance to the final round! Are you ready to prove your skills and take the crown?",
+        link:"https://konfhub.com/CIRCUITATHON-THARANG?utm_source=tharangweb",
+        general: [['prize', '₹5000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 63,
+        title: "IDE-MANIA",
+        img: img63,
+        category: '#competition',
+        desc:"Welcome to IHRD Tharang's ultimate test of innovation and invention; Ide Mania! Demonstrate your formidable problem-solving skills and  your technical expertise in programming and electronics Unleash your boundless creativity and develop a project that truly stands out from the rest.",
+        link:"https://konfhub.com/IDEMANIA?utm_source=tharangweb",
+        general: [['prize', '₹5000'], ['fee', '₹100'], ['available', 'Open']]
+    },
+    {
+        id: 62,
+        title: "Line Chaser",
+        img: img62,
+        category: '#competition',
+        desc:"IHRD Tharang, in association with IEEE SB CEC, welcomes you to the thrilling world of line chasing! In this competition, robots are pushed to the limit as they race to follow a winding line with precision and speed. Witness the awe-inspiring feats of these high-tech competitors in the ultimate test of creativity and innovation. The line chaser competition awaits!",
+        link:"https://konfhub.com/LINECHASER-THARANG?utm_source=tharangweb",
+        general: [['prize', '₹10000'], ['fee', '₹250'], ['available', 'Open']]
+    },
+    {
+        id: 61,
+        title: "GravitEx",
+        img: img61,
+        category: '#competition',
+        desc:"Come Join us for IHRD Tharang GravitEx and put your racing skills to the test in the Hovercraft Grand Prix.With your trusty radio-controlled hovercraft by your side, take on a variety of terrains - from water to sand to gravel - and blaze a trail to the finish line. Navigate through challenging courses as quickly as possible against other skilled pilots. Are you ready to take on the ultimate hovercraft challenge? Join the race and find out!",
+        link:"https://konfhub.com/g-cf9123ce?utm_source=tharangweb",
+        general: [['prize', '₹15000'], ['fee', '₹300'], ['available', 'Open']]
+    },
     {
         id: 60,
         title: "Freeze Frame",
