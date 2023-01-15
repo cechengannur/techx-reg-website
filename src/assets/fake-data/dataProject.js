@@ -127,7 +127,7 @@ const dataProject = [
         category: '#competition',
         desc:"Get ready to ignite your tech-savvy side and explore the world of capacitors with IHRD Tharang's 'Tik Tik Boom' competition. Show off your team spirit and expertise as you compete against other skilled participants in this explosive showdown. Are you ready to create some capacitor chaos?",
         link:"https://konfhub.com/ttb-tharang?utm_source=tharangweb",
-        guidelines:"https://drive.google.com/drive/folders/1KdQbN_NwNUu2RmwLsrYxuzIvhpmFZhkI?usp=share_link",
+        guidelines:"https://drive.google.com/drive/folders/1ornEsfcWPYXnPF5u6qAl81hZlyRLIEL8?usp=share_link",
         
         general: [['prize', '₹5000'], ['fee', '₹100'], ['available', 'Open']]
     },
@@ -182,7 +182,7 @@ const dataProject = [
         category: '#competition',
         desc:"Welcome to IHRD Tharang FANTASM, a revolutionary gathering of forward-thinking high school students from all corners of the region to hatch and pitch innovative ideas for projects that make a positive impact on society. This jam-packed day is designed to inspire young minds to delve deep into the issues facing their communities and come up with original solutions.",
         link:"https://konfhub.com/Fantasm?utm_source=tharangweb",
-        guidelines:"https://drive.google.com/drive/folders/1hXEgdITT6Uouep_Gjl_pY6ljPenXt5LT?usp=share_link",
+        guidelines:"https://drive.google.com/drive/folders/16wYKjrd9RObcENGH1747PNz6aQ4sX78E?usp=share_link",
         
         general: [['prize', '₹4000'], ['fee', '₹75'], ['available', 'Open']]
     },
@@ -248,7 +248,7 @@ const dataProject = [
         category: '#competition',
         desc:"IHRD Tharang, in association with IEEE SB CEC, welcomes you to the thrilling world of line chasing! In this competition, robots are pushed to the limit as they race to follow a winding line with precision and speed. Witness the awe-inspiring feats of these high-tech competitors in the ultimate test of creativity and innovation. The line chaser competition awaits!",
         link:"https://konfhub.com/LINECHASER-THARANG?utm_source=tharangweb",
-        guidelines:"https://drive.google.com/drive/folders/1cUpgq3y0fssOm17maXPqmVzPuq3m02af?usp=share_link",
+        guidelines:"https://drive.google.com/drive/folders/1A6REqimHDIFqq2Vbd-nT0szleXG26afw?usp=share_link",
         
         general: [['prize', '₹10000'], ['fee', '₹250'], ['available', 'Open']]
     },
@@ -537,7 +537,7 @@ const dataProject = [
         category: '#competition',
         desc:"IHRD Tharang is enlivened to bring up your brilliance to the table. The potent weapon that develops curiosity & confidence! Checkmate the opponent's king by placing it under an inescapable threat of capture.",
         link:"https://konfhub.com/queens-gambit?utm_source=tharangweb",
-        guidelines:"https://drive.google.com/drive/folders/1y3dxJoY8PWvTWQ6pHYPGoXweuJCdAkzo?usp=share_link",
+        guidelines:"https://drive.google.com/drive/folders/1FsbIoHjlii33hpJ6mSgQmst9r9w1ZohV?usp=share_link",
         
         general: [['prize', '₹10000'], ['fee', '₹80'], ['available', 'Open']]
     },
@@ -548,7 +548,7 @@ const dataProject = [
         category: '#competition',
         desc:"Show off your CSS skills and win big prizes! coz IHRD Tharang brings you Centre-A-Div competition.Put your ability to read and interpret code, recognize specific elements, and center divs to the test!  PASS the expectations, SET the standards and KILL the competition.",
         link:"https://konfhub.com/center-a-div?utm_source=tharangweb",
-        guidelines:"https://drive.google.com/drive/folders/12t0TKVg1v7nTwuFPQTJ7C0S-CxwEWctu?usp=share_link",
+        guidelines:"https://drive.google.com/drive/folders/1MRB5_ZWdWBTtmUEohmAvk8FVzoRZaVnF?usp=share_link",
         
         general: [['prize', '₹5000'], ['fee', 'Free'], ['available', 'Open']]
     },
