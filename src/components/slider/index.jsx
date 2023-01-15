@@ -6,7 +6,7 @@ import SliderItem from './slider-item';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
-
+import video from '../../assets/videos/rap-song.mp4'
 Slider.propTypes = {
     data : PropTypes.array,
 };
@@ -15,15 +15,24 @@ function Slider(props) {
     const {data} = props;
     return (
         <section className="slider">
+            <video style={{position:"absolute",
+                            width:"100%",
+                            top:"50%",
+                            height:"100%",
+                            objectFit:"cover",
+                            opacity:"75%",
+                            transform:"translate(0,-50%)",
+                            
+                            }} playsInLine muted autoPlay loop><source src={video} type="video/mp4"/></video>
             <Swiper
                 modules={[Navigation,  Scrollbar, A11y, Autoplay]}
                     spaceBetween={0}
                     slidesPerView={1}
                     autoplay={{
                         delay: 3500,
-                        disableOnInteraction: false,
+                        disableOnInteraction: true,
                     }}
-                    navigation
+                    
                     scrollbar={{ draggable: true }}
                 >
                 {

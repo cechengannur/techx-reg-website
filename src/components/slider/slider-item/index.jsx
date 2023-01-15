@@ -20,7 +20,8 @@ function SliderItem(props) {
     
     return (
         <div className={`box-slider ${item.classAction}`}>
-            <img className='bg-slider' src={item.bgImg} alt="cybox" />
+            {/* <img className='bg-slider' src={item.bgImg} alt="cybox" /> */}
+            
             <div className="box-slider__main">
                 <div className="container">
                     <div className="row">
@@ -51,11 +52,11 @@ function SliderItem(props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-md-12">
+                        {/* <div className="col-xl-6 col-md-12">
                             <div className="image">
                                 <img src={item.img} alt="HOVER IMAGE" />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

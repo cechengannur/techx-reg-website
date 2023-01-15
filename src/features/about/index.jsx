@@ -31,7 +31,8 @@ function About(props) {
         {
             id:2,
             title:'IHRD THARANG\'23',
-            desc:'A National Techno-Cultural-Entrepreneurial Fest Organized by IHRD (Established by the Govt. of Kerala) will be held on the 3rd, 4th, 5th, and 6th of February 2023. Which aims at providing a holistic experience to the students by equipping them with an opportunity to Learn, Express, and Impress. The pioneer IHRD Tech Fest Tharang will be hosted by the College of Engineering, Chengannur, a premier institute governed by IHRD. The event will host various guests from the Ministry of Higher Education, National Research Laboratories, Industries, Investors, Entrepreneurs, District & Local Administration, Agriculture, and many other reputed organizations.'
+            desc:'A National Techno-Cultural-Entrepreneurial Fest Organized by IHRD (Established by the Govt. of Kerala) will be held on the 2nd - 6th of February 2023. Which aims at providing a holistic experience to the students by equipping them with an opportunity to Learn, Express, and Impress. The pioneer IHRD Tech Fest Tharang will be hosted by the College of Engineering, Chengannur, a premier institute governed by IHRD. The event will host various guests from the Ministry of Higher Education, National Research Laboratories, Industries, Investors, Entrepreneurs, District & Local Administration, Agriculture, and many other reputed organizations.',
+            link: 'http://tharang.ihrd.ac.in/'
         }
     ]
     )

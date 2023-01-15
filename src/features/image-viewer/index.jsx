@@ -135,6 +135,7 @@ function GDImageViewer(data) {
 
         {modal && <ModalView />}
         {!exclude && (
+          <div>
           <img
             style={style}
             className={
@@ -150,6 +151,8 @@ function GDImageViewer(data) {
             key={i}
             alt={item.title}
           />
+          <p>{item.title.split(".jpeg")}</p>
+          </div>
         )}
       </div>
     )

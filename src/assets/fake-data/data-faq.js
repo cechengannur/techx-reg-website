@@ -2,7 +2,7 @@ const dataFaq = [
     {
         id: 1,
         title: 'When and where will be the IHRD Tharang\'23 Tech Fest?',
-        content: 'The tech festival will take place on from 3rd to 6th of February at College of Engineering Chengannur.',
+        content: 'The tech festival will take place on from 2nd to 6th of February at College of Engineering Chengannur.',
         
     },
     {

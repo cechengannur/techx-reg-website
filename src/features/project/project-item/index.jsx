@@ -16,7 +16,9 @@ function ProjectItem(props) {
             <img src={item.img} alt="crybox" target="_blank" rel="noreferrer"/>
             <div className="content">
                 <Link to={`/event-details/${item.id}`}>{item.title}</Link>
+                <p>{item.desc.substring(0,50)}...</p>
             </div>
+           <span>{item.category}</span>
         </div></Link>
     );
 }

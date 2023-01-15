@@ -47,7 +47,7 @@ function Contact(props) {
                                         <h6>Developer Contact</h6>
                                         <ul>
                                             <li>+91 9995-703-457</li>
-                                            <li>alwinjohn231@gmail.com</li>
+                                            <li>chn19cs016@ceconline.edu</li>
                                         </ul>
                                         <br/>
                                         <h6>Other</h6>

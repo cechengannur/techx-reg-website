@@ -42,14 +42,14 @@ export default class Preitems extends Component {
 
   renderTableData() {
      return this.state.items.map((items, index) => {
-        const {title, date ,institution, contact} = items //destructuring
+        const {title, date ,institution, information} = items //destructuring
         return (
            <tr key={title}>
               <td>{index+1}</td>
-              <td>{title}</td>
+              <td>{title.substring(0,30)}...</td>
               <td>{date}</td>
               <td>{institution}</td>
-              <td><a href={contact} target="_blank">{contact}</a></td>
+              <td><a href={information} target="_blank">View</a></td>
            </tr>
         )
      })

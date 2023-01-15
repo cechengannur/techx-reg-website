@@ -2,7 +2,7 @@ const dataAbout = [
     {
         id: 1,
         title: 'When will it be?',
-        desc: 'IHRD Tech Fest will be a techno-cultural-entrepreneurial event that will be held on  February 3rd-6th 2023',
+        desc: 'IHRD Tech Fest will be a techno-cultural-entrepreneurial event that will be held on  February 2nd-6th 2023',
         class: 'active'
     },
     {

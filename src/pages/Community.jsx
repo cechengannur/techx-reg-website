@@ -41,7 +41,7 @@ function Community(props) {
                         </div>
                     </div>
                 </div>
-                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="0MsihWKqBmg" onClose={() => setOpen(false)} />
+                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="0JqvaH6eM24" onClose={() => setOpen(false)} />
             </section>
 
             <About data={dataAbout} />

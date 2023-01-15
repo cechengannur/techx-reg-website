@@ -478,8 +478,21 @@ input[type="color"]::placeholder {
   color: $white;
   @include mobile{
     width: fit-content;
-    font-size: 0.8em;
-    padding: 2em;
+    font-size: 1em;
+    padding-bottom: 2em;
+    font-weight: bold;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    td{
+      display: flex;
+    }
+
+    th{
+      display: none;
+    }
+    
   }
   
   
