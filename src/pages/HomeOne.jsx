@@ -22,11 +22,11 @@ import FAQ from '../features/faq';
 import dataFaq from '../assets/fake-data/data-faq';
 import { NikeCard } from '../components/nikeCard';
 
-
 function HomeOne(props) {
 
     return (
         <div className='home-1'>
+        
         <Slider data={dataSlider} />
 
         <About data={dataAbout} />

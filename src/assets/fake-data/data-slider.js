@@ -5,7 +5,7 @@ import bgImg3 from '../images/background/bg-4.jpg';
 // import img1 from '../images/common/main-char.png';
 import img2 from '../images/common/job-char.png';
 import Button from '../../components/button/index';
-
+import rapSong from '../videos/rap-song.mp4'
 const bgImg1 = "https://d245tsppfkavw4.cloudfront.net/assets/bg-hero.jpg";
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/main-char.png";
 // const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/job-fair.png";
@@ -16,7 +16,7 @@ const dataSlider = [
         title: 'IHRD THARANG\'23 Feb 2nd-6th',
         desc : `A National Techno-Cultural-Entrepreneurial Fest Organized by IHRD (Established by the Govt. of Kerala)`,
         general: [['About', '/about']],
-        bgImg: bgImg1,
+        video: rapSong,
         img : img1,
         classAction: 'two',
     },
