@@ -22,8 +22,8 @@ function Slider(props) {
                             objectFit:"cover",
                             opacity:"75%",
                             transform:"translate(0,-50%)",
-                            zIndex:-1,
-                            }} autoPlay loop><source src={video} type="video/mp4"/></video>
+                            
+                            }} playsInLine muted autoPlay loop><source src={video} type="video/mp4"/></video>
             <Swiper
                 modules={[Navigation,  Scrollbar, A11y, Autoplay]}
                     spaceBetween={0}
