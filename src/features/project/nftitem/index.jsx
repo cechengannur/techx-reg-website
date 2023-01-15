@@ -21,7 +21,7 @@ function Project(props) {
 
     const [searchTerm, setSearchTerm] = useState("");
 
-    const [datas, setDatas] = useState(data)
+    const [datas, setDatas] = useState(data.sort(() => Math.random() - Math.random()))
 
 
     const categoryFilter = (catItem)=>{
