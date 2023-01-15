@@ -73,6 +73,18 @@ import img75 from '../images/common/tech-comp/comp-circuit-showdown.jpeg'
 import img76 from '../images/common/tech-comp/comp-circuit-tron.jpeg'
 
 
+import img77 from '../images/common/hack-errorend.jpeg'
+import img78 from '../images/common/work-unity.jpeg'
+import img79 from '../images/common/work-3d.jpeg'
+import img80 from '../images/common/work-civil-cad.jpeg'
+import img81 from '../images/common/work-3d-max.jpeg'
+import img82 from '../images/common/work-embeded.jpeg'
+import img83 from '../images/common/work-electrical-system.jpeg'
+import img84 from '../images/common/work-spark.jpeg'
+import img85 from '../images/common/work-iot.jpeg'
+import img86 from '../images/common/work-lumion.jpeg'
+import img87 from '../images/common/work-product.jpeg'
+import img88 from '../images/common/work-self-robot.jpeg'
 
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
@@ -87,6 +99,139 @@ const pdfGuide = "/download";
 
 
 const dataProject = [
+    {
+        id: 88,
+        title: "Self Driving Robots",
+        img: img88,
+        category: '#workshop',
+        desc:"The future is here and self-driving technology is leading the way in the transportation industry. The possibilities are endless with this technology, and the demand for experts in this field is on the rise. IHRD Tharang is thrilled to announce our Self-driving Robot workshop! ",
+        link:"https://konfhub.com/SelfDivingRobot?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹250'], ['available', 'Open']]
+    },
+    {
+        id: 87,
+        title: "Product Development",
+        img: img87,
+        category: '#workshop',
+        desc:"Product development plays a crucial role in the success and growth of a business. It helps companies to stay competitive in the market, meet customer needs, and enhance their brand image. IHRD Tharang brings you an opportunity to learn the ins and outs of product development at our Product Development Workshop!",
+        link:"https://konfhub.com/ProductDevelopment?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹400'], ['available', 'Open']]
+    },
+    {
+        id: 86,
+        title: "FUNDAMENTALS OF INFASTRUCTURE DESUGN USING LUMION 3D",
+        img: img86,
+        category: '#workshop',
+        desc:"Join IHRD Tharang for a visually stunning workshop on the Fundamentals of Infrastructure Design using Lumion 3D! Learn to design and visualize infrastructure projects like never before with Lumion! Get hands-on experience with the latest techniques and tools used in the industry.",
+        link:"https://konfhub.com/lumion3d-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '30'], ['fee', '₹250'], ['available', 'Open']]
+    },
+    {
+        id: 85,
+        title: "Internet Of Things",
+        img: img85,
+        category: '#workshop',
+        desc:"The Internet of Things is unquestionably the wave of the future. So, why not dive into the vast world of IoT? IHRD Tharang is delighted to invite you all to the IoT workshop. You will be able to learn about the most recent technologies and trends. You will be guided via hands-on projects, providing you the skills and knowledge to build your own solutions.",
+        link:"https://konfhub.com/iot-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹400'], ['available', 'Open']]
+    },
+    {
+        id: 84,
+        title: "Intro to Sparks",
+        img: img84,
+        category: '#workshop',
+        desc:"Would you like to be at the forefront of technological advancement? What if you had the opportunity to shape the future with your ideas and innovation? Well, here is your chance! IHRD Tharang presents to you an exhilarating chance with an innovative workshop on Intro to Spark. Discover Spark\'s fundamental concepts and features, as well as how to process and analyse massive datasets.",
+
+        link:"https://konfhub.com/in-sp-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹350'], ['available', 'Open']]
+    },
+    {
+        id: 83,
+        title: "ELECTRICAL SYSTEM DESIGN",
+        img: img83,
+        category: '#workshop',
+        desc:"Are you curious about electrical systems and their design? Then you are at the right spot. IHRD Tharang is bringing you an exciting chance to gain an indepth and detailed view about Electrical System Design.",
+        link:"https://konfhub.com/electricalsystemdesign-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹450'], ['available', 'Open']]
+    },
+    {
+        id: 82,
+        title: "Embbeded System",
+        img: img82,
+        category: '#workshop',
+        desc:"Ready to dive into the exciting world of embedded systems? If so, look no further! Get ready to learn how to bring your ideas to life with code and circuitry, cause IHRD Tharang invites you to experience the power of interactive learning at our workshop on Embedded Systems.",
+        link:"https://konfhub.com/em-sys-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹600'], ['available', 'Open']]
+    },
+    {
+        id: 81,
+        title: "3DX MAX",
+        img: img81,
+        category: '#workshop',
+        desc:"IHRD Tharang is pleased to invite you to the 3ds Max workshop, which gears toward nourishing individuals who are new to or looking to improve their skills. The delegates will be exposed to advanced modeling, animation, and visual effects techniques as well as the fundamental ideas and capabilities of 3ds Max during the workshop. ",
+        link:"https://konfhub.com/3dxMax-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹500'], ['available', 'Open']]
+    },
+    {
+        id: 80,
+        title: "Civil CAD",
+        img: img80,
+        category: '#workshop',
+        desc:"Join us for the exhilarating IHRD Tharang Civil CAD Workshop! 💻  Learn from industry experts and gain hands-on experience with state-of-the-art software and technology",
+        link:"https://konfhub.com/cc-cad-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹350'], ['available', 'Open']]
+    },
+    {
+        id: 79,
+        title: "3D Modeling",
+        img: img79,
+        category: '#workshop',
+        desc:"Are you ready to bring your ideas to life? Then come join IHRD Tharang's 3D Modelling & Printing Workshop! ✨ Learn to use industry-standard software to create your own 3D models from scratch..",
+        link:"https://konfhub.com/3d-printing-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '40'], ['fee', '₹350'], ['available', 'Open']]
+    },
+    {
+        id: 78,
+        title: "UNITY",
+        img: img78,
+        category: '#workshop',
+        desc:"Have you always dreamed of creating your own video game? Look no further than IHRD Tharang's Unity Workshop!Join us and learn more about the exciting fields of C#, Unity and game development.",
+        link:"https://konfhub.com/UNITY-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['points', '30'], ['fee', '₹250'], ['available', 'Open']]
+    },
+    {
+        id: 77,
+        title: "ERROREND (Hackathon)",
+        img: img77,
+        category: '#hackathons',
+        desc:"Waiting for an opportunity to showcase your coding skills? Here is your chance to brush up your skills and fasten your fingers. IHRD Tharang is here with a 2-day coding challenge, ERROREND for Higher secondary students to pique their interest in competitive coding.",
+        link:"https://konfhub.com/errorend-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,
+        
+        general: [['prize', '₹10000'], ['fee', '₹250 (Team)'], ['available', 'Open']]
+    },
     {
         id: 76,
         title: "Circuitron",
