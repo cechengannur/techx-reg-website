@@ -346,7 +346,7 @@ const dataProject = [
         title: "FANTASM [ideathon]",
         img: img68,
         category: '#competition',
-        desc:"Welcome to IHRD Tharang FANTASM, a revolutionary gathering of forward-thinking high school students from all corners of the region to hatch and pitch innovative ideas for projects that make a positive impact on society. This jam-packed day is designed to inspire young minds to delve deep into the issues facing their communities and come up with original solutions.",
+        desc:"Welcome to the \"Revolutionizing Education for a Brighter Future\" Ideathon! This one-day event is designed to empower high school students to think critically and creatively about the future of education.We believe that the next generation of leaders has the potential to revolutionize education, and we're excited to see what they come up with. Join us for a day of inspiration, collaboration, and most importantly, fun!\nWe look forward to seeing you at the event and seeing the innovative ideas that will be shared.",
         link:"https://konfhub.com/Fantasm?utm_source=tharangweb",
         guidelines:"https://drive.google.com/drive/folders/16wYKjrd9RObcENGH1747PNz6aQ4sX78E?usp=share_link",
         
