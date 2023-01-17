@@ -29,6 +29,7 @@ const dataPartner = [
     },
     {
         img: img3,
+        link:'https://www.kmml.com/'
 
     },
     // {
