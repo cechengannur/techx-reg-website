@@ -85,7 +85,8 @@ import img85 from '../images/common/work-iot.jpeg'
 import img86 from '../images/common/work-lumion.jpeg'
 import img87 from '../images/common/work-product.jpeg'
 import img88 from '../images/common/work-self-robot.jpeg'
-
+import img89 from '../images/common/work-hev_modelling.jpeg'
+import img90 from '../images/common/work-metaverse.jpeg'
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
 const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/game-compcod.jpeg";
@@ -99,6 +100,26 @@ const pdfGuide = "/download";
 
 
 const dataProject = [
+    {
+        id: 90,
+        title: "Metaverse: Development & Deployment",
+        img: img90,
+        category: '#workshop',
+        desc:"The Metaverse is the digital world that is rapidly gaining traction as the next big thing in technology. It's a place where people can connect, create, and explore in ways that were previously impossible.IHRD Tharang is excited to announce our Metaverse: Development & Deployment workshop!",
+        link:"https://konfhub.com/metaverse-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,       
+        general: [['points', '60'], ['fee', '₹1000'], ['available', 'Open']]
+    },
+    {
+        id: 89,
+        title: "HEV Modelling & Battery Management",
+        img: img89,
+        category: '#workshop',
+        desc:"Join IHRD Tharang for a visually stunning workshop on HEV Modelling & Battery Management.\nLearn about the latest advancements in hybrid electric vehicle (HEV) modelling and energy-efficient battery management in this informative workshop.",
+        link:"https://konfhub.com/hev-mb-tharang?utm_source=tharangweb",
+        guidelines:pdfGuide,       
+        general: [['points', '60'], ['fee', '₹1000'], ['available', 'Open']]
+    },
     {
         id: 88,
         title: "Self Driving Robots",
