@@ -58,7 +58,7 @@ function Partner(props) {
                                 }
                             </Swiper>
 
-                            
+                            <p className="h7 sub-title">Mini-Silver</p>                            
                             <Swiper
                                 modules={[  Scrollbar, A11y ]}
                                     spaceBetween={60}

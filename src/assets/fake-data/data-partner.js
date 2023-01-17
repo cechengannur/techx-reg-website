@@ -1,7 +1,7 @@
 
 import img1 from '../images/logo/silver-spektra.png'
 import img2 from '../images/logo/silver-edurupt.png'
-import img3 from '../images/logo/logo3.png'
+import img3 from '../images/logo/mini_silver-kmml.png'
 import img4 from '../images/logo/logo4.png'
 import img5 from '../images/logo/logo5.png'
 import img6 from '../images/logo/logo6.png'
@@ -27,10 +27,10 @@ const dataPartner = [
         link:'https://edurupt.com/'
 
     },
-    // {
-    //     img: img3,
+    {
+        img: img3,
 
-    // },
+    },
     // {
     //     img: img4,
 
