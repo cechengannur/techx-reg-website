@@ -29,6 +29,8 @@ function HomeOne(props) {
         
         <Slider data={dataSlider} />
 
+        <Partner data={dataPartner} />
+        
         <About data={dataAbout} />
 
         {/* <NikeCard data={TshirtImg} link="https://forms.gle/JiidnBNX7cmuJXjy7"/> */}
@@ -43,7 +45,7 @@ function HomeOne(props) {
 
         <Blog data={dataBlog} />
 
-        <Partner data={dataPartner} />
+        
 
         <FAQ data={dataFaq} />
         
