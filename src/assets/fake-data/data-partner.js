@@ -2,7 +2,7 @@
 import img1 from '../images/logo/silver-spektra.png'
 import img2 from '../images/logo/silver-edurupt.png'
 import img3 from '../images/logo/mini_silver-kmml.png'
-import img4 from '../images/logo/logo4.png'
+import img4 from '../images/logo/silver-manglish.png'
 import img5 from '../images/logo/logo5.png'
 import img6 from '../images/logo/logo6.png'
 import img7 from '../images/logo/logo7.png'
@@ -28,14 +28,14 @@ const dataPartner = [
 
     },
     {
+        img: img4,
+
+    },
+    {
         img: img3,
         link:'https://www.kmml.com/'
 
     },
-    // {
-    //     img: img4,
-
-    // },
     // {
     //     img: img5,
 
