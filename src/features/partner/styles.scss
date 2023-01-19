@@ -1,19 +1,32 @@
 @use '../../scss/' as *;
 
 .partner .swiper {
-    margin-bottom: 74px;
-
+    
+    
+    
     &:nth-last-child(1) {
         margin-bottom: 31px;
+        
+        background-color: $white;
     }
     
     img{
-    &:hover {
-        transform: scale(1.2);
-    }
+        width: auto;
+        height: auto;
+        padding:12px;
+    background-color: white;
 }
+    
 }
 
+.swiper{
+    @include mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
 .home-1 .partner{
     background: $bg-3;
     
@@ -37,3 +50,4 @@
 .about-v2 .partner {
     padding: 80px 0 50px;
 }
+
