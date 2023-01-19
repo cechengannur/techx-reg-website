@@ -47,7 +47,7 @@ function Partner(props) {
                                     }}
                                 >
                                 {
-                                    data.slice(0,2).map((item,idx) => (
+                                    data.slice(0,3).map((item,idx) => (
                                         <SwiperSlide key={idx}>
                                             <div className="image">
                                                 <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
@@ -58,7 +58,8 @@ function Partner(props) {
                                 }
                             </Swiper>
 
-                            
+                            <p className="h7 sub-title">Mini-Silver</p>
+                                                        
                             <Swiper
                                 modules={[  Scrollbar, A11y ]}
                                     spaceBetween={60}
@@ -76,7 +77,7 @@ function Partner(props) {
                                     }}
                                 >
                                 {
-                                    data.slice(2,5).map((item,idx) => (
+                                    data.slice(3,5).map((item,idx) => (
                                         <SwiperSlide key={idx}>
                                             <div className="image">
                                             <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
