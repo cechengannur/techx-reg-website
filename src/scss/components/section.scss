@@ -515,16 +515,18 @@
 
 
 .item-parner {
-    padding: 0 70px;
     margin-top: 67px;
     .sl-parner {
         margin-bottom: 74px;
     }
     .image {
+        border: 8px solid #FB2576;
         img {
             @include transition5;
             transform: scale(1);
+
         }
+
     }
 }
 
