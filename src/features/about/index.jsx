@@ -13,27 +13,34 @@ function About(props) {
     const {data} = props;
 
     const [dataBlock] = useState(
-        [{
+        [
+         {
             id:0,
-            
-            title: 'Institute of Human Resources Development (IHRD)',
-            desc : 'The Institute of Human Resources Development (IHRD) is an autonomous educational institution established by the Government of Kerala in 1987. The institute is registered under The Travancore – Cochin Literary, Scientific and Charitable societies registrations Act 12 of 1955. IHRD is dedicated to the country\'s scientific advancement, technological progress, and economic growth through human resources development. Based on the principle, "Think Globally and Act Locally" it endeavors to bring about the welfare of the nation. The motto of IHRD is to foster technical education for every single one.The first name of IHRD was the Institute of Human Resources Development for Electronics (IHRDE). Later it was renamed and now bears the name IHRD. IHRD founded and manages many technical schools, engineering colleges, polytechnics, and applied science colleges.',
-            link: 'http://ihrd.ac.in/'
-        },
-        {
-            id:1,
-            
-            title: 'College of Engineering, Chengannur (CEC)',
-            desc : 'The College of Engineering Chengannur commonly known as CEC, is an engineering institute in the state of Kerala, India that the Government of Kerala established under the aegis of the Institute of Human Resources Development in 1993. The college is located in Chengannur, Alappuzha. It has been approved by the All India Council for Technical Education (AICTE) and is affiliated with APJ Abdul Kalam Technological University (KTU).',
-            desc2: 'An idyllic place to work and study in Kerala. Supercalifragilisticexpialidocious environment, brilliant teachers, and a great atmosphere. You\'ll eventually love everything about this college, even the security people or the tree welcoming you to the college. Alappuzha district the college has access to all means of transport, communication, and lodging facilities. It has a well-equipped infrastructure in classroom and lab facilities. The Training and Placement Cell, (TPC) is a body of active students, guided by Staff-in-Charge. Student members are specially selected to carry out the responsible working of the cell. The TPC dedicates itself to helping students develop their personalities and establish their careers. During this academic year, MCA has also started.',
-            link: 'https://ceconline.edu/'
-        },
-        {
-            id:2,
             title:'IHRD THARANG\'23',
-            desc:'A National Techno-Cultural-Entrepreneurial Fest Organized by IHRD (Established by the Govt. of Kerala) will be held on the 2nd - 6th of February 2023. Which aims at providing a holistic experience to the students by equipping them with an opportunity to Learn, Express, and Impress. The pioneer IHRD Tech Fest Tharang will be hosted by the College of Engineering, Chengannur, a premier institute governed by IHRD. The event will host various guests from the Ministry of Higher Education, National Research Laboratories, Industries, Investors, Entrepreneurs, District & Local Administration, Agriculture, and many other reputed organizations.',
+            desc:'IHRD Tharang’23, the first National Level Techno-Cultural-Entrepreneurial event organized by the Institute of Human Resources Development (IHRD). Adhering to the theme YOUTH, SCIENCE & LEADERSHIP, IHRD Tharang’23 aims at providing a holistic experience to the students and empower them in building ideas to design models and finished products in technology, cultural and entrepreneurship domains.  IHRD Tharang’23 is chaired by Hon’ble Minister for Fisheries, Culture and Youth Affairs, Shri. Saji Cherian. The tech fest will be held in College of Engineering, Chengannur on February 3rd, 4th, 5th 2023 and job fair on 6th of February. All the events of this tech fest are carefully curated with expert mentorship, speakers and hands-on experience in technology, entrepreneurship and cultural skills growth of the participants. This can give the students a global exposure to skill developments in their specific area of interest. Over the span of 6 days, i.e. from 2nd February, 2023 with inauguration, three days of tech fest from 3rd February to 5th February and job fair on 6th February there will be an overall participation of about 60,000 people for IHRD Tharang’23. Prior to the inaugural day a Flashmob is planned on the 26th of January at different public locations across various districts of Kerala, which is organized by the IHRD institutions in each zone. IHRD Tharang’23 will have compulsory participation from all 87 institutions of IHRD across the 14 districts of Kerala, which comprises of 9 engineering colleges, 8 polytechnic colleges, 45 applied science colleges, 15 technical higher secondary schools, 2 model finishing schools and 8 Regional/Extension/Study Centres. Apart from IHRD institutions all the competitions, workshops etc are open to any student who is currently registered and pursuing education in any academic institutions in India. IHRD Tharang’23 will focus on the Innovators, Industrialists and Investors conclave on 3rd February, Media conclave on 4th February and Research and Development Conclave on 5th February. Under each of these conclaves there will be participation from top tier Venture capitalists from California, USA, expert panel discussions and sessions from prestigious institutions like IITs, VSSC, IIMs, media celebrities and leaders from politics and other areas of television and media. The experts from each of these fields would be directly interacting with the participants, helping them aspire and equip the participants to achieve their bigger passions with a pragmatic approach. Participants of IHRD Thrang’23 will have the opportunity to choose from about 25+ workshops, 30+ competitions designed for various students’ levels and aptitude along with about 85 stalls to visit for. The stalls are separated out to different purpose stalls such as for school and college project expos, 10+ government institution stalls such as that of K-DISC, Kerala Excise Department, Fire force, VSSC, Naval NCC etc. Artistic gallery stalls, AR/VR zones would also be a part of event attraction for IHRD Tharang’23. Along with cultural and gaming entertainments planned, IHRD Tharang’23 will also host numerous food stalls and flea markets from the small business entrepreneurs of Kerala.With a vision to promote the culture and aesthetics of Kerala, IHRD Tharang’23 takes an effort to brand artisans, entrepreneurs of Kerala such as the Aranmula Vaasthuvidya, Ayroor Kathakali Gramam, Marayoor Sharkara and also ties up with Google Crowdsource to reinforce Malayalam language learning model of Google devices for shopping and other customer experiences, thereby making Malayalam global access easier. Along with the participation from the institutions, with our cultural programs being open to all, we also expect a participation of around 3000 people from public who would attend the cultural programs arranged on 2nd, 3rd, 4th and 5th of February by celebrities like Padmapriya, Sithara Krishnakumar, Pradeep Somasundaran and Rasmi Satheesh. Cumulating a variety of events to cater the taste of a wide community, IHRD Tharang’23 is a one-stop destination for knowledge, fun and entertainment.',
             link: 'http://tharang.ihrd.ac.in/'
-        }
+        },
+//        {
+//            id:1,
+//            
+//            title: 'Institute of Human Resources Development (IHRD)',
+//            desc : '',
+//            link: 'http://ihrd.ac.in/'
+//        },
+//        {
+//           id:2,
+//            
+//            title: 'College of Engineering, Chengannur (CEC)',
+//            desc : '',
+//            desc2: '',
+//            link: 'https://ceconline.edu/'
+//        },
+//         {
+//             id:3,
+//             title:'IHRD THARANG\'23',
+//             desc:'A National Techno-Cultural-Entrepreneurial Fest Organized by IHRD (Established by the Govt. of Kerala) will be held on the 2nd - 6th of February 2023. Which aims at providing a holistic experience to the students by equipping them with an opportunity to Learn, Express, and Impress. The pioneer IHRD Tech Fest Tharang will be hosted by the College of Engineering, Chengannur, a premier institute governed by IHRD. The event will host various guests from the Ministry of Higher Education, National Research Laboratories, Industries, Investors, Entrepreneurs, District & Local Administration, Agriculture, and many other reputed organizations.',
+//             link: 'http://tharang.ihrd.ac.in/'
+//         }
     ]
     )
 
