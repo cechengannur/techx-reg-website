@@ -616,7 +616,7 @@ const dataProject = [
         link:"https://konfhub.com/vic-tharang?utm_source=tharangweb",
         guidelines:pdfGuide,
         
-        general: [['prize', '₹1000'], ['fee', 'Free'], ['available', 'Open']]
+        general: [['prize', '₹1000'], ['fee', 'Free'], ['available', 'Closed']]
     },
 
     {
