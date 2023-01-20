@@ -87,6 +87,7 @@ import img87 from '../images/common/work-product.jpeg'
 import img88 from '../images/common/work-self-robot.jpeg'
 import img89 from '../images/common/work-hev_modelling.jpeg'
 import img90 from '../images/common/work-metaverse.jpeg'
+import img91 from '../images/common/game-pubg.png'
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
 const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/game-compcod.jpeg";
@@ -100,6 +101,16 @@ const pdfGuide = "/download";
 
 
 const dataProject = [
+    {
+        id: 91,
+        title: "PUBG NEWSTATE",
+        img: img91,
+        category: '#game',
+        desc:"It's time to bring your squad back into action⚡. Show your skills,get the kills💀 and may the zone be in your favour🤞.\nIHRD Tharang is hosting Pubg New State Lan Event with a prize pool up for grabs.",
+        link:"https://konfhub.com/Pubgnewstate?utm_source=tharangweb",
+        guidelines:pdfGuide,       
+        general: [['prize','3K'], ['fee', '₹100'], ['available', 'Open']]
+    },
     {
         id: 90,
         title: "Metaverse: Development & Deployment",
@@ -605,7 +616,7 @@ const dataProject = [
         link:"https://konfhub.com/vic-tharang?utm_source=tharangweb",
         guidelines:pdfGuide,
         
-        general: [['prize', '₹1000'], ['fee', 'Free'], ['available', 'Open']]
+        general: [['prize', '₹1000'], ['fee', 'Free'], ['available', 'Closed']]
     },
 
     {

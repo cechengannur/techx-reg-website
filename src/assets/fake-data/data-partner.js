@@ -29,6 +29,7 @@ const dataPartner = [
     },
     {
         img: img4,
+        link:'https://www.manglishworld.com/'
 
     },
     {
