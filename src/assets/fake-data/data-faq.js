@@ -25,8 +25,8 @@ const dataFaq = [
     },
     {
         id: 5,
-        title: 'Is there food and accommodation available?',
-        content: 'Yes, food and accommodation are available. You will have to select the options while you register for an event.',
+        title: 'Is accommodation available?',
+        content: 'Yes, accommodation is available for registered individuals. To secure a spot, you will have to register for accommodation.',
 
     },
     {
