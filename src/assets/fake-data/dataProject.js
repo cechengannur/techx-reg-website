@@ -1,5 +1,6 @@
 import { region } from 'caniuse-lite';
 import { Link } from 'react-router-dom';
+import img5 from '../images/common/con-vezeto.jpg'
 import img9 from '../images/common/comp-radiant.jpeg'
 // import img10 from '../images/common/work-vr.png'
 import img11 from '../images/common/work-ai.png'
@@ -92,7 +93,7 @@ const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
 const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/game-compcod.jpeg";
 const img4 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-survival.jpeg";
-const img5 = "https://d245tsppfkavw4.cloudfront.net/assets/con-veznto.jpeg";
+
 const img6 = "https://d245tsppfkavw4.cloudfront.net/assets/hack-conquerer.jpeg";
 const img7 = "https://d245tsppfkavw4.cloudfront.net/assets/con-auxpo.jpeg";
 const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
