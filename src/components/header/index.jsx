@@ -30,7 +30,13 @@ const Header = () => {
     
     const [activeIndex, setActiveIndex] = useState(null);
     const handleDropdown = index => {
+        handleMenuVisibility();
         setActiveIndex(index); 
+    };
+    const handleMenuVisibility= (hasChildren)=> {//hides the mobile navbar onClick if menu item doesn't have children
+        if(hasChildren == false){
+            setMenuActive(!menuActive);
+        }
     };
 
     return (
@@ -45,16 +51,15 @@ const Header = () => {
 
                             {
                                 menus.map((data,idx) => (
-                                    <li key={idx} onClick={()=> handleDropdown(idx)} className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`} 
-                                    
+                                    <li key={idx} onClick={()=> (handleDropdown(idx),handleMenuVisibility(data.hasOwnProperty('namesub')))} className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`} 
                                     >
                                         <Link to={data.links}>{data.name}</Link>
                                         {
                                             data.namesub &&
-                                            <ul className="sub-menu">
+                                            <ul onClick={()=> (handleDropdown(idx),handleMenuVisibility(true))} className="sub-menu">
                                                 {
                                                     data.namesub.map((submenu) => (
-                                                        <li key={submenu.id} className="menu-item"><NavLink to={submenu.links}>{submenu.sub}</NavLink></li>
+                                                        <li onClick={()=> (handleDropdown(idx),handleMenuVisibility(false))}  key={submenu.id} className="menu-item"><NavLink to={submenu.links}>{submenu.sub}</NavLink></li>
                                                     ))
                                                 }
                                             </ul>
