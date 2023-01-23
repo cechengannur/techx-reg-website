@@ -87,6 +87,7 @@ function Partner(props) {
                                     ))
                                 }
                             </Swiper>
+                            <p className="h7 sub-title">Radio Partner</p>
                             <Swiper
                                 modules={[  Scrollbar, A11y ]}
                                     spaceBetween={60}
@@ -104,7 +105,7 @@ function Partner(props) {
                                     }}
                                 >
                                 {
-                                    data.slice(5,8).map((item,idx) => (
+                                    data.slice(5,6).map((item,idx) => (
                                         <SwiperSlide key={idx}>
                                             <div className="image">
                                             <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
