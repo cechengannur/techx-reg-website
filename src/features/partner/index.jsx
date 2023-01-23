@@ -105,7 +105,7 @@ function Partner(props) {
                                     }}
                                 >
                                 {
-                                    data.slice(5,6).map((item,idx) => (
+                                    data.slice(5,5).map((item,idx) => (
                                         <SwiperSlide key={idx}>
                                             <div className="image">
                                             <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
