@@ -25,13 +25,13 @@ function Project(props) {
                 spaceBetween={30}
                 breakpoints={{
                     0: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         },
                     767: {
-                        slidesPerView: 3,
+                        slidesPerView: 2,
                     },
                     991: {
-                        slidesPerView: 5,
+                        slidesPerView: 4,
                     },
                 }}
                 loop
@@ -58,13 +58,13 @@ function Project(props) {
                 spaceBetween={30}
                 breakpoints={{
                     0: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         },
                     767: {
-                        slidesPerView: 3,
+                        slidesPerView: 2,
                     },
                     991: {
-                        slidesPerView: 5,
+                        slidesPerView: 4,
                     },
                 }}
                 loop

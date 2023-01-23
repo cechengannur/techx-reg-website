@@ -77,7 +77,65 @@ function Partner(props) {
                                     }}
                                 >
                                 {
-                                    data.slice(3,5).map((item,idx) => (
+                                    data.slice(3,4).map((item,idx) => (
+                                        <SwiperSlide key={idx}>
+                                            <div className="image">
+                                            <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
+                                            </div>
+                                        </SwiperSlide>
+                                        
+                                    ))
+                                }
+                            </Swiper>
+                            <br/>
+                            <p className="h7 sub-title">Radio-Partner</p>
+                            <Swiper
+                                modules={[  Scrollbar, A11y ]}
+                                    spaceBetween={60}
+                                    scrollbar={{ draggable: true }}
+                                    breakpoints={{
+                                        0: {
+                                            slidesPerView: 2,
+                                            },
+                                        767: {
+                                            slidesPerView: 4,
+                                        },
+                                        991: {
+                                            slidesPerView: 6,
+                                        },
+                                    }}
+                                >
+                                {
+                                    data.slice(5,6).map((item,idx) => (
+                                        <SwiperSlide key={idx}>
+                                            <div className="image">
+                                            <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
+                                            </div>
+                                        </SwiperSlide>
+                                        
+                                    ))
+                                }
+                            </Swiper>
+                            <br/>
+                            <p className="h7 sub-title">Rrefreshment-Partner</p>
+                            <Swiper
+                                modules={[  Scrollbar, A11y ]}
+                                    spaceBetween={60}
+                                    scrollbar={{ draggable: true }}
+                                    breakpoints={{
+                                        0: {
+                                            slidesPerView: 2,
+                                            },
+                                        767: {
+                                            slidesPerView: 4,
+                                        },
+                                        991: {
+                                            slidesPerView: 6,
+                                        },
+                                    }}
+                                >
+                                {
+                                    data.slice(4,5).map((item,idx) => (
                                         <SwiperSlide key={idx}>
                                             <div className="image">
                                             <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
@@ -104,7 +162,7 @@ function Partner(props) {
                                     }}
                                 >
                                 {
-                                    data.slice(5,8).map((item,idx) => (
+                                    data.slice(0,0).map((item,idx) => (
                                         <SwiperSlide key={idx}>
                                             <div className="image">
                                             <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
