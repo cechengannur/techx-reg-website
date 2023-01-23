@@ -3,8 +3,8 @@ import img1 from '../images/logo/silver-spektra.png'
 import img2 from '../images/logo/silver-edurupt.png'
 import img3 from '../images/logo/mini_silver-kmml.png'
 import img4 from '../images/logo/silver-manglish.png'
-import img5 from '../images/logo/logo5.png'
-import img6 from '../images/logo/logo6.png'
+import img5 from '../images/logo/avt.jpg'
+import img6 from '../images/logo/mango.jpg'
 import img7 from '../images/logo/logo7.png'
 import img8 from '../images/logo/logo8.png'
 import img9 from '../images/logo/logo9.png'
@@ -37,13 +37,15 @@ const dataPartner = [
         link:'https://www.kmml.com/'
 
     },
-    // {
-    //     img: img5,
+     {
+         img: img5,
+         link:'https://avtbeverages.com/product/avt-premium-tea/'
 
-    // },
-    // {
-    //     img: img6,
-    // },
+     },
+     {
+         img: img6,
+         link:'https://www.radiomango.fm/home.html/'
+     },
     // {
     //     img: img7,
     // },
