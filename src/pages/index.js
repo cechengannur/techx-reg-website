@@ -32,6 +32,7 @@ const routes = [
   { path: '/company-list', component: <RedirectPage url="http://min.lc/job-fair-company-list" />},
   { path: '/fba', component: <RedirectPage url="https://konfhub.com/accomodationboys-tharangtechfest" />},
   { path: '/fga', component: <RedirectPage url="https://konfhub.com/Accomodationgirls-tharangtechfest" />},
+  { path: '/steps-job-fair', component: <RedirectPage url="https://docs.google.com/document/d/1bf-9xS8Hqx-Lx-N_v2ixnMwRkl_xUw5z_S-omLjD_HY/edit?usp=drivesdk" />},
   {path: '/gallery', component:<GalleryPage/>},
   {path: '/download', component:<DownloadsPage/>},
   {path: '/guidelines', component:<Guidelines/>},
