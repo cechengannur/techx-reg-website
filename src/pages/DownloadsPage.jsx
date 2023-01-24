@@ -26,7 +26,7 @@ const DownloadsPage = (props) => {
                 <div className="col-xl-6 col-md-12">
                     <div className="flat-accordion" data-aos="fade-up" data-aos-duration="800">
                         {
-                            dataDown.slice(3,6).map(item => (
+                            dataDown.slice(3,5).map(item => (
                                 <AccordionItem key={item.id} item={item} />
                             ))
                         }

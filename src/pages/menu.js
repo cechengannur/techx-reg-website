@@ -1,26 +1,5 @@
-const menus = [
-    // {
-    //     id: 1,
-    //     name: 'Home',
-    //     links: '/',
-    //     // namesub: [
-    //     //     {
-    //     //         id: 1,
-    //     //         sub: 'Home',
-    //     //         links: '/'
-    //     //     },
-    //     //     {
-    //     //         id: 2,
-    //     //         sub: 'Home 02',
-    //     //         links: '/home-v2'
-    //     //     },
-    //     //     {
-    //     //         id: 3,
-    //     //         sub: 'Home 03',
-    //     //         links: '/home-v3'
-    //     //     },
-    //     // ]
-    // },
+const menus = [  
+
     {
         id: 1,
         name: 'About',
@@ -30,51 +9,13 @@ const menus = [
                 id: 1,
                 sub: 'FAQ',
                 links: '/faq'
-            },
-            // {
-            //     id: 1,
-            //     sub: 'Coming Soon',
-            //     links: '/coming-soon'
-            // },
-            // {
-            //     id: 1,
-            //     sub: 'Community',
-            //     links: '/community'
-            // },
-            // {
-            //     id: 2,
-            //     sub: 'Team Details',
-            //     links: '/team-details'
-            // },
-            // {
-            //     id: 3,
-            //     sub: 'FAQ',
-            //     links: '/faq'
-            // },
-            // {
-            //     id: 5,
-            //     sub: '404',
-            //     links: '/404'
-            // },
-
+            },          
         ]
     },
     {
         id: 2,
         name: 'Events',
-        links: '/events',  ///'nft-item'
-        // namesub: [
-        //     {
-        //         id: 1,
-        //         sub: 'Nft Item',
-        //         links: '/nft-item'
-        //     },
-        //     {
-        //         id: 1,
-        //         sub: 'Event Details',
-        //         links: '/nft-item-details'
-        //     },
-        // ],
+        links: '/events',  ///'nft-item'        
     },
     {
         id: 3,
@@ -83,12 +24,12 @@ const menus = [
         namesub: [
                 {
                     id: 1,
-                    sub: 'Candidates',
+                    sub: 'Candidate Registration',
                     links: '/guidelines',
                 },
                 {
                     id: 2,
-                    sub: 'Companies',
+                    sub: 'Company Registration',
                     links: '/register'
                 },
                 {
@@ -100,45 +41,46 @@ const menus = [
     },
     {
         id: 4,
+        name: 'Accomodation',
+        links: '/',
+        namesub: [
+            {
+                id: 1,
+                sub: 'For Boys',
+                links: '/fba'
+            },  
+            {
+                id: 2,
+                sub: 'For Girls',
+                links: '/fga'
+            },          
+        ]
+    },
+    
+    {
+        id: 5,
         name: 'Downloads',
         links: '/download',
     },
     {
-        id: 5,
+        id: 6,
         name: 'Gallery',
         links: '/gallery',
     },
     
     {
-        id: 6,
+        id: 7,
         name: 'Pre-Events',
         links: '/pre-events',
 
     },
     {
-        id: 7,
+        id: 8,
         name: 'Arcade',
         links: '/arcade',
-    },
-    // {
-    //     id: 5,
-    //     name: 'Blog',
-    //     links: '#',
-    //     namesub: [
-    //         {
-    //             id: 1,
-    //             sub: 'Our Blog',
-    //             links: '/blog'
-    //         },
-    //         {
-    //             id: 2,
-    //             sub: 'Blog Details',
-    //             links: '/blog-details'
-    //         },
-    //     ],
-    // },
+    },  
     {
-        id: 8,
+        id: 9,
         name: 'Contact',
         links: '/contact'
     },

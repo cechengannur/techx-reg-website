@@ -3,6 +3,7 @@ import pdf2 from '../documents/GUIDELINES OF COLLEGE PROJECTS - THARANG.pdf';
 import pdf3 from '../documents/Guidelines for IHRD THARANG  2023 - Exhibition.pdf';
 import pdf4 from '../documents/IHRD Historical Gallery.pdf';
 import pdf5 from '../documents/Job-Fair-Guidelines.pdf';
+import pdf6 from '../documents/Steps-Job-Fair.docx';
 
 const dataDown = [
     
@@ -42,12 +43,14 @@ const dataDown = [
         link:pdf5,
 
     },
-    // {
-    //     id: 6,
-    //     title: 'Can we attend more than one workshops?',
-    //     content: 'Yes, you can attend as many workshops as you want.',
+    {
+        id: 6,
+        title: 'Steps to Register for IHRD THARANG 2023 - Job Fair   ',
+        content: 'The following are the steps to register for the Job Fair - 2023',
+        link:pdf6,
         
-    // },
+    },
 ]
 
 export default dataDown;
+

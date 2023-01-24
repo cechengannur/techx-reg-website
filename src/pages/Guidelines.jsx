@@ -4,6 +4,9 @@ import PageTitle from '../components/pagetitle';
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
 import jobFair from '../assets/images/common/jobf.png'
+import dataDown from '../assets/fake-data/data-downloads';
+import AccordionItem from '../features/downloads/accordion-item';
+
 
 
 const Guidelines = (props) => {
@@ -27,6 +30,24 @@ const Guidelines = (props) => {
                             <div className="img ">
                                             <img src={jobFair} width="auto" height="auto" alt="Job Fair in 6th" />
                                         </div>
+
+                                        <section className="tf-section faq bg-st2">
+                                            <div className="container">
+                                                <div className="row">
+                                                    <div className=" col-md-12">
+                                                        <div className="flat-accordion" data-aos="fade-up" data-aos-duration="800">
+                                                            {
+                                                                dataDown.slice(5,6).map(item => (
+                                                                    <AccordionItem key={item.id} item={item} />
+
+                                                                ))
+                                                            }
+
+                                                        </div>
+                                                    </div>                                                   
+                                                </div>
+                                            </div>
+                                        </section>
 
                                 <div className="tf-title st2">
                                     <br/>
