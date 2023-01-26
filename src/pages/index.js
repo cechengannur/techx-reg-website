@@ -4,7 +4,6 @@ import HomeThree from "./HomeThree";
 import AboutOne from "./AboutOne";
 import AboutTwo from "./AboutTwo";
 import RedirectPage from "./RedirectPage";
-// import ComingSoon from "./ComingSoon";
 import Community from "./Community";
 import FAQ from "./FAQ";
 import Page404 from "./404";
@@ -31,15 +30,12 @@ const routes = [
   { path: '/arcade', component: <RedirectPage url="https://s3.us-west-2.amazonaws.com/arcadev1.0.0/Arcade_v1.0.5/index.html" />},
   { path: '/register', component: <RedirectPage url="http://min.lc/NOsvJ" />},
   { path: '/company-list', component: <RedirectPage url="http://min.lc/job-fair-company-list" />},
+  { path: '/fba', component: <RedirectPage url="https://konfhub.com/accomodationboys-tharangtechfest" />},
+  { path: '/fga', component: <RedirectPage url="https://konfhub.com/Accomodationgirls-tharangtechfest" />},
+  { path: '/steps-job-fair', component: <RedirectPage url="https://docs.google.com/document/d/1bf-9xS8Hqx-Lx-N_v2ixnMwRkl_xUw5z_S-omLjD_HY/edit?usp=drivesdk" />},
   {path: '/gallery', component:<GalleryPage/>},
   {path: '/download', component:<DownloadsPage/>},
   {path: '/guidelines', component:<Guidelines/>},
-  // { path: '/', component: <ComingSoon />},
-  // { path: '/home-v2', component: <HomeTwo />},
-  // { path: '/home-v3', component: <HomeThree />},
-  // { path: '/about-v1', component: <AboutOne />},
-  // { path: '/about-v2', component: <AboutTwo />},
-  // { path: '/coming-soon', component: <ComingSoon />},
   { path: '/about', component: <Community />},
   { path: '/faq', component: <FAQ />},
   { path: '/404', component: <Page404 />},

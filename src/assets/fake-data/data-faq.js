@@ -26,7 +26,7 @@ const dataFaq = [
     {
         id: 5,
         title: 'Is accommodation available?',
-        content: 'Yes, accommodation is available for registered individuals. To secure a spot, you will have to register for accommodation.',
+        content: 'Yes. There is a link on this website where non-IHRD students can register for accommodation. Students from IHRD institutions should register by the respective Heads of Institutions.',
 
     },
     {

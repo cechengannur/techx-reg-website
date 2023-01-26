@@ -13,7 +13,17 @@ function FAQ(props) {
             <section className="tf-section faq bg-st2">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-6 col-md-12">
+                    <div className="col-md-12">
+                        <div className="flat-accordion" data-aos="fade-up" data-aos-duration="800">
+                            {
+                                dataFaq.slice(0,7).map(item => (
+                                    <AccordionItem key={item.id} item={item} />
+                                ))
+                            }
+
+                        </div>
+                    </div>
+                    {/* <div className="col-xl-6 col-md-12">
                         <div className="flat-accordion" data-aos="fade-up" data-aos-duration="800">
                             {
                                 dataFaq.slice(1,7).map(item => (
@@ -22,17 +32,7 @@ function FAQ(props) {
                             }
 
                         </div>
-                    </div>
-                    <div className="col-xl-6 col-md-12">
-                        <div className="flat-accordion" data-aos="fade-up" data-aos-duration="800">
-                            {
-                                dataFaq.slice(1,7).map(item => (
-                                    <AccordionItem key={item.id} item={item} />
-                                ))
-                            }
-
-                        </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

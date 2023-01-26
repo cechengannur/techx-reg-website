@@ -44,7 +44,7 @@ const Header = () => {
             <div className="container">
                 <div id="site-header-inner">
                     <div className="header__logo">
-                        <NavLink to="/"><img src={logo} alt="Crybox" width={300} height={50}/></NavLink>
+                        <NavLink to="/"><img src={logo} alt="Crybox" width={280} height={50}/></NavLink>
                     </div>
                     <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
                         <ul id="menu-primary-menu" className="menu">
