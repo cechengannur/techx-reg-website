@@ -52,5 +52,8 @@
   },
   "devDependencies": {
     "node-sass": "^8.0.0"
+  },
+  "resolutions": {
+    "memfs": "3.4.7"
   }
 }

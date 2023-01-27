@@ -1,6 +1,7 @@
 import { region } from 'caniuse-lite';
 import { Link } from 'react-router-dom';
 import img5 from '../images/common/con-vezeto.jpg'
+import img6 from '../images/common/hack-conquerer.jpeg'
 import img9 from '../images/common/comp-radiant.jpeg'
 // import img10 from '../images/common/work-vr.png'
 import img11 from '../images/common/work-ai.png'
@@ -94,7 +95,7 @@ const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg
 const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/game-compcod.jpeg";
 const img4 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-survival.jpeg";
 
-const img6 = "https://d245tsppfkavw4.cloudfront.net/assets/hack-conquerer.jpeg";
+
 const img7 = "https://d245tsppfkavw4.cloudfront.net/assets/con-auxpo.jpeg";
 const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
@@ -1010,7 +1011,7 @@ const dataProject = [
         category: '#hackathons',
         desc:"🚀 Get ready for CONQUEROR, the ultimate 12 hour hackathon by IHRD Tharang focused on tackling the biggest health issues faced by the society today! Teams will have the opportunity to build a prototype app, website, or software to showcase their innovative solutions. The best and brightest minds will come together to conquer the challenges facing the health sector, and emerge victorious as true CONQUERORS.",
         link:"https://konfhub.com/conqueror?utm_source=tharangweb",
-        guidelines:pdfGuide,
+        guidelines:"https://drive.google.com/file/d/1v_eP2hlkSR8n3TJpLSl7EiLvFQ6uVqcp/view?usp=share_link",
         general: [['prize', '20,000'], ['fee', '₹399 (Team)'], ['available', 'Open']],
     },
     {
