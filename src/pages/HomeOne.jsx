@@ -21,6 +21,8 @@ import dataPartner from '../assets/fake-data/data-partner';
 import FAQ from '../features/faq';
 import dataFaq from '../assets/fake-data/data-faq';
 import { NikeCard } from '../components/nikeCard';
+import dataHighlights from '../assets/fake-data/data-highlights';
+import Highlights from '../features/highlights';
 
 function HomeOne(props) {
 
@@ -28,6 +30,8 @@ function HomeOne(props) {
         <div className='home-1'>
         
         <Slider data={dataSlider} />
+
+        {/* <Highlights data={dataHighlights} /> */}
 
         <Partner data={dataPartner} />
         
