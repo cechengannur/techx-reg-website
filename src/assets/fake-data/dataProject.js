@@ -1,31 +1,32 @@
 import { region } from 'caniuse-lite';
 import { Link } from 'react-router-dom';
 import img5 from '../images/common/con-vezeto.jpg'
+import img6 from '../images/common/hack-conquerer.jpeg'
 import img9 from '../images/common/comp-radiant.jpeg'
-// import img10 from '../images/common/work-vr.png'
-import img11 from '../images/common/work-ai.png'
-import img12 from '../images/common/work-plc.png'
-import img13 from '../images/common/work-git.png'
-import img14 from '../images/common/work-pcb.png'
-import img15 from '../images/common/work-deep.jpeg'
-import img16 from '../images/common/work-flutter.png'
-import img17 from '../images/common/work-cloud.jpeg'
-import img18 from '../images/common/work-ds.png'
-import img19 from '../images/common/work-ar.png'
-import img20 from '../images/common/work-harley.png'
-import img21 from '../images/common/work-factory.png'
-import img22 from '../images/common/work-quantum.jpeg'
-import img23 from '../images/common/work-origami.jpeg'
-import img24 from '../images/common/work-python.jpeg'
-import img25 from '../images/common/work-ros.jpeg'
-import img26 from '../images/common/work-autocad.jpeg'
-import img27 from '../images/common/work-bmw.jpeg'
-import img28 from '../images/common/work-data.jpeg'
-import img29 from '../images/common/work-robot.jpeg'
-import img30 from '../images/common/work-matlab.jpeg'
-import img31 from '../images/common/work-structure.jpeg'
-import img32 from '../images/common/work-web.jpeg'
-import img33 from '../images/common/work-hacking.jpeg'
+// import img10 from '../images/common/virtual-reality.png'
+import img11 from '../images/common/self-driving.png'
+import img12 from '../images/common/plc-scada.png'
+import img13 from '../images/common/github.png'
+import img14 from '../images/common/pcb-design.png'
+import img15 from '../images/common/deep-fake.png'
+import img16 from '../images/common/flutter-final.png'
+import img17 from '../images/common/work-cloud-computing.png'
+import img18 from '../images/common/data-science.png'
+import img19 from '../images/common/ar&game dev.png'
+import img20 from '../images/common/harley.png'
+import img21 from '../images/common/siemens.png'
+import img22 from '../images/common/Quantum-computing.png'
+import img23 from '../images/common/Origami.png'
+import img24 from '../images/common/Python-script.png'
+import img25 from '../images/common/ROS.png'
+import img26 from '../images/common/autocad-1.png'
+import img27 from '../images/common/work-bmw.png'
+import img28 from '../images/common/work-data-mining.png'
+import img29 from '../images/common/Legged-robotics.png'
+import img30 from '../images/common/Matlab.png'
+import img31 from '../images/common/Structural-engineering.png'
+import img32 from '../images/common/Web development.png'
+import img33 from '../images/common/ethical-hacking.png'
 import img34 from '../images/common/comp-key.jpeg'
 import img35 from '../images/common/comp-center.jpeg'
 import img36 from '../images/common/tech-comp/comp-queen-gambit.jpeg'
@@ -36,9 +37,9 @@ import img40 from '../images/common/AR_VRzone.jpg'
 import img41 from '../images/common/CallforSME.jpg'
 import img42 from '../images/common/CallforStartup.jpg'
 import img43 from '../images/common/FoodStall.jpg'
-import img44 from '../images/common/videography.jpeg'
+import img44 from '../images/common/videography.jpg'
 import img45 from '../images/common/comp-vines.jpg'
-import img46 from '../images/common/work-smart.jpeg'
+import img46 from '../images/common/Smart pohone-controlled-robot.png'
 
 import img47 from '../images/common/FlashStep.png'
 import img48 from '../images/common/StepIntoRhythm.jpg'
@@ -75,26 +76,26 @@ import img76 from '../images/common/tech-comp/comp-circuit-tron.jpeg'
 
 
 import img77 from '../images/common/hack-errorend.jpeg'
-import img78 from '../images/common/work-unity.jpeg'
-import img79 from '../images/common/work-3d.jpeg'
-import img80 from '../images/common/work-civil-cad.jpeg'
-import img81 from '../images/common/work-3d-max.jpeg'
-import img82 from '../images/common/work-embeded.jpeg'
-import img83 from '../images/common/work-electrical-system.jpeg'
-import img84 from '../images/common/work-spark.jpeg'
-import img85 from '../images/common/work-iot.jpeg'
-import img86 from '../images/common/work-lumion.jpeg'
-import img87 from '../images/common/work-product.jpeg'
-import img88 from '../images/common/work-self-robot.jpeg'
-import img89 from '../images/common/work-hev_modelling.jpeg'
-import img90 from '../images/common/work-metaverse.jpeg'
+import img78 from '../images/common/unity.png'
+import img79 from '../images/common/work-3d.jpg'
+import img80 from '../images/common/civil-cad.png'
+import img81 from '../images/common/work-3d-max.jpg'
+import img82 from '../images/common/embedded-system.png'
+import img83 from '../images/common/electrical-system-design.png'
+import img84 from '../images/common/into-spark.png'
+import img85 from '../images/common/iot.png'
+import img86 from '../images/common/lumino-3d.png'
+import img87 from '../images/common/product-development.png'
+import img88 from '../images/common/self-robo.png'
+import img89 from '../images/common/hev-modelling.png'
+import img90 from '../images/common/Metaverse-workshop.png'
 import img91 from '../images/common/game-pubg.png'
 const img1 = "https://d245tsppfkavw4.cloudfront.net/assets/game-valorant.jpeg";
 const img2 = "https://d245tsppfkavw4.cloudfront.net/assets/game-roadToGlory.jpeg";
 const img3 = "https://d245tsppfkavw4.cloudfront.net/assets/game-compcod.jpeg";
 const img4 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-survival.jpeg";
 
-const img6 = "https://d245tsppfkavw4.cloudfront.net/assets/hack-conquerer.jpeg";
+
 const img7 = "https://d245tsppfkavw4.cloudfront.net/assets/con-auxpo.jpeg";
 const img8 = "https://d245tsppfkavw4.cloudfront.net/assets/comp-shot.jpeg";
 
@@ -1010,7 +1011,7 @@ const dataProject = [
         category: '#hackathons',
         desc:"🚀 Get ready for CONQUEROR, the ultimate 12 hour hackathon by IHRD Tharang focused on tackling the biggest health issues faced by the society today! Teams will have the opportunity to build a prototype app, website, or software to showcase their innovative solutions. The best and brightest minds will come together to conquer the challenges facing the health sector, and emerge victorious as true CONQUERORS.",
         link:"https://konfhub.com/conqueror?utm_source=tharangweb",
-        guidelines:pdfGuide,
+        guidelines:"https://drive.google.com/file/d/1v_eP2hlkSR8n3TJpLSl7EiLvFQ6uVqcp/view?usp=share_link",
         general: [['prize', '20,000'], ['fee', '₹399 (Team)'], ['available', 'Open']],
     },
     {
