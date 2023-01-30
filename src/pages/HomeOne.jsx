@@ -31,7 +31,7 @@ function HomeOne(props) {
         
         <Slider data={dataSlider} />
 
-        {/* <Highlights data={dataHighlights} /> */}
+        <Highlights data={dataHighlights} />
 
         <Partner data={dataPartner} />
         

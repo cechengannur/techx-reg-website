@@ -1,5 +1,52 @@
 @use '../../scss/' as *;
-    
 
 
+// two column grid layout with many rows with selector highlight-grid with everything in center row elements should be centered
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem;
+
+    @include mobile {
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+// add a rectanglur box with selector name job-highlight with text color as apealing big font size which should contain some animation and border with an another color and it should be contain as in the viewport with margin from both sides as minimal
+
+.job-highlight {
+  background-color: #141340;
+  color: $white;
+  font-size: 6rem;
+  font-weight: bold;
+  padding: 4rem;
+
+  //border color as gradient background
+
+  background: linear-gradient(90deg, #F7EB0C 0%, #FB2576 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: transparent;
+
+  border: 1px solid linear-gradient(90deg,  #008cff 20% ,#FB2576 100%);
+  border-radius: 5px;
+  text-align: center;
+  animation: pulse 2s infinite;
+  margin: 4rem 10rem;
+
+  @include mobile {
+    font-size: 4rem;
+    line-height: normal;
+    margin:0;
+    margin-top: 40px;
+  }
+}
 

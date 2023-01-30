@@ -1,0 +1,80 @@
+@use '../../../scss/' as *;
+
+//style a card with selector name highlight-card
+
+.highlight-card {
+    //background color
+    background-color: #141340;
+    //border radius
+    border-radius: 10px;
+    //box shadow
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    //padding
+    padding: 20px;
+    //margin
+    margin: 20px;
+    //width
+    width: 300px;
+    //height
+    height: 300px;
+    //display
+    display: flex;
+
+    //font-family and font size change
+
+
+    //flex direction
+    flex-direction: column;
+    //justify content
+    justify-content: center;
+    //align items
+    align-items: center;
+    //transition
+    transition: all 0.3s ease-in-out;
+    //cursor
+    cursor: pointer;
+    //hover
+    &:hover {
+        //transform
+        transform: translateY(-10px);
+        //box shadow
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    //media query
+    @include mobile {
+        //width
+        width: 100%;
+        //height
+        height: 100%;
+
+        
+    }
+
+    .title{
+        //font-family and font size change
+        font-size: 2em;
+        //color
+        color: $white;
+        //text-align
+        text-align: center;
+        //margin
+        margin: 0;
+    }
+
+    .sub-title{
+        //font-family and font size change
+        font-size: 4em;
+        //color as gradient with horizontal direction
+        background: linear-gradient(90deg,  #008cff 20% ,#FB2576 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    
+
+        //text-align
+        text-align: center;
+        //margin
+        margin: 0;
+    }
+}
