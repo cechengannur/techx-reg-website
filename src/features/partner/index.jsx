@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Scrollbar, A11y   } from 'swiper';
+import { Scrollbar, A11y, Navigation   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
@@ -31,18 +31,19 @@ function Partner(props) {
 
                         <p className="h7 sub-title">Silver</p>
                             <Swiper
-                                modules={[  Scrollbar, A11y ]}
-                                    spaceBetween={60}
+                                modules={[ Navigation, Scrollbar, A11y ]}
+                                    spaceBetween={300}
+                                    navigation
                                     scrollbar={{ draggable: true }}
                                     breakpoints={{
                                         0: {
-                                            slidesPerView: 2,
+                                            slidesPerView: 1,
                                             },
                                         767: {
-                                            slidesPerView: 4,
+                                            slidesPerView: 2,
                                         },
                                         991: {
-                                            slidesPerView: 6,
+                                            slidesPerView: 4,
                                         },
                                     }}
                                 >
@@ -58,21 +59,24 @@ function Partner(props) {
                                 }
                             </Swiper>
 
+                            <br/>
+                            <br/>
                             <p className="h7 sub-title">Mini-Silver</p>
                                                         
                             <Swiper
-                                modules={[  Scrollbar, A11y ]}
+                                modules={[ Navigation, Scrollbar, A11y ]}
                                     spaceBetween={60}
                                     scrollbar={{ draggable: true }}
+                                    navigation
                                     breakpoints={{
                                         0: {
-                                            slidesPerView: 2,
+                                            slidesPerView: 1,
                                             },
                                         767: {
-                                            slidesPerView: 4,
+                                            slidesPerView: 2,
                                         },
                                         991: {
-                                            slidesPerView: 6,
+                                            slidesPerView: 4,
                                         },
                                     }}
                                 >
@@ -87,21 +91,57 @@ function Partner(props) {
                                     ))
                                 }
                             </Swiper>
+
                             <br/>
-                            <p className="h7 sub-title">Radio-Partner</p>
+                            <br/>
+                            <p className="h7 sub-title">Strategic Education Partner</p>
                             <Swiper
-                                modules={[  Scrollbar, A11y ]}
+                                modules={[ Navigation, Scrollbar, A11y ]}
                                     spaceBetween={60}
+                                    navigation
                                     scrollbar={{ draggable: true }}
                                     breakpoints={{
                                         0: {
-                                            slidesPerView: 2,
+                                            slidesPerView: 1,
                                             },
                                         767: {
-                                            slidesPerView: 4,
+                                            slidesPerView: 2,
                                         },
                                         991: {
-                                            slidesPerView: 6,
+                                            slidesPerView: 4,
+                                        },
+                                    }}
+                                >
+                                {
+                                    data.slice(6,7).map((item,idx) => (
+                                        <SwiperSlide key={idx}>
+                                            <div className="image">
+                                            <a href={item.link} target="_blank"><img src={item.img} alt="Crybox" /></a>
+                                            </div>
+                                        </SwiperSlide>
+                                        
+                                    ))
+                                }
+                            </Swiper>
+
+
+                            <br/>
+                            <br/>
+                            <p className="h7 sub-title">Radio-Partner</p>
+                            <Swiper
+                                modules={[ Navigation, Scrollbar, A11y ]}
+                                    spaceBetween={60}
+                                    scrollbar={{ draggable: true }}
+                                    navigation
+                                    breakpoints={{
+                                        0: {
+                                            slidesPerView: 1,
+                                            },
+                                        767: {
+                                            slidesPerView: 2,
+                                        },
+                                        991: {
+                                            slidesPerView: 4,
                                         },
                                     }}
                                 >
@@ -117,20 +157,22 @@ function Partner(props) {
                                 }
                             </Swiper>
                             <br/>
+                            <br/>
                             <p className="h7 sub-title">Refreshment-Partner</p>
                             <Swiper
-                                modules={[  Scrollbar, A11y ]}
+                                modules={[ Navigation, Scrollbar, A11y ]}
                                     spaceBetween={60}
+                                    navigation
                                     scrollbar={{ draggable: true }}
                                     breakpoints={{
                                         0: {
-                                            slidesPerView: 2,
+                                            slidesPerView: 1,
                                             },
                                         767: {
-                                            slidesPerView: 4,
+                                            slidesPerView: 2,
                                         },
                                         991: {
-                                            slidesPerView: 6,
+                                            slidesPerView: 4,
                                         },
                                     }}
                                 >
@@ -145,19 +187,21 @@ function Partner(props) {
                                     ))
                                 }
                             </Swiper>
+                            
                             <Swiper
-                                modules={[  Scrollbar, A11y ]}
+                                modules={[ Navigation, Scrollbar, A11y ]}
                                     spaceBetween={60}
+                                    navigation
                                     scrollbar={{ draggable: true }}
                                     breakpoints={{
                                         0: {
-                                            slidesPerView: 2,
+                                            slidesPerView: 1,
                                             },
                                         767: {
-                                            slidesPerView: 4,
+                                            slidesPerView: 2,
                                         },
                                         991: {
-                                            slidesPerView: 6,
+                                            slidesPerView: 4,
                                         },
                                     }}
                                 >
