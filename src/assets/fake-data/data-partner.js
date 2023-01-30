@@ -5,7 +5,7 @@ import img3 from '../images/logo/mini_silver-kmml.png'
 import img4 from '../images/logo/silver-manglish.png'
 import img5 from '../images/logo/avt.jpg'
 import img6 from '../images/logo/mango.jpg'
-import img7 from '../images/logo/logo7.png'
+import img7 from '../images/logo/prepacademy.png'
 import img8 from '../images/logo/logo8.png'
 import img9 from '../images/logo/logo9.png'
 import img10 from '../images/logo/logo10.png'
@@ -45,6 +45,10 @@ const dataPartner = [
      {
          img: img6,
          link:'https://www.radiomango.fm/home.html/'
+     },
+     {
+        img: img7,
+        link:'https://prepacademy.in/'
      },
     // {
     //     img: img7,
