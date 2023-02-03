@@ -13,8 +13,8 @@ function RoadMap(props) {
 
     const [dataBlock] = useState(
         {
-            subtitle: 'ROADMAP',
-            title: 'cybox Timeline'
+            subtitle: 'Timeline',
+            title: 'Events & Programs'
         }
     )
 
