@@ -8,8 +8,8 @@ import About from '../features/about';
 import Project from '../features/project';
 import dataProject from '../assets/fake-data/dataProject';
 import dataAbout from '../assets/fake-data/data-about';
-// import RoadMap from '../features/roadmap';
-// import dataRoadmap from '../assets/fake-data/data-roadmap';
+import RoadMap from '../features/roadmap';
+import dataRoadmap from '../assets/fake-data/data-roadmap';
 import Work from '../features/work';
 import dataWork from '../assets/fake-data/data-work';
 import Team from '../features/team';
@@ -23,6 +23,9 @@ import dataFaq from '../assets/fake-data/data-faq';
 import { NikeCard } from '../components/nikeCard';
 import dataHighlights from '../assets/fake-data/data-highlights';
 import Highlights from '../features/highlights';
+import ShowHighlights from '../features/show-highlights';
+import dataShowHighlights from '../assets/fake-data/data-show-highlights';
+
 
 function HomeOne(props) {
 
@@ -31,6 +34,10 @@ function HomeOne(props) {
         
         <Slider data={dataSlider} />
 
+        <ShowHighlights data={dataShowHighlights} />
+
+        <RoadMap data={dataRoadmap} />
+        
         <Highlights data={dataHighlights} />
 
         <Partner data={dataPartner} />
@@ -41,7 +48,7 @@ function HomeOne(props) {
 
         <Project data={dataProject} />
 
-        {/* <RoadMap data={dataRoadmap} /> */}
+        
 
         {/* <Work data={dataWork} />
 
