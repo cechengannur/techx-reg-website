@@ -6,8 +6,8 @@ import img3 from '../images/shows/1-jassie.jpeg'
 import img4 from '../images/shows/thaniye.jpeg'
 import img5 from '../images/shows/2-jassie.jpeg'
 import img6 from '../images/shows/light.jpeg'
-import img10 from '../images/shows/jassie.jpeg'
-
+import img7 from '../images/shows/jassie.jpeg'
+import img8 from '../images/shows/children.jpeg'
 
 const dataShowHighlights = [
     {
@@ -43,10 +43,15 @@ const dataShowHighlights = [
 
     },
     {
-        img: img10,
+        img: img7,
 
 
     },
+    // {
+    //     img: img8,
+
+
+    // },
 ]
 
 export default dataShowHighlights;
