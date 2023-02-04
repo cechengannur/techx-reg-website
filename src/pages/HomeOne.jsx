@@ -25,6 +25,7 @@ import dataHighlights from '../assets/fake-data/data-highlights';
 import Highlights from '../features/highlights';
 import ShowHighlights from '../features/show-highlights';
 import dataShowHighlights from '../assets/fake-data/data-show-highlights';
+import Attractions from '../features/attractions';
 
 
 function HomeOne(props) {
@@ -38,6 +39,8 @@ function HomeOne(props) {
 
         <RoadMap data={dataRoadmap} />
         
+        {/* <Attractions/> */}
+
         <Highlights data={dataHighlights} />
 
         <Partner data={dataPartner} />
