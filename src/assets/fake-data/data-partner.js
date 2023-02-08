@@ -1,4 +1,5 @@
 
+import img0 from '../images/logo/sbi.png'
 import img1 from '../images/logo/silver-spektra.png'
 import img2 from '../images/logo/silver-edurupt.png'
 import img3 from '../images/logo/mini_silver-kmml.png'
@@ -18,6 +19,10 @@ import img16 from '../images/logo/logo16.png'
 import img17 from '../images/logo/logo17.png'
 import img18 from '../images/logo/logo18.png'
 const dataPartner = [
+    {
+        img: img0,
+        link:'https://www.sbi.co.in/'
+    },
     {
         img: img1,
         link:'https://spektrasystems.com/'
