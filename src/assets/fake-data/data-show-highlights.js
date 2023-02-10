@@ -9,7 +9,7 @@ import img6 from '../images/shows/light.jpeg'
 import img7 from '../images/shows/jassie.jpeg'
 import img8 from '../images/shows/children.jpeg'
 import img9 from '../images/shows/guitar.jpeg'
-import img10 from '../images/shows/navya-nair.jpg'
+
 import img11 from '../images/shows/sachin.jpeg'
 import img12 from '../images/shows/sithara-2.jpeg'
 import img13 from '../images/shows/sithara.jpeg'
@@ -44,9 +44,6 @@ const dataShowHighlights = [
     },
     {
         img: img9,
-    },
-    {
-        img: img10,
     },
     {
         img: img11,
