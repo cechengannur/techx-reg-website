@@ -56,11 +56,11 @@ function NftItemDetails(props) {
                                     </div> */}
                                 </div>
                                 <p className="desc">{project.desc}</p>
-                                <Link to="" className="tf-button btn-effect" onClick={()=>{
+                                {/* <Link to="" className="tf-button btn-effect" onClick={()=>{
                                     window.open(`${project.link}`, '_blank');}}>
                                     <span className="boder-fade"></span>         
                                     <span className="effect">Register</span>
-                                </Link>  
+                                </Link>   */}
                                 <Link to="" className="tf-button btn-effect" onClick={()=>{
                                     window.open(`${project.guidelines}`, '_blank');}}>
                                     <span className="boder-fade"></span>         
@@ -89,7 +89,24 @@ function NftItemDetails(props) {
                                         <p>Background</p>
                                         <h6 className="h7">Galaxy</h6>
                                     </div> */}
-                                </div>         
+                                </div>
+                                <br/>
+                                <div>
+                                    {/* make an html elements with Winners as heading of h5 may be and 1st, 2nd and 3rd should be there also... */}
+
+                                    <div className="box">
+                                        <h4>Winners</h4>
+                                        
+                                    </div>
+                                    {
+                                    project.prizes &&
+                                    project.prizes.map((item, index) => {
+                                        return (
+                                        <div><h6 className="list-product h7">{item[0]}</h6><p>{item[1]}</p></div>
+                                        )
+                                    })}
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>

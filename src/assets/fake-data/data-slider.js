@@ -26,7 +26,7 @@ const dataSlider = [
     //     desc : 'With over 150 top companies and 1000+ job opportunities, this job fair is the perfect place to take the first step toward your dream job. ',
     //     general: [['Candidates', '/guidelines'], ['Companies', '/register'], ['Company-list', '/company-list']],
     //     img: img2,
-    //     classAction: 'two',
+    //     classAction: 'three',
     //     bgImg: bgImg2,
     // },
 ]
